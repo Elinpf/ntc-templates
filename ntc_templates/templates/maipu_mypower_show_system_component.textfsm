@@ -1,0 +1,9 @@
+Value COMPONENT (\w+(\s\d+(?:\/\d+)*)?)
+Value NAME (\S+)
+Value ONLINE (\S+)
+Value STATUS (Start OK|Normal|\S+)
+Value SN ([A-Z0-9]{12,})
+
+Start
+  ^${COMPONENT}\s+${NAME}\s+${ONLINE}\s+${STATUS}\s+${SN} -> Record
+  ^${COMPONENT}\s+${NAME}\s+${ONLINE}\s+${STATUS}\s+$$ -> Record

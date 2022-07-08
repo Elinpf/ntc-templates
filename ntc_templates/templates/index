@@ -492,6 +492,7 @@ linux_arp_-a.textfsm, .*, linux, arp -a
 maipu_mypower_show_interface_switchport_brief.textfsm, .*, maipu_mypower, sh[[ow]] int[[erface]] sw[[itchport]] b[[rief]]
 maipu_mypower_show_system_module_brief.textfsm, .*, maipu_mypower, sh[[ow]] sys[[tem]] mod[[ule]] b[[rief]]
 maipu_mypower_show_ip_interface_brief.textfsm, .*, maipu_mypower, sh[[ow]] ip int[[erface]] b[[rief]]
+maipu_mypower_show_system_component.textfsm, .*, maipu_mypower, sh[[ow]] sys[[tem]] com[[ponent]]
 maipu_mypower_show_system_chassis.textfsm, .*, maipu_mypower, sh[[ow]] sys[[tem]] cha[[ssis]]
 maipu_mypower_show_system_power.textfsm, .*, maipu_mypower, sh[[ow]] sys[[tem]] po[[wer]]
 maipu_mypower_show_cpu_monitor.textfsm, .*, maipu_mypower, sh[[ow]] cpu mon[[itor]]
