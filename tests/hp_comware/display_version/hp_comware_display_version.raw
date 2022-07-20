@@ -1,0 +1,16 @@
+H3C Comware Platform Software
+Comware Software, Version 5.20, Release 1211
+Copyright (c) 2004-2011 Hangzhou H3C Tech. Co., Ltd. All rights reserved.
+H3C S5800-32C uptime is 62 weeks, 3 days, 10 hours, 17 minutes
+
+H3C S5800-32C with 2 Processors
+1024M   bytes SDRAM
+4M      bytes Nor Flash Memory
+512M    bytes Nand Flash Memory
+Config Register points to Nand Flash
+
+Hardware Version is Ver.B
+CPLD Version is 003
+BootRom Version is 212
+[SubSlot 0] 24GE+4SFP Plus Hardware Version is Ver.B
+[SubSlot 1] No Module
