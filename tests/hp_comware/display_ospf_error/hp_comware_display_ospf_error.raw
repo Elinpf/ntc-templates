@@ -1,0 +1,18 @@
+	 OSPF Process 1 with Router ID 21.162.226.248
+		 OSPF Packet Error Statistics
+
+ 0     : OSPF Router ID confusion      0     : OSPF bad packet
+ 0     : OSPF bad version              0     : OSPF bad checksum
+ 0     : OSPF bad area ID              0     : OSPF drop on unnumbered interface
+ 0     : OSPF bad virtual link         0     : OSPF bad authentication type
+ 0     : OSPF bad authentication key   0     : OSPF packet too small
+ 0     : OSPF Neighbor state low       0     : OSPF transmit error
+ 1     : OSPF interface down           0     : OSPF unknown neighbor
+ 24    : HELLO: Netmask mismatch       0     : HELLO: Hello timer mismatch
+ 0     : HELLO: Dead timer mismatch    0     : HELLO: Extern option mismatch
+ 0     : HELLO: Neighbor unknown       0     : DD: MTU option mismatch
+ 0     : DD: Unknown LSA type          0     : DD: Extern option mismatch
+ 22    : LS ACK: Bad ack               0     : LS ACK: Unknown LSA type
+ 0     : LS REQ: Empty request         0     : LS REQ: Bad request
+ 0     : LS UPD: LSA checksum bad      564   : LS UPD: Received less recent LSA
+ 0     : LS UPD: Unknown LSA type

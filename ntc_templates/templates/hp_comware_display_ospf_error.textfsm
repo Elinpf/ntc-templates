@@ -1,0 +1,51 @@
+Value Required PROCESS_ID (\d+)
+Value Required ROUTER_ID ([\d\.]+)
+Value Required OSPF_ROUTER_ID_CONFUSION (\d+)
+Value OSPF_BAD_PACKET (\d+)
+Value OSPF_BAD_VERSION (\d+)
+Value OSPF_BAD_CHECKSUM (\d+)
+Value OSPF_BAD_AREA_ID (\d+)
+Value OSPF_DROP_ON_UNNUMBERED_INTERFACE (\d+)
+Value OSPF_BAD_VIRTUAL_LINK (\d+)
+Value OSPF_BAD_AUTHENTICATION_TYPE (\d+)
+Value OSPF_BAD_AUTHENTICATION_KEY (\d+)
+Value OSPF_PACKET_TOO_SMALL (\d+)
+Value OSPF_NEIGHBOR_STATE_LOW (\d+)
+Value OSPF_TRANSMIT_ERROR (\d+)
+Value OSPF_INTERFACE_DOWN (\d+)
+Value OSPF_UNKNOWN_NEIGHBOR (\d+)
+Value HELLO_NETMASK_MISMATCH (\d+)
+Value HELLO_TIMER_MISMATCH (\d+)
+Value HELLO_DEAD_TIMER_MISMATCH (\d+)
+Value HELLO_EXTERN_OPTION_MISMATCH (\d+)
+Value HELLO_NEIGHBOR_UNKNOWN (\d+)
+Value DD_MTU_OPTION_MISMATCH (\d+)
+Value DD_UNKNOWN_LSA_TYPE (\d+)
+Value DD_EXTERN_OPTION_MISMATCH (\d+)
+Value LS_ACK_BAD_ACK (\d+)
+Value LS_ACK_UNKNOWN_LSA_TYPE (\d+)
+Value LS_REQ_EMPTY_REQUEST (\d+)
+Value LS_REQ_BAD_REQUEST (\d+)
+Value LS_UPD_LSA_CHECKSUM_BAD (\d+)
+Value LS_UPD_RECEIVED_LESS_RECENT_LSA (\d+)
+Value LS_UPD_UNKNOWN_LSA_TYPE (\d+)
+
+Start
+  ^\s+OSPF\s+Process\s+${PROCESS_ID}\s+with\s+Router\s+ID\s+${ROUTER_ID} -> OSPF_ERRORS
+
+OSPF_ERRORS
+  ^\s+${OSPF_ROUTER_ID_CONFUSION}\s+:\s+OSPF\s+Router\s+ID\s+confusion\s+${OSPF_BAD_PACKET}\s+:\s+OSPF\s+bad\s+packet
+  ^\s+${OSPF_BAD_VERSION}\s+:\s+OSPF\s+bad\s+version\s+${OSPF_BAD_CHECKSUM}\s+:\s+OSPF\s+bad\s+checksum
+  ^\s+${OSPF_BAD_AREA_ID}\s+:\s+OSPF\s+bad\s+area\s+ID\s+${OSPF_DROP_ON_UNNUMBERED_INTERFACE}\s+:\s+OSPF\s+drop\s+on\s+unnumbered\s+interface
+  ^\s+${OSPF_BAD_VIRTUAL_LINK}\s+:\s+OSPF\s+bad\s+virtual\s+link\s+${OSPF_BAD_AUTHENTICATION_TYPE}\s+:\s+OSPF\s+bad\s+authentication\s+type
+  ^\s+${OSPF_BAD_AUTHENTICATION_KEY}\s+:\s+OSPF\s+bad\s+authentication\s+key\s+${OSPF_PACKET_TOO_SMALL}\s+:\s+OSPF\s+packet\s+too\s+small
+  ^\s+${OSPF_NEIGHBOR_STATE_LOW}\s+:\s+OSPF\s+Neighbor\s+state\s+low\s+${OSPF_TRANSMIT_ERROR}\s+:\s+OSPF\s+transmit\s+error
+  ^\s+${OSPF_INTERFACE_DOWN}\s+:\s+OSPF\s+interface\s+down\s+${OSPF_UNKNOWN_NEIGHBOR}\s+:\s+OSPF\s+unknown\s+neighbor
+  ^\s+${HELLO_NETMASK_MISMATCH}\s+:\s+HELLO:\s+Netmask\s+mismatch\s+${HELLO_TIMER_MISMATCH}\s+:\s+HELLO:\s+Hello\s+timer\s+mismatch
+  ^\s+${HELLO_DEAD_TIMER_MISMATCH}\s+:\s+HELLO:\s+Dead\s+timer\s+mismatch\s+${HELLO_EXTERN_OPTION_MISMATCH}\s+:\s+HELLO:\s+Extern\s+option\s+mismatch
+  ^\s+${HELLO_NEIGHBOR_UNKNOWN}\s+:\s+HELLO:\s+Neighbor\s+unknown\s+${DD_MTU_OPTION_MISMATCH}\s+:\s+DD:\s+MTU\s+option\s+mismatch
+  ^\s+${DD_UNKNOWN_LSA_TYPE}\s+:\s+DD:\s+Unknown\s+LSA\s+type\s+${DD_EXTERN_OPTION_MISMATCH}\s+:\s+DD:\s+Extern\s+option\s+mismatch
+  ^\s+${LS_ACK_BAD_ACK}\s+:\s+LS\s+ACK:\s+Bad\s+ack\s+${LS_ACK_UNKNOWN_LSA_TYPE}\s+:\s+LS\s+ACK:\s+Unknown\s+LSA\s+type
+  ^\s+${LS_REQ_EMPTY_REQUEST}\s+:\s+LS\s+REQ:\s+Empty\s+request\s+${LS_REQ_BAD_REQUEST}\s+:\s+LS\s+REQ:\s+Bad\s+request
+  ^\s+${LS_UPD_LSA_CHECKSUM_BAD}\s+:\s+LS\s+UPD:\s+LSA\s+checksum\s+bad\s+${LS_UPD_RECEIVED_LESS_RECENT_LSA}\s+:\s+LS\s+UPD:\s+Received\s+less\s+recent\s+LSA
+  ^\s+${LS_UPD_UNKNOWN_LSA_TYPE}\s+:\s+LS\s+UPD:\s+Unknown\s+LSA\s+type -> Record Start
