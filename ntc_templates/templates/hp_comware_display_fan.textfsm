@@ -4,7 +4,7 @@ Value STATUS (\S+)
 
 Start
   ^\s+Index\s+Status -> IndexStyle
-  ^\s+Slot\s+${SLOT} -> SlotStyle
+  ^\s*Slot\s+${SLOT} -> SlotStyle
 
 IndexStyle
   ^\s+${ID}\s+${STATUS} -> Record
