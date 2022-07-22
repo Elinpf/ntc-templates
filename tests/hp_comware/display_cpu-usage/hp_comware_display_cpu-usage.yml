@@ -1,0 +1,6 @@
+---
+parsed_sample:
+  - slot: "1"
+    cpu_5_sec: "16"
+    cpu_1_min: "9"
+    cpu_5_min: "8"

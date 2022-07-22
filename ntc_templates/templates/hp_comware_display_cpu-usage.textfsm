@@ -1,0 +1,12 @@
+Value SLOT (\d+)
+Value CPU_5_SEC (\d+)
+Value CPU_1_MIN (\d+)
+Value CPU_5_MIN (\d+)
+
+Start
+  ^Slot\s+${SLOT}\s+CPU\s+usage: -> CPU_USAGE
+
+CPU_USAGE
+  ^\s+${CPU_5_SEC}%\s+in\s+last\s+5\s+seconds
+  ^\s+${CPU_1_MIN}%\s+in\s+last\s+1\s+minute
+  ^\s+${CPU_5_MIN}%\s+in\s+last\s+5\s+minutes -> Record Start
