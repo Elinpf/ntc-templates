@@ -1,0 +1,8 @@
+Value TOTAL_MEMORY (\d+)
+Value USED_MEMORY (\d+)
+Value USED_RATE (\d+)
+
+Start
+  ^System\s+Total\s+Memory\(bytes\):\s+${TOTAL_MEMORY}
+  ^Total\s+Used\s+Memory\(bytes\):\s+${USED_MEMORY}
+  ^Used\s+Rate:\s+${USED_RATE}%
