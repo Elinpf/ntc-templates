@@ -19,4 +19,4 @@ Start
   ^\s*MANUFACTURING_DATE\s*:\s*${MANUFACTURING_DATE}
   ^\s*VENDOR_NAME\s*:\s*${VENDOR_NAME} -> Record Start
   ^\s*$$
-  ^. -> Error
+  # ^. -> Error
