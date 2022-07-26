@@ -1,0 +1,10 @@
+Value SLOT_ID (\d+)
+Value PRESENT (\S+)
+Value REGISTERED (\S+)
+Value STATUS (\S+)
+
+Start
+  ^Slotid\s+:\s+${SLOT_ID}
+  ^Present\s+:\s+${PRESENT}
+  ^Registered:\s+${REGISTERED}
+  ^Status\s+:\s+${STATUS}

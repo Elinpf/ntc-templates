@@ -1,0 +1,6 @@
+---
+parsed_sample:
+  - slot_id: "10"
+    present: "YES"
+    registered: "YES"
+    status: "AUTO"
