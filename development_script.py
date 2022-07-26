@@ -2,7 +2,7 @@ import numbers
 import os
 import re
 from argparse import ArgumentParser
-from typing import Dict, List, Tuple
+from typing import Dict, Iterator, List, Tuple
 
 from rich import print
 from ruamel.yaml import YAML
@@ -314,7 +314,7 @@ def _textfsm_reslut_to_dict(header: list, reslut: list) -> List[Dict[str, str]]:
     return objs
 
 
-def get_test_files(vender_os: str, command: str, index: int) -> Tuple[str, str]:
+def get_test_files(vendor_os: str, command: str, index: int) -> Tuple[str, str]:
     """获取测试文件路径"""
     base_name = vendor_os + "_" + command.replace(" ", "_")
 
@@ -327,9 +327,28 @@ def get_test_files(vender_os: str, command: str, index: int) -> Tuple[str, str]:
     return (raw_file, template_file)
 
 
-def main(vendor_os: str, command: str, index: int) -> List[Dict]:
+def get_test_files_iter(
+    vendor_os: str, command: str, index: int
+) -> Iterator[Tuple[str, str]]:
+    test_raw_list = []
+    template_file = ""
+    if not args.index:
+        raw_file, template_file = get_test_files(vendor_os, command, 1)
+        raw_file_dir = os.path.dirname(raw_file)
+        for file in os.listdir(raw_file_dir):
+            if file.endswith(".raw"):
+                test_raw_list.append(os.path.join(raw_file_dir, file))
 
-    raw_file, template_file = get_test_files(vendor_os, command, index)
+    else:
+        raw_file, template_file = get_test_files(vendor_os, command, index)
+        test_raw_list.append(raw_file)
+
+    for raw_file in test_raw_list:
+        yield raw_file, template_file
+
+
+def main(raw_file: str, template_file: str) -> List[Dict]:
+    """for test"""
 
     template = TextFSM(open(template_file))
     stream = open(raw_file, "r").read()
@@ -448,23 +467,20 @@ if __name__ == "__main__":
         exit()
 
     if args.yml:
-        raw_file = get_test_files(vendor_os, command, index)[0]
-        raw_file_dir = os.path.dirname(raw_file)
-        raw_file_count = 0
-        for file in os.listdir(raw_file_dir):
-            if file.endswith(".yml"):
-                os.remove(os.path.join(raw_file_dir, file))
-
-            if file.endswith(".raw"):
-                raw_file_count += 1
-        for index in range(1, raw_file_count + 1):
-            raw_file = get_test_files(vendor_os, command, index)[0]
-            ret = main(vendor_os, command, index)
-            yml_file = raw_file.replace("raw", "yml")
+        """生成yml文件"""
+        index = args.index or 0
+        count = 0
+        for raw_file, template_file in get_test_files_iter(vendor_os, command, index):
+            yml_file = raw_file.replace(".raw", ".yml")
+            if os.path.exists(yml_file):
+                os.remove(yml_file)
+            ret = main(raw_file, template_file)
             ensure_yaml_standards({"parsed_sample": ret}, yml_file)
             print("generate yml file:", yml_file)
+            print()
+            count += 1
 
-        print(f"generate yml {index} file done")
+        print(f"generate yml {count} file done")
         exit()
 
     if args.short:
@@ -473,4 +489,8 @@ if __name__ == "__main__":
         exit()
 
     if args.test:
-        main(vendor_os, command, index)
+        index = args.index or 0
+        for raw_file, template_file in get_test_files_iter(vendor_os, command, index):
+            print("raw_file:", raw_file)
+            main(raw_file, template_file)
+            print()
