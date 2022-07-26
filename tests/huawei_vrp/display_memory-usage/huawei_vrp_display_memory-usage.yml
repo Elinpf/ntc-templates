@@ -1,5 +1,3 @@
 ---
 parsed_sample:
-  - memory_totle: "3781229768"
-    memory_used: "419923676"
-    memory_using_percent: "11"
+  - memory_using_percent: "11"

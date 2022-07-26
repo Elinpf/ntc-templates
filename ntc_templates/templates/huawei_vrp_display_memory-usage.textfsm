@@ -1,8 +1,4 @@
-Value MEMORY_TOTLE (\d+)
-Value MEMORY_USED (\d+)
 Value MEMORY_USING_PERCENT (\d+)
 
 Start
-  ^\s+System\s+Total\s+Memory\s+Is:\s+${MEMORY_TOTLE}\s+bytes
-  ^\s+Total\s+Memory\s+Used\s+Is:\s+${MEMORY_USED}\s+bytes
-  ^\s+Memory\s+Using\s+Percentage\s+Is:\s+${MEMORY_USING_PERCENT}%
+  ^\s*Memory\s+Using\s+Percentage\s+Is:\s+${MEMORY_USING_PERCENT}%
