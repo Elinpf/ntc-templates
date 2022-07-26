@@ -1,0 +1,50 @@
+Cpu utilization statistics at 2022-05-23 16:19:23 121 ms
+System cpu use rate is : 16%
+Cpu utilization for five seconds: 15% ;  one minute: 14% ;  five minutes: 93%.
+Max CPU Usage : 99%
+Max CPU Usage Stat. Time : 2020-09-10 21:15:05 763 ms
+---------------------------
+ServiceName  UseRate   
+---------------------------
+SYSTEM           16%
+AAA               0%
+ARP               0%
+BGP               0%
+CMF               0%
+DEVICE            0%
+DHCP              0%
+ETRUNK            0%
+EUM               0%
+FEA               0%
+FEC               0%
+FIBRESM           0%
+IFM               0%
+IP STACK          0%
+LDT               0%
+LINK              0%
+LOCAL PKT         0%
+MFLP              0%
+MSTP              0%
+ND                0%
+NETSTREAM         0%
+OAM               0%
+OSPF              0%
+PKI               0%
+PNP               0%
+PTPA              0%
+RBS               0%
+RGM               0%
+RM                0%
+SLA               0%
+SMLK              0%
+SVRO              0%
+TNLM              0%
+TUNNEL            0%
+VLAN              0%
+---------------------------
+CPU Usage Details
+----------------------------------------------------------------
+CPU     Current  FiveSec   OneMin  FiveMin  Max MaxTime         
+----------------------------------------------------------------
+cpu0        16%      15%      14%      93%  99% 2020-09-10 21:15:08
+----------------------------------------------------------------
