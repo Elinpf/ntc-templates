@@ -475,8 +475,8 @@ huawei_vrp_display_port_vlan.textfsm, .*, huawei_vrp, dis[[play]] port vl[[an]]
 huawei_vrp_display_version.textfsm, .*, huawei_vrp, dis[[play]] ver[[sion]]
 huawei_vrp_display_clock.textfsm, .*, huawei_vrp, dis[[play]] clo[[ck]]
 huawei_vrp_display_power.textfsm, .*, huawei_vrp, dis[[play]] pow[[er]]
-huawei_vrp_display_fan.textfsm, .*, huawei_vrp, dis[[play]] fan
 huawei_vrp_display_esn.textfsm, .*, huawei_vrp, dis[[play]] esn
+huawei_vrp_display_fan.textfsm, .*, huawei_vrp, dis[[play]] fan
 
 juniper_junos_show_chassis_cluster_interfaces.textfsm, .*, juniper_junos, sh[[ow]] ch[[assis]] c[[luster]] i[[nterface]]
 juniper_junos_show_ethernet-switching_table.textfsm, .*, juniper_junos, sh[[ow]] et[[hernet-switching]] t[[able]]
