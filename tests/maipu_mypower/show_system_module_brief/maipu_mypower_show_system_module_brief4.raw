@@ -1,0 +1,9 @@
+module infomation display:
+
+ Module           Online    State        Name                  SN
+--------------------------------------------------------------------------------
+ Mpu 0            online    Start Ok     MPU_RM3B_206_4GE      5911134481900632
+ Lpu 4            online    Start Ok     LPU_RM3B_4GET4GEFH    1239124571002008
+ Power 1          online    Normal       /                     5256134482003612
+ Power 2          online    Normal       /                     5256134482003609
+ Fan 0            online    Normal       /                     9107134381100303

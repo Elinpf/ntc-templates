@@ -1,10 +1,16 @@
-Value SLOT_ID (\d+)
+Value Required SLOT_ID (\d+)
+Value FAN_ID (\d+)
 Value PRESENT (\S+)
 Value REGISTERED (\S+)
-Value STATUS (\S+)
+Value Required STATUS (\S+)
 
 Start
+  # NE Serial
   ^Slotid\s+:\s+${SLOT_ID}
   ^Present\s+:\s+${PRESENT}
   ^Registered:\s+${REGISTERED}
   ^Status\s+:\s+${STATUS}
+  # Quidway S2700
+  ^\s*Slot\s+${SLOT_ID}:\s+Fan\s+${FAN_ID}\s+is\s+${STATUS}
+  # S5700
+  ^\s*${SLOT_ID}\s+${FAN_ID}\s+${PRESENT}\s+${STATUS}

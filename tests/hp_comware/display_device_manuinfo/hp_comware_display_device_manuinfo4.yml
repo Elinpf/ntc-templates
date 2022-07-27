@@ -1,0 +1,10 @@
+---
+parsed_sample:
+  - chassis_id: ""
+    slot_type: "slot"
+    slot_id: "1"
+    device_name: "S5500-28C-EI"
+    device_serial_number: "210235A252C159000559"
+    manufacturing_date: "2015-09-18"
+    vendor_name: "H3C"
+    mac_address: "3891-D575-0A65"

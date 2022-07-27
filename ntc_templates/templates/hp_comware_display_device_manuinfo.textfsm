@@ -1,5 +1,5 @@
 Value Filldown CHASSIS_ID (\d+)
-Value Required SLOT_TYPE (Slot|Subslot|Fan|Power|Chassis)
+Value Required SLOT_TYPE ([Ss]lot|Subslot|Fan|Power|Chassis)
 Value SLOT_ID (\d+|self)
 Value DEVICE_NAME (\S+)
 Value DEVICE_SERIAL_NUMBER (\S+)
@@ -19,4 +19,3 @@ Start
   ^\s*MANUFACTURING_DATE\s*:\s*${MANUFACTURING_DATE}
   ^\s*VENDOR_NAME\s*:\s*${VENDOR_NAME} -> Record Start
   ^\s*$$
-  # ^. -> Error
