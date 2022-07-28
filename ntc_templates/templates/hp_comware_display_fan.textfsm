@@ -12,7 +12,7 @@ IndexStyle
   ^\s+${ID}\s+${STATUS} -> Record
 
 SlotStyle
-  ^\s+FAN\s+${ID}
+  ^\s+(FAN|Fan)\s+${ID}
   ^\s+State\s+:\s+${STATUS} -> Record
 
   

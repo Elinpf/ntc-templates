@@ -367,9 +367,11 @@ def generate_file(vendor_os: str, command: str, index: int):
         if not os.path.exists(os.path.dirname(raw_file)):
             os.mkdir(os.path.dirname(raw_file))
         open(raw_file, "w").write("")
+        print("generate raw file: {}".format(raw_file))
 
     if not os.path.exists(template_file):
         open(template_file, "w").write("")
+        print("generate template file: {}".format(template_file))
 
 
 def reg_blank_sub(file: str) -> str:
