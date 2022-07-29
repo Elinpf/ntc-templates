@@ -1,8 +1,12 @@
 Value CPU_5_SEC (\d+)
 Value CPU_1_MIN (\d+)
-Value CPU_5_MIN (\d+)
+Value Required CPU_5_MIN (\d+)
 Value CPU_MAX (\d+)
 
 Start
   ^CPU\s+Usage\s+:\s+\d+%\s+Max:\s+${CPU_MAX}%
   ^CPU\s+utilization\s+for\s+five\s+seconds:\s+${CPU_5_SEC}%:\s+one\s+minute:\s+${CPU_1_MIN}%:\s+five\s+minutes:\s+${CPU_5_MIN}%
+  # NE Serial Style
+  ^Max\s+CPU\s+Usage\s+:\s+${CPU_MAX}%
+  ^Cpu\s+utilization\s+for\s+five\s+seconds:\s+${CPU_5_SEC}%\s+;\s+one\s+minute:\s+${CPU_1_MIN}%\s+;\s+five\s+minutes:\s+${CPU_5_MIN}%
+  ^-+ -> Record

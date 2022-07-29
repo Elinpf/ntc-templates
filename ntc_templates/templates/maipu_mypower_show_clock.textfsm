@@ -7,3 +7,4 @@ Value DAY (\d+)
 
 Start
   ^\w+\(${TIMEZONE}[-+]..:..\)\s+${DAYWEEK}\s+${MONTH}\s+${DAY}\s+${TIME}\s+${YEAR}
+  ^${TIMEZONE} ${DAYWEEK} ${MONTH} ${DAY} ${TIME} ${YEAR}

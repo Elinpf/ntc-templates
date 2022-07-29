@@ -1,0 +1,14 @@
+---
+parsed_sample:
+  - fan_id: "0"
+    fan_name: ""
+    status: "NORMAL"
+    description: "<NULL>"
+    sn: "91071XXXXXXX0303"
+    work_status: ""
+    speed_rate: ""
+    cmm_software_version: ""
+    statistics_in: "1"
+    statistics_out: "0"
+    statistics_ierr: "0"
+    statistics_oerr: "0"

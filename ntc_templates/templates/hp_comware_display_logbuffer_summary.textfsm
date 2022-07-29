@@ -1,0 +1,13 @@
+Value SLOT (\d+)
+Value EMERG (\d+)
+Value ALERT (\d+)
+Value CRIT (\d+)
+Value ERROR (\d+)
+Value WARN (\d+)
+Value NOTIF (\d+) 
+Value INFO (\d+)
+Value DEBUG (\d+)
+
+Start
+  ^\s+SLOT\s+EMERG\s+ALERT\s+CRIT\s+ERROR\s+WARN\s+NOTIF\s+INFO\s+DEBUG
+  ^\s+${SLOT}\s+${EMERG}\s+${ALERT}\s+${CRIT}\s+${ERROR}\s+${WARN}\s+${NOTIF}\s+${INFO}\s+${DEBUG} -> Record

@@ -1,0 +1,8 @@
+---
+parsed_sample:
+  - slot: ""
+    id: "PWR1"
+    status: "normal"
+  - slot: ""
+    id: "PWR2"
+    status: "fail"

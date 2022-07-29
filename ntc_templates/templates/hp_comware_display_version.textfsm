@@ -1,0 +1,8 @@
+Value SOFTWARE_VERSION ([\d\.]+)
+Value RELEASE (\S+)
+Value MODEL (\S+)
+Value UPTIME (.+)
+
+Start
+  ^(H3C)?\s*Comware\s+Software,\s+Version\s+${SOFTWARE_VERSION},\s+Release\s+${RELEASE}
+  ^H3C\s+${MODEL}\s+uptime\s+is\s+${UPTIME}

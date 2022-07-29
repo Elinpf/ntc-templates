@@ -1,16 +1,22 @@
-Value Required MODE (\S+)
 Value Required ID (\S+)
+Value Required MODE (\S+)
 Value PRESENT (\w+)
-Value Required State (\S+)
+Value Required STATE (\S+)
 
 Start
   ^No\s+Present.* -> State_1
   ^\s+PowerID\s+Online.* -> State_2
+  # S5700 Serial
+  ^\s+Slot\s+PowerID\s+Online -> State_3
 
 State_1
   # 16 Yes     AC   Normal                                  Abnormal(0)/Normal(2)
-  ^${ID}\s+${PRESENT}\s+${MODE}\s+${State}\s+\S+ -> Record
+  ^${ID}\s+${PRESENT}\s+${MODE}\s+${STATE}\s+\S+ -> Record
 
 State_2
   #  PWR1     Present AC     Supply     0.08         53.48        4.28
-  ^\s+${ID}\s+${PRESENT}\s+${MODE}\s+${State}.* -> Record
+  ^\s+${ID}\s+${PRESENT}\s+${MODE}\s+${STATE}.* -> Record
+
+State_3
+  # Slot    PowerID  Online   Mode   State      Power(W)
+  ^\s+\d+\s+${ID}\s+${PRESENT}\s+${MODE}\s+${STATE} -> Record 

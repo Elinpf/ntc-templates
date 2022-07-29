@@ -10,4 +10,4 @@ Start
   ^STATISTICS -> Statistics
 
 Statistics
-  ^\s+${USED}\s+\(\s+${USED_MB}MB\)\s+${FREE}\s+\(\s+${FREE_MB}MB\)\s+${TOTAL}\(\s+${TOTAL_MB}MB\)\s+${USED_PERCENT}% -> EOF
+  ^\s+${USED}\s*\(\s*${USED_MB}MB\)\s+${FREE}\s*\(\s*${FREE_MB}MB\)\s+${TOTAL}\s*\(\s*${TOTAL_MB}MB\)\s+${USED_PERCENT}% -> EOF

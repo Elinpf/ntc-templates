@@ -1,0 +1,16 @@
+Memory utilization statistics at 2022-05-23 16:19:23 458 ms
+System Total Memory Is: 2025148 Kbytes
+Total Memory Used Is: 806468 Kbytes
+Memory Using Percentage Is: 39%
+----------------------------------------
+Process memory information in the slot:
+----------------------------------------
+ProcessId  ProcessName      Used(Kbytes)
+----------------------------------------
+7          SM                     123239
+6          CFG                    372769
+1001       PROTO1                  53667
+1000       FESMB                   49588
+9          LM                      30066
+0          system                 177139
+----------------------------------------

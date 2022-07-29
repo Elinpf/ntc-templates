@@ -1,0 +1,35 @@
+H3C Comware Software, Version 7.1.064, Release 0821P18
+Copyright (c) 2004-2021 New H3C Technologies Co., Ltd. All rights reserved.
+H3C MSR3600 uptime is 3 weeks, 5 days, 17 hours, 57 minutes
+Last reboot reason : Power on
+Boot image: flash:/msr3600x1-cmw710-boot-r0821p18.bin
+Boot image version: 7.1.064P80, Release 0821P18
+  Compiled Dec 06 2021 15:00:00
+System image: flash:/msr3600x1-cmw710-system-r0821p18.bin
+System image version: 7.1.064, Release 0821P18
+  Compiled Dec 06 2021 15:00:00
+Feature image(s) list:
+  flash:/msr3600x1-cmw710-escan-r0821p18.bin, version: 7.1.064
+    Compiled Dec 06 2021 15:00:00
+  flash:/msr3600x1-cmw710-security-r0821p18.bin, version: 7.1.064
+    Compiled Dec 06 2021 15:00:00
+  flash:/msr3600x1-cmw710-voice-r0821p18.bin, version: 7.1.064
+    Compiled Dec 06 2021 15:00:00
+  flash:/msr3600x1-cmw710-data-r0821p18.bin, version: 7.1.064
+    Compiled Dec 06 2021 15:00:00
+
+CPU ID: 0xc
+1G bytes DDR3 SDRAM Memory
+256M bytes Flash Memory
+PCB               Version:  2.0
+CPLD              Version:  1.0
+Basic    BootWare Version:  1.04
+Extended BootWare Version:  1.04
+[SLOT  0]CON                       (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0
+[SLOT  0]GE0/0                     (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0
+[SLOT  0]GE0/1                     (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0
+[SLOT  0]GE0/2                     (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0
+[SLOT  0]48GSW                     (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0
+[SLOT  0]SFP0/51                   (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0
+[SLOT  0]SFP0/52                   (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0
+[SLOT  0]CELLULAR0/0               (Hardware)2.0,   (Driver)1.0,   (CPLD)1.0

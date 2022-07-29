@@ -1,0 +1,21 @@
+Value Filldown SLOT (\d+)
+Value Required ID (\S+)
+Value STATUS (\S+)
+
+Start
+  ^\s+Index\s+Status -> IndexStyle
+  ^\s*Slot\s+${SLOT}\s*$$ -> SlotStyle
+  ^\s*Power\s+${ID}\s+State:\s+${STATUS} -> Record
+  ^\s*Slot\s+${SLOT}: -> TableStyle
+
+IndexStyle
+  ^\s+${ID}\s+${STATUS} -> Record
+
+SlotStyle
+  ^\s+Power\s+${ID}
+  ^\s+State\s+:\s+${STATUS} -> Record
+
+TableStyle
+  ^\s+PowerID\s+State\s+Mode
+  ^\s+${ID}\s+${STATUS} -> Record
+  

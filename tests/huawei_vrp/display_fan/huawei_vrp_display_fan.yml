@@ -1,0 +1,7 @@
+---
+parsed_sample:
+  - slot_id: "10"
+    fan_id: ""
+    present: "YES"
+    registered: "YES"
+    status: "AUTO"

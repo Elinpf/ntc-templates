@@ -1,0 +1,18 @@
+Value Filldown SLOT (\d+)
+Value Required ID (\S+)
+Value STATUS (\S+)
+
+Start
+  ^\s+Index\s+Status -> IndexStyle
+  ^\s*Slot\s+${SLOT} -> SlotStyle
+  # One line style
+  ^\s*Fan\s+${ID}\s+State:\s+${STATUS} -> Record
+
+IndexStyle
+  ^\s+${ID}\s+${STATUS} -> Record
+
+SlotStyle
+  ^\s+(FAN|Fan)\s+${ID}
+  ^\s+State\s+:\s+${STATUS} -> Record
+
+  

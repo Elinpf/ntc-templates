@@ -1,0 +1,14 @@
+Component information display:
+
+Component   Name                    Online  Status        SN
+--------------------------------------------------------------------
+Mpu 0       RM3D-MPU(V1)            Online  Start OK      D4962DDDDDDD0280  
+Mpu 1       RM3D-MPU(V1)            Online  Start OK      D4962DDDDDDD0281  
+Lpu 0/0     LOGIC-LIU               Online  Start OK      
+Lpu 0       RM3D-SPU05(V1)          Online  Start OK      D5342DDDDDDD0136  
+Power 0     AD250-1S005E-B(V1)      Online  Normal        B5542DDDDDDD1721  
+Power 1     AD250-1S005E-B(V1)      Online  Normal        B5542DDDDDDD1720  
+Fan 0       FAN-4B-01(V1)           Online  Normal        B7682DDDDDDD0128  
+Liu 0/3     RM4B-H-8GEF(V1)         Online  Start OK      C7042DDDDDDD0002  
+Liu 0/7     RM4B-H-8GEF(V1)         Online  Start OK      C7042DDDDDDD0012  
+Chassis     MP7300X-08(V1)          Online  Normal        B5562DDDDDDD0156  
