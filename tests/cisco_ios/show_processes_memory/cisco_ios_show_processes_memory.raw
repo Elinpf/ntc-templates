@@ -1,0 +1,409 @@
+Processor Pool Total: 1637107168 Used:  327584408 Free: 1309522760
+ lsmpi_io Pool Total:    6295128 Used:    6294296 Free:        832
+
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+   0   0  319106944   40451136  262322144        622   98305262 *Init*          
+   0   0        288   93687216        288          0          0 *Sched*         
+   0   0 1767549992 1750036120    2276456       1618       1609 *Dead*          
+   0   0          0          0     592296          0          0 *MallocLite*    
+   1   0   48522888  555128584    1670976          0          0 Chunk Manager   
+   2   0        448        448      17832          0          0 Load Meter      
+   3   0      14792      14072      30552         30         30 Ether-SPA backgr
+   4   0          0          0      29832          0          0 Retransmission o
+   5   0     121704          0      29832          0          0 IPC ISSU Dispatc
+   6   0   26826656   25392832    1177808        479        479 RF Slave Main Th
+   7   0      65632          0     167464          0          0 EDDRI_MAIN      
+   8   0       6240        448      35624          0          0 Check heaps     
+   9   0 55649568520 55649607912     211272         51          0 Pool Manager    
+  10   0          0          0      29832          0          0 DiscardQ Backgro
+  11   0        448        448      29832          0          0 Timers          
+  12   0          0          0      17832          0          0 WATCH_AFS       
+  13   0   44600848   44502256     128424     121707     121707 ARP Input       
+  14   0      24992      24992      29832          9          9 ARP Background  
+  15   0        448        448      29832          0          0 ATM Idle Timer  
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+  16   0          0          0      29832          0          0 ATM ASYNC PROC  
+  17   0          0          0      29832          0          0 AAA_SERVER_DEADT
+  18   0          0          0      53832          0          0 Policy Manager  
+  19   0        448        448      29832          0          0 DDR Timers      
+  20   0      94736        816     123752        206        206 Entity MIB API  
+  21   0      17920      17920      29832          0          0 PrstVbl         
+  22   0          0          0      29832          0          0 RO Notify Timers
+  23   0          0          0      17832          0          0 RMI RM Notify Wa
+  24   0          0          0      29832          0          0 ASR1000 heartbea
+  25   0        448        448      41832          0          0 ATM AutoVC Perio
+  26   0        448        448      29832          0          0 ATM VC Auto Crea
+  27   0      33264       2256      30408         36         36 ifIndex Receive 
+  28   0          0          0      29832          0          0 IPC Event Notifi
+  29   0          0          0      29832          0          0 IPC Mcast Pendin
+  30   0          0          0      29832          0          0 ASR1000 appsess 
+  31   0          0          0      29832          0          0 IPC Dynamic Cach
+  32   0          0          0      29832         38         38 IPC Service NonC
+  33   0          0          0      29832          0          0 IPC Zone Manager
+  34   0          0          0      29832   78946329   78946329 IPC Periodic Tim
+  35   0          0          0      29832          0          0 IPC Deferred Por
+  36   0          0          0      29832          0          0 IPC Process leve
+  37   0      73672     342856      54928        976        976 IPC Seat Manager
+  38   0          0          0      29832          0          0 IPC Check Queue 
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+  39   0    1147832       2240     765960        825        791 IPC Seat RX Cont
+  40   0          0          0      29832          0          0 IPC Seat TX Cont
+  41   0      44952       1792      72992   38808678   38808677 IPC Keep Alive M
+  42   0          0          0      29832          0          0 IPC Loadometer  
+  43   0          0          0      29832          0          0 SENSOR-MGR event
+  44   0          0          0      29832          0          0 Compute SRP rate
+  45   0      10096          0      39928          0          0 CEF MIB API     
+  46   0        448        448      29832          0          0 Serial Backgroun
+  47   0        448        448      29832          0          0 GraphIt         
+  48   0        448        448      53832          0          0 Dialer event    
+  49   0          0          0      29832          0          0 ASR1000 signals 
+  50   0      95848      13784     112824         37         37 client_entity_se
+  51   0       3104          0      32936          0          0 RF SCTPthread   
+  52   0          0          0      29832          0          0 SERIAL A'detect 
+  53   0          0          0      29832          0          0 Critical Bkgnd  
+  54   0     145704       4280      60856         75         75 Net Background  
+  55   0       4368       3776      54424          0          0 IDB Work        
+  56   0        448        448      53832        168        168 Logger          
+  57   0      55000     180008      30416          0          0 TTY Background  
+  58   0      31664      27488      34008         84         84 IPC Apps Task   
+  59   0 1538437920       5472    6169192     738362     738362 IOSD ipc task   
+  60   0    4709032       6152    4809048         13         13 IOSD chasfs task
+  61   0     224712       2240     150392         13         13 REDUNDANCY FSM  
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+  62   0          0          0      29832         10         10 SBC IPC Hold Que
+  63   0          0          0      17832          0          0 Punt FP Stats Du
+  64   0        448        448      17968          0          0 PuntInject Keepa
+  65   0       1904        896      30840         12         12 IF-MGR control p
+  66   0          0          0      29832          0          0 IF-MGR event pro
+  67   0          0          0      29832          0          0 cpf_msg_holdq_pr
+  68   0     632960     432856      47424       7401       7401 cpf_msg_rcvq_pro
+  69   0      30816          0      30816          0          0 Network-rf Notif
+  70   0          0          0      29832       2536       2536 Environmental Mo
+  71   0          0          0      29832          0          0 RP HA Periodic  
+  72   0          0          0      41832          0          0 CONSOLE helper p
+  73   0       1208          0      31040          3          3 CWAN APS HA Proc
+  74   0          0          0      29832   48511715   48511715 REDUNDANCY peer 
+  75   0          0          0      29832          4          4 100ms check     
+  76   0      42184        448      41072         12         12 RF CWAN HA Proce
+  77   0      33168      33168      29832         15         15 CWAN IF EVENT HA
+  78   0          0          0      29832          2          2 ANCP HA         
+  79   0          0          0      29832          0          0 ANCP HA IPC flow
+  80   0          0          0      29832          0          0 CHKPT Test clien
+  81   0       1008        720      30120         46         46 DHCPC HA        
+  82   0       1008        720      30120         18         18 DHCPD HA        
+  83   0       1008        720      30120         18         18 DHCPv6 Relay HA 
+  84   0      32016        448      30976     192997     192997 ARP HA          
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+  85   0    5040432    3400632      31944  136951894  136951889 ASR1000-RP Punt 
+  86   0       1696        448      31080          6          6 ASR1000-RP SPA T
+  87   0          0          0      29832          3          3 IKE HA Mgr      
+  88   0          0          0      29832          3          3 IPSEC HA Mgr    
+  89   0      56568      53272      48616         26         26 RF Master Main T
+  90   0       3192        288      33024   24256036   24256036 RF Master Status
+  91   0          0          0      29832          0          0 Net Input       
+  92   0          0          0      41952          0          0 BGP Scheduler   
+  93   0        448        448      29832          0          0 Compute load avg
+  94   0       4688      26040      34520          0          0 Per-minute Jobs 
+  95   0          0          0      41832          0          0 Per-Second Jobs 
+  96   0  508706264          0      29832  117049283  117049283 cpf_process_tpQ 
+  97   0          0          0      29832          0          0 Transport Port A
+  98   0       4632       2192      46464          0          0 EEM ED ND       
+  99   0          0          0      29832          0          0 ASR1000-RP FastP
+ 100   0          0          0      29832          0          0 DSX3MIB ll handl
+ 101   0          0          0      29832          0          0 POS APS Event Pr
+ 102   0        560        560      29832          1          1 netclk_process  
+ 103   0      60936          0      29832          0          0 netclk_ha_proces
+ 104   0       5616       6384      29832          6          6 FPD Management P
+ 105   0          0          0      29832          0          0 FPD Action Proce
+ 106   0        568        568      29832          0          0 FEC_Link_event_h
+ 107   0          0          0      53832          0          0 MCP RP autovc pr
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 108   0          0          0      29832          0          0 MGMTE stats Proc
+ 109   0     131264     131264     173096   21039568   21039568 BGP I/O         
+ 110   0          0          0      29832          0          0 CWAN CHOCX PROCE
+ 111   0          0          0      29832          0          0 CE3 Mailbox     
+ 112   0          0          0      29832          0          0 CT3 Mailbox     
+ 113   0          0          0      29832          0          0 HAL Mailbox     
+ 114   0        448        448      17832          0          0 MIP Mailbox     
+ 115   0    4903968      63856    2748128        124        124 CWAN OIR Handler
+ 116   0      54104        144      82480          9          9 ACE event       
+ 117   0       4736       2424      32928     738131     738131 ACE HAPI        
+ 118   0          0          0      29832          0          0 ACE policy loade
+ 119   0          0          0      29832          0          0 ASR1K ESMC Proce
+ 120   0          0          0      29832          0          0 ASR1000-RP SPA A
+ 121   0          0          0      29832          0          0 RTTYS Process   
+ 122   0      17080        448      46464          0          0 AAA Server      
+ 123   0          0          0      29944          0          0 AAA ACCT Proc   
+ 124   0      98736          0     128568          0          0 ACCT Periodic Pr
+ 125   0          0          0      29832          0          0 AAA System Acct 
+ 126   0          0          0      29832          0          0 Call Home Timer 
+ 127   0        408          0      54240          0          0 CEF switching ba
+ 128   0        408          0      18240          0          0 ADJ NSF process 
+ 129   0        448        448      29832          0          0 AAA Dictionary R
+ 130   0        448        448      53832          0          0 ATM OAM Input   
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 131   0        448        448      53832          0          0 ATM OAM TIMER   
+ 132   0          0          0      41832          0          0 HQF TUNNEL      
+ 133   0       6376       2008      58336         15         15 IP ARP Adjacency
+ 134   0      98736          0     128568          0          0 IP ARP Retry Age
+ 135   0          0          0      53832          0          0 IP Input        
+ 136   0          0          0      29832          0          0 ICMP event handl
+ 137   0        448        448      29832          0          0 PIM register asy
+ 138   0          0          0      29832          0          0 IPv6 ping proces
+ 139   0        448        448      29832     242028     242028 MOP Protocols   
+ 140   0        448        448      29832          0          0 PPP SIP         
+ 141   0        448        448      29832          0          0 PPP Bind        
+ 142   0        448        448      53832          0          0 PPP IP Route    
+ 143   0          0          0     101832          1          1 SBC RF config sy
+ 144   0        448        448      53832          0          0 SSM connection m
+ 145   0          0          0      53832          0          0 SSS Manager     
+ 146   0          0          0      53832          0          0 SSS Policy Manag
+ 147   0          0          0      29832          0          0 SSS Feature Mana
+ 148   0          0          0      29832          0          0 SSS Feature Time
+ 149   0        896        448      30280          0          0 Spanning Tree   
+ 150   0          0          0      29832          0          0 VRRS            
+ 151   0        448        448      53832          0          0 KRB5 AAA        
+ 152   0        448        448      53832          0          0 Ethernet LMI    
+ 153   0        448        448      41832          0          0 Ethernet OAM Pro
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 154   0        448        448      53832          0          0 Ethernet CFM    
+ 155   0        448        448      53832          0          0 Ethernet Timer C
+ 156   0        448        448      53832          0          0 Ethernet Msec Ti
+ 157   0          0          0      29832          0          0 PPCP RP Stats Ba
+ 158   0       2464     200648      55848          0          0 SXP CORE        
+ 159   0       3216        896      56152          0          0 CTS CORE        
+ 160   0      97896      35208      62688        487        487 CCM             
+ 161   0          0          0      29832          0          0 CCM IPC flow con
+ 162   0        448        448      53832          0          0 RG Faults Timer 
+ 163   0          0          0      29832          0          0 RG VP           
+ 164   0        448        448      53832          0          0 RG Protocol Time
+ 165   0        448        448      53832          0          0 RG Transport Tim
+ 166   0          0          0      29832          0          0 HDLC HA         
+ 167   0     420408          0      32408          0          0 SBC initializer 
+ 168   0          0          0      29832          0          0 SVM HA          
+ 169   0          0          0      29832          0          0 AC Switch       
+ 170   0          0          0      29832          0          0 EAP Framework   
+ 171   0          0          0      29832          0          0 EAP Test        
+ 172   0          0          0      29832          0          0 ISG CMD HANDLER 
+ 173   0       8496          0      62440          0          0 IMA PROC        
+ 174   0        448        448      29832          0          0 IP PORTBUNDLE   
+ 175   0        448        448      53832          0          0 IP Static Sessio
+ 176   0        448        448      29832          0          0 IPAM/ODAP Events
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 177   0      98736          0     152568          0          0 IPAM Manager    
+ 178   0        448        448      53832          0          0 IPAM Events     
+ 179   0        448        448      29832          0          0 OCE punted Pkts 
+ 180   0          0          0      29832          0          0 O-UNI Client Msg
+ 181   0          0          0      29832          0          0 LSP Tunnel FRR  
+ 182   0          0          0      41832          0          0 MPLS Auto-Tunnel
+ 183   0      65528          0     167360          0          0 st_pw_oam       
+ 184   0          0          0      29832          0          0 AAA EPD HANDLER 
+ 185   0          0          0      29832          0          0 PM EPD API      
+ 186   0          0          0      53832          0          0 DM Proc         
+ 187   0          0          0      29832          0          0 RADIUS Proxy    
+ 188   0          0          0      53832          0          0 SSS PM SHIM QOS 
+ 189   0          0          0      29832          0          0 SG DPM          
+ 190   0          0          0      29832          0          0 Timer handler fo
+ 191   0          0          0      29832          0          0 Prepaid response
+ 192   0          0          0      29832          0          0 Timed Policy act
+ 193   0          0          0      29832          0          0 AAA response han
+ 194   0          0          0      29832          0          0 IP Traceroute   
+ 195   0        448        448      29832          0          0 ATIP_UDP_TSK    
+ 196   0        408          0      30240          0          0 XDR background p
+ 197   0       5816   14259872      29832    1489054    1489053 XDR mcast       
+ 198   0          0          0      29832          0          0 XDR RP Ping Back
+ 199   0     422360     225416     177352       1952       1952 XDR mcast rcv   
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 200   0  127683240  127683240      29832    1617074    1617073 XDR RP backgroun
+ 201   0     328760      21088     337504          6          6 IPC LC Message H
+ 202   0          0          0      29832          0          0 XDR RP Test Back
+ 203   0          0          0      29832          0          0 FRR Background P
+ 204   0      88240      14312     126392         48         48 CEF background p
+ 205   0        408          0      54240          0          0 fib_fib_bfd_sb e
+ 206   0          0          0      41832          0          0 IP IRDP         
+ 207   0          0          0      29832          0          0 SNMP Timers     
+ 208   0      11744          0      41576          0          0 LSD HA Proc     
+ 209   0          0          0      53832          0          0 Routing Topology
+ 210   0   48466952   21586440    1614312     198076     198076 IP RIB Update   
+ 211   0      22800      23976      42816         42         42 IP Background   
+ 212   0      59920       1824      99928          0          0 IP Connected Rou
+ 213   0        448        448      29832          0          0 PPP Compress Inp
+ 214   0        448        448      29832          0          0 PPP Compress Res
+ 215   0          0          0      53832          0          0 cdp init process
+ 216   0     144440       6992     106608          8          8 CEF: IPv4 proces
+ 217   0        408          0      30240          0          0 ADJ background  
+ 218   0        408          0      54240          0          0 ADJ resolve proc
+ 219   0          0          0      29832          0          0 Socket Timers   
+ 220   0          0   44894784      53832   22692126   22692126 TCP Timer       
+ 221   0   94219704          0      53832          0          0 TCP Protocols   
+ 222   0       1808          0     247640          0          0 COPS            
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 223   0        448        448      29832          0          0 Dialer Forwarder
+ 224   0        720          0      30552          0          0 Service Routing 
+ 225   0      20000       5520      44312          0          0 SR CapMan Proces
+ 226   0      10544        448      39928          0          0 Flow Exporter Ti
+ 227   0       1808          0      43640          0          0 HTTP CORE       
+ 228   0      10096          0      39928          0          0 SBC Msg Ack Time
+ 229   0        408          0      54240          0          0 MFIB Master back
+ 230   0        408       4784      54240          9          9 Collection proce
+ 231   0        896        448      42280          0          0 Multicast Offloa
+ 232   0          0          0      29832          0          0 RARP Input      
+ 233   0        448        448      41832          0          0 static          
+ 234   0          0          0      41832          0          0 IPv6 RIB Event H
+ 235   0      52200      13232      73168          0          0 PMIPV6 Thread   
+ 236   0        448        448      29832          0          0 PPP NBF         
+ 237   0        896        448      18280          0          0 PfR BR Learn    
+ 238   0          0          0      29832          0          0 PAD InCall      
+ 239   0        448        448      53832          0          0 X.25 Background 
+ 240   0          0          0      29832          0          0 X.25 Encaps Mana
+ 241   0  766097736  766097736      29832          0          0 QoS stats proces
+ 242   0        448        448      29832          0          0 RBSCP Background
+ 243   0      38928        448      68312          0          0 SCTP Main Proces
+ 244   0          0          0      53832          0          0 VPDN call manage
+ 245   0          0          0      29832          0          0 XC VPWS Mgr     
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 246   0        144          0      29976          0          0 XC RIB MGR      
+ 247   0      10296          0      37232          0          0 CEF RP Backgroun
+ 248   0        448        448      29832          0          0 EFP Errd        
+ 249   0        448        448      29832          0          0 Ether Infra RP  
+ 250   0          0          0      29832          0          0 ECFM HA IPC flow
+ 251   0        448        448      53960          0          0 Ethernet HA Time
+ 252   0          0          0      29832          0          0 IGMPSN L2MCM    
+ 253   0          0          0      29832          0          0 IGMPSN MRD      
+ 254   0          0          0      29832          0          0 IGMPSN          
+ 255   0          0          0      29832          0          0 IGMPQR          
+ 256   0          0          0      29832          0          0 TCP HA PROC     
+ 257   0        448        448      29944         30         30 BGP HA SSO      
+ 258   0          0          0      29832          0          0 RETRY_REPOPULATE
+ 259   0       1272        864      30240         12         12 XDR FOF process 
+ 260   0          0          0      29832          2          2 AAA HA          
+ 261   0      98744          0     128576          0          0 AAA HA cleanup  
+ 262   0          0          0      29832          0          0 ac_atm_state_eve
+ 263   0          0          0      29832          0          0 AC HA Bulk Sync 
+ 264   0      65528          0     119360          2          2 ATM HA          
+ 265   0          0          0      29832          0          0 ATM HA IPC flow 
+ 266   0          0          0      29832          0          0 ATM HA AC       
+ 267   0          0          0      29832          3          3 BFD HA          
+ 268   0          0          0      29832          0          0 FR HA           
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 269   0          0          0      29832          0          0 GLBP HA         
+ 270   0          0          0      29832          0          0 HSRP HA         
+ 271   0        448        448      29832          0          0 Inspect process 
+ 272   0 4913685200 3832737888    7558672  182686589  182686588 OSPF-1 Router   
+ 273   0        448        448      53832          0          0 IP SIP Process  
+ 274   0        456          0      54288          0          0 MRIB RP Proxy   
+ 275   0          0          0      29832          0          0 IPv6 ACL RP Proc
+ 276   0          0          0      29832          0          0 Netsync IPC flow
+ 277   0        448        448      29832          0          0 PPPoE VRRS EVT M
+ 278   0          0          0      53832          0          0 RG If-Mgr Timer 
+ 279   0        448        448      53832          0          0 RG Media Timer  
+ 280   0        448        448      53832          2          2 MCPRP RG Timer  
+ 281   0       2376        448      31760          0          0 URL filter proc 
+ 282   0          0          0      29832          0          0 VPDN CCM Backgro
+ 283   0          0          0      29832          0          0 VRRP HA         
+ 284   0          0          0      29832          0          0 VTEMPLATE IPC fl
+ 285   0       4344          0      34176          0          0 CEM PROC        
+ 286   0      30424          0      29832          2          2 CEM HA          
+ 287   0          0          0      29960          0          0 CEM HA AC       
+ 288   0        448        448      17832          0          0 L2X Switching Ev
+ 289   0          0          0      29832          0          0 Probe Input     
+ 290   0        448        448      53832          0          0 IP Inband Sessio
+ 291   0          0          0      29832          0          0 MFI Comm RP Proc
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 292   0          0          0      53832          0          0 Path set broker 
+ 293   0       2728       1296      31264         23         23 LDP HA          
+ 294   0        448        448      29832          2          2 MPLS VPN HA Clie
+ 295   0          0          0      29832         28         28 RSVP HA Services
+ 296   0      21536      21536      29832          0          0 TSPTUN HA       
+ 297   0          0          0      29832          0          0 AToM HA Bulk Syn
+ 298   0        448        608      29832          0          0 Inter Chassis Pr
+ 299   0       1768        840      30760          0          0 LFDp Input Proc 
+ 300   0        448        448      29832          0          0 AAA Cached Serve
+ 301   0        448        448      29832          0          0 ENABLE AAA      
+ 302   0          0          0      29832          0          0 EM Background Pr
+ 303   0          0          0      29832          0          0 Key chain liveke
+ 304   0        448        448      29832          0          0 LINE AAA        
+ 305   0        448        448      29832          0          0 LOCAL AAA       
+ 306   0          0          0      41832          0          0 BGP Scanner     
+ 307   0   76768752   46634816      45552      46851      46851 TPLUS           
+ 308   0   91614280   91612952      31160      26952      26952 NIST rng proc   
+ 309   0      18816      18816      41832          0          0 DynCmd Package P
+ 310   0     283040        448     312424          0          0 FLEX DSPRM MAIN 
+ 311   0        448        448      29832          0          0 VSP_MGR         
+ 312   0      54992        448     156376          0          0 STUN_APP        
+ 313   0       2032          0     103864          0          0 STUN_TEST       
+ 314   0          0          0      29832          0          0 IDMGR CORE      
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 315   0          0          0      29832          0          0 MPLS Auto Mesh P
+ 316   0        448        448      29832          0          0 Crypto Support  
+ 317   0          0          0      29832          0          0 IPSECv6 PS Proc 
+ 318   0     606520          0     648352          0          0 QOS_MODULE_MAIN 
+ 319   0          0          0     101832          0          0 VoIP AAA        
+ 320   0      15952      14976      30808          0          0 crypto engine pr
+ 321   0       9688       3336      60184          1          1 Crypto CA       
+ 322   0      10096          0      63928          0          0 Crypto PKI-CRL  
+ 323   0          0          0      53832          0          0 encrypt proc    
+ 324   0 5121329216 5127631920      30704    1469468    1469468 crypto sw pk pro
+ 325   0      58232        448      57224          3          3 PIM HA          
+ 326   0          0          0      41832          0          0 QOS PERUSER     
+ 327   0        440          0     102272          0          0 RPMS_PROC_MAIN  
+ 328   0       2032          0     247864          0          0 http client proc
+ 329   0     917248   11253848     577768         28         28 BGP Router      
+ 330   0     270312      65632     258512   30319991   30319991 Crypto IKEv2    
+ 331   0          0          0      29832          0          0 IKEv2 AAA handle
+ 332   0        448        896      29832          0          0 CRYPTO MAP FREE 
+ 333   0          0          0      29832          0          0 Crypto INT      
+ 334   0        448        976      53832          4          4 Crypto IKE Dispa
+ 335   0      13408        448      66792          1          1 Crypto IKMP     
+ 336   0          0          0      29832          0          0 IPSEC manual key
+ 337   0       8464       5376      56472          3          3 IPSEC key engine
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 338   0          0          0     101832          0          0 Crypto ACL      
+ 339   0          0          0      29968          0          0 Crypto PAS Proc 
+ 340   0          0          0      29832          0          0 GDOI GM Process 
+ 341   0        896        448      30280          0          0 Lawful Intercept
+ 342   0        896        448      30280          0          0 LI messaging    
+ 343   0    1169600    3674224      29832          0          0 AAA SEND STOP EV
+ 344   0          0          0      53832          0          0 Test AAA Client 
+ 345   0       4632          0      46464          0          0 EEM ED Routing  
+ 346   0    3379176          0    3421008        103         71 EEM ED Syslog   
+ 347   0       4920          0      46752          0          0 EEM ED Track    
+ 348   0       5128          0      46960          0          0 EEM ED Resource 
+ 349   0          0          0      29832          0          0 Syslog Traps    
+ 350   0       3424       1904      30976         31         31 CTS HA          
+ 351   0          0          0      29832          0          0 CTS HA IPC flow 
+ 352   0        408          0      30240          0          0 DATA Transfer Pr
+ 353   0        408          0      30240          0          0 DATA Collector  
+ 354   0      67376 1073699408      96896   74170916   74170916 OSPF-1 Hello    
+ 355   0        408          0      30240          0          0 Online Diag EEM 
+ 356   0 2558712552 2558687808      54576    4850238    4850238 SPA ENTITY Proce
+ 357   0          0          0      29832          0          0 SONET Traps     
+ 358   0      60096      44856      65648          8          8 Exec            
+ 359   0     221560       3088     248304          0          0 EEM Server      
+ 360   0     167704      89688     162256          0          0 Call Home proces
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+ 361   0      11960       2072      39720          0          0 EEM Policy Direc
+ 362   0    3117160          0      38312          3          3 SSH Event handle
+ 363   0       4632          0      46464          0          0 EEM ED CLI      
+ 364   0       4632          0      46464          0          0 EEM ED Counter  
+ 365   0       4632          0      46464          0          0 EEM ED Interface
+ 366   0       4632          0      46464          0          0 EEM ED IOSWD    
+ 367   0       4632          0      46464          0          0 EEM ED None     
+ 368   0       4632          0      46464          0          0 EEM ED OIR      
+ 369   0       5384        144      46720          0          0 EEM ED RF       
+ 370   0       4632          0      46464          0          0 EEM ED SNMP     
+ 371   0       4632          0      46464          0          0 EEM ED SNMP Obje
+ 372   0       4632          0      46464          0          0 EEM ED SNMP Noti
+ 373   0       4632          0      46464          0          0 EEM ED Timer    
+ 374   0       4632          0      46464          0          0 EEM ED Ipsla    
+ 375   0       8976          0      50808          0          0 EEM ED Test     
+ 376   0       4632          0      46464          0          0 EEM ED Config   
+ 377   0       4632          0      46464          0          0 EEM ED Env      
+ 378   0       4632          0      46464          0          0 EM ED GOLD      
+ 379   0      56632      50144      60320        663        663 Syslog          
+ 380   0          0          0      29832          0          0 IP SLAs Ethernet
+ 381   0          0          0      29832          0          0 VDC process     
+ 382   0       4632          0      46464          0          0 EEM ED RPC      
+ 383   0          0          0      29832          0          0 ISSU Utility Pro
+ 384   0      18408       1008      71232          0          0 RBM CORE        
+ 385   0        408          0      30240          0          0 Online Diag CNS 
