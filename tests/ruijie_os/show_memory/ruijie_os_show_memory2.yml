@@ -4,7 +4,7 @@ parsed_sample:
     system_memory_total_mb: "2048"
     system_memory_used: ""
     system_memory_free: "1439560"
-    system_memory_used_rate_precent: ""
+    system_memory_used_rate_precent: "31"
     used_detail_active: ""
     used_detail_inactive: ""
     used_detail_mapped: ""

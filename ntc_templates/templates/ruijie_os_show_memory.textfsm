@@ -18,3 +18,4 @@ Start
 
 SYSTEM_MEMORY_STATISTIC
   ^\s+System\s+Total\s+Memory\s+:\s+${SYSTEM_MEMORY_TOTAL_MB}MB,\s+Current\s+Free\s+Memory\s+:\s+${SYSTEM_MEMORY_FREE}KB
+  ^\s+Used\s+Rate\s+:\s+${SYSTEM_MEMORY_USED_RATE_PRECENT}%
