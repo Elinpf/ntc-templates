@@ -1,0 +1,47 @@
+Chassis self:
+
+Only new chassis support this command.
+  The operation is not supported on the specified chassis.
+
+Slot 0:
+ DEVICE_NAME          : LSQM1SRP1CB0
+ DEVICE_SERIAL_NUMBER : 210231A73LB139000040
+ MAC_ADDRESS          : 5CDD-7002-CD44
+ MANUFACTURING_DATE   : 2013-10-7
+ VENDOR_NAME          : H3C
+
+Slot 1:
+ DEVICE_NAME          : LSQM1SRP1CB0
+ DEVICE_SERIAL_NUMBER : 210231A73LB139000001
+ MAC_ADDRESS          : 5CDD-7002-CC68
+ MANUFACTURING_DATE   : 2013-10-6
+ VENDOR_NAME          : H3C
+
+Slot 6:
+ DEVICE_NAME          : LSQM1GP24SC0
+ DEVICE_SERIAL_NUMBER : 210231A76SB139000119
+ MAC_ADDRESS          : NONE
+ MANUFACTURING_DATE   : 2013-10-6
+ VENDOR_NAME          : H3C
+
+Slot 7:
+ DEVICE_NAME          : LSQM1GV48SA0
+ DEVICE_SERIAL_NUMBER : 210231A76HB138000128
+ MAC_ADDRESS          : NONE
+ MANUFACTURING_DATE   : 2013-9-2
+ VENDOR_NAME          : H3C
+
+Power 1:
+
+Only new chassis support this command.
+  The operation is not supported on the specified power.
+
+Power 2:
+
+Only new chassis support this command.
+  The operation is not supported on the specified power.
+
+Fan 1:
+
+Only new chassis support this command.
+  The operation is not supported on the specified fan.
