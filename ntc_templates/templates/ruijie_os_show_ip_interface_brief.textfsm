@@ -1,0 +1,10 @@
+Value Required INTERFACE (\w+\s\S+)
+Value Required IP (\d+\.\d+\.\d+\.\d+|no address)
+Value MASK (\d+)
+Value STATUS (\S+)
+Value PROTOCOL (\S+)
+
+Start
+  ^Interface\s+IP-Address
+  ^${INTERFACE}\s+${IP}/${MASK}\s+(no address|\S+)\s+${STATUS}\s+${PROTOCOL} -> Record
+  ^${INTERFACE}\s+${IP}\s+(no address|\S+)\s+${STATUS}\s+${PROTOCOL} -> Record

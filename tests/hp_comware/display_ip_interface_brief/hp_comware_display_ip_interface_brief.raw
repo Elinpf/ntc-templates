@@ -1,0 +1,15 @@
+*down: administratively down
+
+(s): spoofing  (l): loopback
+
+Interface           Physical Protocol IP address      VPN instance Description  
+
+Loop0               up       up(s)    11.50.159.248   --           --
+
+MGE0/0/0            down     down     --              --           --
+
+Vlan1               up       up       169.254.108.76  --           --
+
+Vlan2               up       up       11.50.128.2     --           SX-LAN
+
+Vlan103             up       up       11.50.149.22    --           Link-to-B_...

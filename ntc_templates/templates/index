@@ -434,6 +434,7 @@ fortinet_get_system_arp.textfsm, .*, fortinet, g[[et]] sy[[stem]] arp
 
 hp_comware_display_lldp_neighbor-information_verbose.textfsm, .*, hp_comware, di[[splay]] ll[[dp]] n[[eighbor-information]] v[[erbose]]
 hp_comware_display_counters_bound_interface.textfsm, .*, hp_comware, di[[splay]] cou[[nters]] (\S+) i[[nterface]]
+hp_comware_display_ip_interface_brief.textfsm, .*, hp_comware, dis[[play]] ip int[[erface]] b[[rief]]
 hp_comware_display_logbuffer_summary.textfsm, .*, hp_comware, dis[[play]] logb[[uffer]] sum[[mary]]
 hp_comware_display_ip_routing-table.textfsm, .*, hp_comware, di[[splay]] ip r[[outing-table]]
 hp_comware_display_device_manuinfo.textfsm, .*, hp_comware, di[[splay]] dev[[ice]] m[[anuinfo]]
@@ -541,6 +542,7 @@ ruckus_fastiron_show_mac-address.textfsm, .*, ruckus_fastiron, sh[[ow]] mac[[-ad
 ruckus_fastiron_show_version.textfsm, .*, ruckus_fastiron, sh[[ow]] v[[ersion]]
 ruckus_fastiron_show_arp.textfsm, .*, ruckus_fastiron, sh[[ow]] ar[[p]]
 
+ruijie_os_show_ip_interface_brief.textfsm, .*, ruijie_os, sh[[ow]] ip int[[erface]] b[[rief]]
 ruijie_os_show_version_slots.textfsm, .*, ruijie_os, sh[[ow]] ver[[sion]] s[[lots]]
 ruijie_os_show_interfaces.textfsm, .*, ruijie_os, sh[[ow]] in[[terfaces]]
 ruijie_os_show_ntp_status.textfsm, .*, ruijie_os, sh[[ow]] ntp stat[[us]]
