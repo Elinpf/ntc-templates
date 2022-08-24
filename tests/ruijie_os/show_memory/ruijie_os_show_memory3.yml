@@ -1,0 +1,13 @@
+---
+parsed_sample:
+  - system_memory_total: "4194304"
+    system_memory_total_mb: ""
+    system_memory_used: "1107540"
+    system_memory_free: "3086764"
+    system_memory_used_rate_precent: "22.1"
+    used_detail_active: "747900"
+    used_detail_inactive: "204660"
+    used_detail_mapped: "175576"
+    used_detail_slab: "88856"
+    used_detail_core: "174728"
+    used_detail_others: "91528"

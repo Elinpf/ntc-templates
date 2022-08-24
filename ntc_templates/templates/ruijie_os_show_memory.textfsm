@@ -2,7 +2,7 @@ Value SYSTEM_MEMORY_TOTAL (\d+)
 Value SYSTEM_MEMORY_TOTAL_MB (\d+)
 Value SYSTEM_MEMORY_USED (\d+)
 Value SYSTEM_MEMORY_FREE (\d+)
-Value SYSTEM_MEMORY_USED_RATE_PRECENT ([\d\.]+)
+Value Required SYSTEM_MEMORY_USED_RATE_PRECENT ([\d\.]+)
 Value USED_DETAIL_ACTIVE (\d+)
 Value USED_DETAIL_INACTIVE (\d+)
 Value USED_DETAIL_MAPPED (\d+)
@@ -14,6 +14,8 @@ Value USED_DETAIL_OTHERS (\d+)
 Start
   ^System\s+Memory\s+Statistic: -> SYSTEM_MEMORY_STATISTIC
   ^System\s+Memory:\s+${SYSTEM_MEMORY_TOTAL}KB\s+total,\s+${SYSTEM_MEMORY_USED}KB\s+used,\s+${SYSTEM_MEMORY_FREE}KB\s+free,\s+${SYSTEM_MEMORY_USED_RATE_PRECENT}%\s+used\s+rate
+  # had available:
+  ^System\s+Memory:\s+${SYSTEM_MEMORY_TOTAL}KB\s+total,\s+${SYSTEM_MEMORY_USED}KB\s+used,\s+${SYSTEM_MEMORY_FREE}KB\s+free,\s+\d+KB\s+available,\s+${SYSTEM_MEMORY_USED_RATE_PRECENT}%\s+used\s+rate
   ^Used\s+detail:\s+${USED_DETAIL_ACTIVE}KB\s+active,\s+${USED_DETAIL_INACTIVE}KB\s+inactive,\s+${USED_DETAIL_MAPPED}KB\s+mapped,\s+${USED_DETAIL_SLAB}KB\s+slab,\s+${USED_DETAIL_CORE}KB\s+core,\s+${USED_DETAIL_OTHERS}KB\s+others
 
 SYSTEM_MEMORY_STATISTIC
