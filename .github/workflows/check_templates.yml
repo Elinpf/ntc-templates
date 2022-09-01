@@ -25,7 +25,7 @@ jobs:
         poetry install
     - name: Run Scripts
       run: |
-        poetry run tox
+        poetry run python -m pytest
 
   publish:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
