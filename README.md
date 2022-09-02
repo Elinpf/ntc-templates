@@ -3,12 +3,33 @@
 
 本仓库为主仓的分支，主要提供中国大陆常用网络设备textFSM。
 
-需要注意的是，新华三`H3C`在海外使用的是`hp`，所以在此仓库中的`hp_comware`是指的`H3C`的路由交换软件平台。
+*需要注意的是，新华三`H3C`在海外使用的是`hp`，所以在此仓库中的`hp_comware`是指的`H3C`的路由交换软件平台。*
+
+为了避免与原包的冲突，请在使用前先删除原包。
+
+```
+pip uninstall ntc_templates
+```
 
 本仓库的安装方法
 
 ```
 pip install ntc_templates_elinpf
+```
+
+## 新增功能
+
+在原有的基础上，新增加了支持外部模板的功能：
+
+```py
+def parse_output(platform=None, command=None, data=None, template_dir: str = None):
+```
+
+需要注意的是，`template_dir`参数需要指定一个文件夹，而不是一个文件。
+文件夹中必须包含`index`文件，并且文件开头必须为以下内容:
+
+```text
+Template, Hostname, Platform, Command
 ```
 
 ## 关于开发textfsm

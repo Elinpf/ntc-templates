@@ -35,7 +35,7 @@ def _clitable_to_dict(cli_table):
     return objs
 
 
-def parse_output(platform=None, command=None, data=None):
+def parse_output(platform=None, command=None, data=None, template_dir: str = None):
     """Return the structured data based on the output from a network device."""
 
     if not HAS_CLITABLE:
@@ -49,7 +49,9 @@ https://github.com/google/textfsm/pull/82
 """
         raise ImportError(msg)
 
-    template_dir = _get_template_dir()
+    if not template_dir:
+        template_dir = _get_template_dir()
+
     cli_table = clitable.CliTable("index", template_dir)
 
     attrs = {"Command": command, "Platform": platform}
