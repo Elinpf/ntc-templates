@@ -96,6 +96,20 @@ python ./development_script.py -v 'huawei_vrp' -c 'display version' -i 2 -t
 python ./development_script.py -v 'huawei_vrp' -c 'display version' -y
 ```
 
+7. 生成index中的条目
+
+```bash
+python ./development_script.py -v 'huawei_vrp' -c 'display version' -s
+
+>> input shortest cmd: dis ver
+
+>> huawei_vrp_display_version.textfsm, .*, huawei_vrp, dis[[play]] ver[[sion]]
+```
+
+将生成的条目复制到`index`文件中即可。
+
+---
+
 
 以下内容为主仓库`README`
 
