@@ -14,6 +14,7 @@ IndexStyle
 SlotStyle
   ^\s+Power\s+${ID}
   ^\s+State\s+:\s+${STATUS} -> Record
+  ^\s*Slot\s+${SLOT}\s*$$
 
 TableStyle
   ^\s+PowerID\s+State\s+Mode

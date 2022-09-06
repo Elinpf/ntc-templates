@@ -1,0 +1,17 @@
+ Slot 1
+      Input Power     : 52(W)
+      Power    1
+      State    : Normal
+      Type     : AC/150(W)
+      Power    2
+      State    : Normal
+      Type     : AC/150(W)
+
+ Slot 2
+      Input Power     : 48(W)
+      Power    1
+      State    : Fault
+      Type     : Unknown
+      Power    2
+      State    : Normal
+      Type     : AC/150(W)
