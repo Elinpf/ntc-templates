@@ -102,3 +102,28 @@ def test_ensure_yaml_standards(teardown_normalize_file, expected_file):
     development_script.ensure_yaml_standards(load_yaml, load_file)
     with open(load_file, encoding="utf-8") as actual:
         assert actual.read() == expected_file
+
+
+def test_upper_value():
+    textfsm = """
+Value Interface (MEth\d+\/\d+\/\d+)
+Value Ip_Address (\S+)
+Value Physical (\S+)
+Value PROTOCOL (\S+)
+
+Start
+  ^${Interface}\s+${Ip_Address}\s+${Physical}\s+${PROTOCOL} -> Record
+    """
+
+    expected = """
+Value INTERFACE (MEth\d+\/\d+\/\d+)
+Value IP_ADDRESS (\S+)
+Value PHYSICAL (\S+)
+Value PROTOCOL (\S+)
+
+Start
+  ^${INTERFACE}\s+${IP_ADDRESS}\s+${PHYSICAL}\s+${PROTOCOL} -> Record
+    """
+
+    res = development_script.upper_values(textfsm)
+    assert res == expected

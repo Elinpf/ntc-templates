@@ -1,3 +1,4 @@
+from asyncio import wait_for
 import numbers
 import os
 import re
@@ -15,6 +16,8 @@ YAML_OBJECT.explicit_start = True
 YAML_OBJECT.indent(sequence=4, offset=2)
 YAML_OBJECT.block_style = True
 RE_MULTILINE_REMARK = re.compile(r"(.*\n\s*#)(.*)")
+
+VALUE_REG = r"^Value.*\s(?P<name>\S+)(?=\s+\()"
 
 
 def ensure_spacing_for_multiline_comment(remark):
@@ -374,10 +377,8 @@ def generate_file(vendor_os: str, command: str, index: int):
         print("generate template file: {}".format(template_file))
 
 
-def reg_blank_sub(file: str) -> str:
+def reg_blank_sub(text: str) -> str:
     """对文件进行空格替换"""
-    with open(file, "r") as f:
-        text = f.read()
 
     final_text = []
     for line in text.splitlines():
@@ -397,8 +398,36 @@ def reg_blank_sub(file: str) -> str:
         tmp = f"  {tmp}{end}"
         final_text.append(tmp)
 
-    with open(file, "w") as f:
-        f.write("\n".join(final_text))
+    return "\n".join(final_text)
+
+
+def upper_values(text: str) -> str:
+    """将值转化为大写"""
+
+    wait_for_upper_value = []
+    final_text = []
+
+    for line in text.splitlines():
+        if line.startswith("Value"):
+            match = re.search(VALUE_REG, line)
+            if match:
+                name = match.group("name")
+                if name != name.upper():
+                    upper_line = line.replace(name, name.upper())
+                    final_text.append(upper_line)
+                    wait_for_upper_value.append(name)
+                    continue
+                else:
+                    final_text.append(line)
+                    continue
+
+        else:
+            for name in wait_for_upper_value:
+                line = re.sub("\${" + name + "}", "${" + name.upper() + "}", line)
+
+            final_text.append(line)
+
+    return "\n".join(final_text)
 
 
 def print_index_file_command(vendor_os: str, command: str, index: int, short: str):
@@ -465,7 +494,14 @@ if __name__ == "__main__":
 
     if args.blank:
         textfsm_file = get_test_files(vendor_os, command, index)[1]
-        reg_blank_sub(textfsm_file)
+        with open(textfsm_file) as f:
+            text = f.read()
+
+        text = reg_blank_sub(text)
+        text = upper_values(text)
+
+        with open(textfsm_file, "w") as f:
+            f.write(text)
         exit()
 
     if args.yml:
