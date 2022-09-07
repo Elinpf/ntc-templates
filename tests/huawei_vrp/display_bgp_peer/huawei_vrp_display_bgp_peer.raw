@@ -1,0 +1,12 @@
+BGP local router ID : 1.1.1.1
+ Local AS number : 100
+ Total number of peers : 5		  Peers in established state : 5
+
+  Peer            V          AS  MsgRcvd  MsgSent  OutQ  Up/Down       State PrefRcv
+
+  2.2.2.2         4         100       72       77     0 01:09:57 Established       1
+  3.3.3.3         4         100       72       77     0 01:09:57 Established       1
+  4.4.4.4         4         100       72       77     0 01:09:57 Established       1
+  5.5.5.5         4         100       72       77     0 01:09:57 Established       1
+  6.6.6.6         4         100       72       77     0 01:09:57 Established       1
+

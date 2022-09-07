@@ -1,0 +1,10 @@
+Value INTERFACE (MEth\d+\/\d+\/\d+)
+Value IP (\d+\.\d+\.\d+\.\d+|unassigned)
+Value MASK (\d+)
+Value PHYSICAL (\S+)
+Value PROTOCOL (\S+)
+
+Start
+  ^Interface\s+IP.*
+  ^${INTERFACE}\s+${IP}/${MASK}\s+${PHYSICAL}\s+${PROTOCOL} -> Record
+  ^${INTERFACE}\s+${IP}\s+${PHYSICAL}\s+${PROTOCOL} -> Record

@@ -1,0 +1,21 @@
+
+Route Flags: R - relay, D - download to fib
+------------------------------------------------------------------------------
+Public routing table : OSPF
+         Destinations : 5        Routes : 5        
+
+OSPF routing table status : <Active>
+         Destinations : 5        Routes : 5
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+        2.2.2.2/32  OSPF    10   1           D   192.168.66.12   Vlanif1
+        3.3.3.3/32  OSPF    10   1           D   192.168.66.13   Vlanif1
+        4.4.4.4/32  OSPF    10   1           D   192.168.66.14   Vlanif1
+        5.5.5.5/32  OSPF    10   1           D   192.168.66.15   Vlanif1
+        6.6.6.6/32  OSPF    10   1           D   192.168.66.16   Vlanif1
+
+OSPF routing table status : <Inactive>
+         Destinations : 0        Routes : 0
+
+

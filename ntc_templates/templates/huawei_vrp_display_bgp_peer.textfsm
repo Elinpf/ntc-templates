@@ -1,0 +1,12 @@
+Value Filldown LOCAL_RID (\d+\.\d+\.\d+\.\d+)
+Value Filldown LOCAL_AS_NUM (\d+)
+Value Required PEER_RID (\d+\.\d+\.\d+\.\d+)
+Value VERSION (\d)
+Value PEER_AS_NUM (\d+)
+Value TIME (\d+\:\d+\:\d+)
+Value STATE (\S+)
+
+Start
+  ^.*ID\s+:\s+${LOCAL_RID} -> Continue
+  ^.*number\s+:\s+${LOCAL_AS_NUM} -> Continue
+  ^\s+${PEER_RID}\s+${VERSION}\s+${PEER_AS_NUM}.*${TIME}\s+${STATE} -> Record

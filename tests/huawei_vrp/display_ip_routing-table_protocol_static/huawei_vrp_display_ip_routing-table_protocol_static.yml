@@ -1,0 +1,9 @@
+---
+parsed_sample:
+  - destination: "99.0.0.0"
+    mask: "24"
+    protocol: "Static"
+    pre: "60"
+    cost: "0"
+    next_hop: "192.168.66.13"
+    interface: "Vlanif1"

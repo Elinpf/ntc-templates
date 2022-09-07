@@ -1,0 +1,20 @@
+Route Flags: R - relay, D - download to fib
+------------------------------------------------------------------------------
+Public routing table : BGP
+         Destinations : 5        Routes : 5        
+
+BGP routing table status : <Active>
+         Destinations : 5        Routes : 5
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+    22.22.22.22/32  IBGP    255  0          RD   2.2.2.2         Vlanif1
+    33.33.33.33/32  IBGP    255  0          RD   3.3.3.3         Vlanif1
+    44.44.44.44/32  IBGP    255  0          RD   4.4.4.4         Vlanif1
+    55.55.55.55/32  IBGP    255  0          RD   5.5.5.5         Vlanif1
+    66.66.66.66/32  IBGP    255  0          RD   6.6.6.6         Vlanif1
+
+BGP routing table status : <Inactive>
+         Destinations : 0        Routes : 0
+
+

@@ -1,0 +1,7 @@
+Value MAC_ADDRESS (\w+-\w+-\w+)
+Value VLAN (\d+)
+Value PORT (GE\S+)
+Value TYPE (\S+)
+
+Start
+  ^${MAC_ADDRESS}\s+${VLAN}.*?${PORT}\s+${TYPE} -> Record

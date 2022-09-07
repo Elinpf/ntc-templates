@@ -1,0 +1,9 @@
+Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
+Value MAC_ADDRESS (\w+-\w+-\w+)
+Value INTERFACE (Vlan\S+|\S+\/\d)
+Value VLAN (\d+)
+
+Start
+  ^\d+\.\d+\.\d+\.\d+ -> Continue.Record
+  ^${IP_ADDRESS}\s+${MAC_ADDRESS}.*?${INTERFACE}
+  ^\s+${VLAN} -> Record

@@ -1,0 +1,18 @@
+
+MAC address table of slot 0:
+-------------------------------------------------------------------------------
+MAC Address    VLAN/       PEVLAN CEVLAN Port            Type      LSP/LSR-ID  
+               VSI/SI                                              MAC-Tunnel  
+-------------------------------------------------------------------------------
+4c1f-cce0-038f 1           -      -      GE0/0/3         dynamic   0/-         
+4c1f-ccdd-22eb 1           -      -      GE0/0/6         dynamic   0/-         
+4c1f-ccf0-34cc 1           -      -      GE0/0/5         dynamic   0/-         
+4c1f-cc23-16eb 1           -      -      GE0/0/2         dynamic   0/-         
+4c1f-cccf-66ed 1           -      -      GE0/0/4         dynamic   0/-         
+0050-56c0-0008 1           -      -      GE0/0/1         dynamic   0/-         
+000c-2947-a4ef 1           -      -      GE0/0/1         dynamic   0/-         
+0050-56e1-b0dc 1           -      -      GE0/0/1         dynamic   0/-         
+-------------------------------------------------------------------------------
+Total matching items on slot 0 displayed = 8 
+
+

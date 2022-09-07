@@ -1,0 +1,87 @@
+--------------------------------------------------------------------------------
+Session MIndex : 256       (Multi Hop) State : Up        Name : 1              
+--------------------------------------------------------------------------------
+  Local Discriminator    : 8192             Remote Discriminator   : 8192      
+  Session Detect Mode    : Asynchronous Mode Without Echo Function             
+  BFD Bind Type          : Peer IP Address                                     
+  Bind Session Type      : Static_Auto                                         
+  Bind Peer IP Address   : 192.168.66.12                                       
+  Bind Interface         : -                                                   
+  Bind Source IP Address : 192.168.66.11                                       
+  FSM Board Id           : 0                TOS-EXP                : 7         
+  Min Tx Interval (ms)   : 1000             Min Rx Interval (ms)   : 1000      
+  Actual Tx Interval (ms): 1000             Actual Rx Interval (ms): 1000      
+  Local Detect Multi     : 3                Detect Interval (ms)   : 3000      
+  Echo Passive           : Disable          Acl Number             : -         
+  Destination Port       : 3784             TTL                    : 253       
+  Proc Interface Status  : Disable                                             
+  WTR Interval (ms)      : -                                                   
+  Active Multi           : 3                                                   
+  Last Local Diagnostic  : No Diagnostic                                       
+  Bind Application       : AUTO 
+  Session TX TmrID       : 1040             Session Detect TmrID   : 1041      
+  Session Init TmrID     : -                Session WTR TmrID      : -         
+  Session Echo Tx TmrID  : -                                                   
+  PDT Index              : FSM-0 | RCV-0 | IF-0 | TOKEN-0                      
+  Session Description    : -                                                   
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Session MIndex : 257       (Multi Hop) State : Up        Name : 2              
+--------------------------------------------------------------------------------
+  Local Discriminator    : 8193             Remote Discriminator   : 8192      
+  Session Detect Mode    : Asynchronous Mode Without Echo Function             
+  BFD Bind Type          : Peer IP Address                                     
+  Bind Session Type      : Static_Auto                                         
+  Bind Peer IP Address   : 192.168.66.13                                       
+  Bind Interface         : -                                                   
+  Bind Source IP Address : 192.168.66.11                                       
+  FSM Board Id           : 0                TOS-EXP                : 7         
+  Min Tx Interval (ms)   : 1000             Min Rx Interval (ms)   : 1000      
+  Actual Tx Interval (ms): 1000             Actual Rx Interval (ms): 1000      
+  Local Detect Multi     : 3                Detect Interval (ms)   : 3000      
+  Echo Passive           : Disable          Acl Number             : -         
+  Destination Port       : 3784             TTL                    : 253       
+  Proc Interface Status  : Disable                                             
+  WTR Interval (ms)      : -                                                   
+  Active Multi           : 3                                                   
+  Last Local Diagnostic  : No Diagnostic                                       
+  Bind Application       : AUTO 
+  Session TX TmrID       : 1043             Session Detect TmrID   : 1044      
+  Session Init TmrID     : -                Session WTR TmrID      : -         
+  Session Echo Tx TmrID  : -                                                   
+  PDT Index              : FSM-0 | RCV-0 | IF-0 | TOKEN-0                      
+  Session Description    : -                                                   
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+Session MIndex : 258       (Multi Hop) State : Up        Name : 4              
+--------------------------------------------------------------------------------
+  Local Discriminator    : 2000             Remote Discriminator   : 2001      
+  Session Detect Mode    : Asynchronous Mode Without Echo Function             
+  BFD Bind Type          : Peer IP Address                                     
+  Bind Session Type      : Static                                              
+  Bind Peer IP Address   : 192.168.66.14                                       
+  Bind Interface         : -                                                   
+  Track Interface        : -                                                   
+  Bind Source IP Address : 192.168.66.11                                       
+  FSM Board Id           : 0                TOS-EXP                : 7         
+  Min Tx Interval (ms)   : 100              Min Rx Interval (ms)   : 100       
+  Actual Tx Interval (ms): 100              Actual Rx Interval (ms): 100       
+  Local Detect Multi     : 3                Detect Interval (ms)   : 300       
+  Echo Passive           : Disable          Acl Number             : -         
+  Destination Port       : 3784             TTL                    : 254       
+  Proc Interface Status  : Disable                                             
+  WTR Interval (ms)      : -                                                   
+  Active Multi           : 3                                                   
+  Last Local Diagnostic  : Control Detection Time Expired                      
+  Bind Application       : No Application Bind
+  Session TX TmrID       : 1063             Session Detect TmrID   : 1064      
+  Session Init TmrID     : -                Session WTR TmrID      : -         
+  Session Echo Tx TmrID  : -                                                   
+  PDT Index              : FSM-0 | RCV-0 | IF-0 | TOKEN-0                      
+  Session Description    : -                                                   
+--------------------------------------------------------------------------------
+
+     Total UP/DOWN Session Number : 3/0
+

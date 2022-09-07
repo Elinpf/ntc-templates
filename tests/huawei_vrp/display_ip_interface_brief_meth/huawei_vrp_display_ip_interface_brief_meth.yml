@@ -1,0 +1,7 @@
+---
+parsed_sample:
+  - interface: "MEth0/0/1"
+    ip: "10.10.10.1"
+    mask: "24"
+    physical: "down"
+    protocol: "down"

@@ -1,0 +1,10 @@
+Value DESTINATION (\d+\.\d+\.\d+.\d+)
+Value MASK (\d+)
+Value PROTOCOL (IBGP|EBGP)
+Value PRE (\d+)
+Value COST (\d+)
+Value NEXT_HOP (\d+\.\d+\.\d+.\d+)
+Value INTERFACE (\S+)
+
+Start
+  ^\s+${DESTINATION}/${MASK}\s+${PROTOCOL}\s+${PRE}\s+${COST}.*?${NEXT_HOP}\s+${INTERFACE} -> Record

@@ -1,0 +1,21 @@
+Value SESSION_INDEX (\d+)
+Value STATE (Up|Down)
+Value PEER_IP (\d+\.\d+\.\d+\.\d+)
+Value SOURCE_IP (\d+\.\d+\.\d+\.\d+)
+Value MIN_TX_INTERVAL (\d+)
+Value MIN_RX_INTERVAL (\d+)
+Value ACTUAL_TX_INTERVAL (\d+)
+Value ACTUAL_RX_INTERVAL (\d+)
+Value LOCAL_DETECT_MULTI (\d+)
+Value DETECT_INTERVAL (\d+)
+
+Start
+  ^\-+ -> BFD
+
+BFD
+  ^Session\s+MIndex\s+:\s+${SESSION_INDEX}.*${STATE}
+  ^\s+Bind\s+Peer\s+IP\s+Address\s+:\s+${PEER_IP}
+  ^\s+Bind\s+Source\s+IP\s+Address\s+:\s+${SOURCE_IP}
+  ^\s+Min\s+Tx\s+Interval.*:\s+${MIN_TX_INTERVAL}\s+Min\s+Rx\s+Interval.*:\s+${MIN_RX_INTERVAL}
+  ^\s+Actual\s+Tx\s+Interva.*:\s+${ACTUAL_TX_INTERVAL}\s+Actual\s+Rx\s+Interva.*:\s+${ACTUAL_RX_INTERVAL}
+  ^\s+Local\s+Detect\s+Multi.*:\s+${LOCAL_DETECT_MULTI}\s+Detect\s+Interval.*:\s+${DETECT_INTERVAL} -> Record

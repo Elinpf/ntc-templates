@@ -1,0 +1,13 @@
+
+*down: administratively down
+^down: standby
+(l): loopback
+(s): spoofing
+The number of interface that is UP in Physical is 0
+The number of interface that is DOWN in Physical is 1
+The number of interface that is UP in Protocol is 0
+The number of interface that is DOWN in Protocol is 1
+
+Interface                         IP Address/Mask      Physical   Protocol  
+MEth0/0/1                         10.10.10.1/24        down       down      
+

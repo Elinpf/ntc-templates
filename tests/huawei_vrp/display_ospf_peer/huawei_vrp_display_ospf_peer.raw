@@ -1,0 +1,45 @@
+OSPF Process 1 with Router ID 1.1.1.1
+		 Neighbors 
+
+ Area 0.0.0.0 interface 192.168.66.11(Vlanif1)'s neighbors
+ Router ID: 2.2.2.2          Address: 192.168.66.12   
+   State: Full  Mode:Nbr is  Master  Priority: 1
+   DR: 192.168.66.11  BDR: 192.168.66.16  MTU: 0    
+   Dead timer due in 39  sec 
+   Retrans timer interval: 5 
+   Neighbor is up for 01:10:56     
+   Authentication Sequence: [ 0 ] 
+
+ Router ID: 3.3.3.3          Address: 192.168.66.13   
+   State: Full  Mode:Nbr is  Master  Priority: 1
+   DR: 192.168.66.11  BDR: 192.168.66.16  MTU: 0    
+   Dead timer due in 35  sec 
+   Retrans timer interval: 5 
+   Neighbor is up for 01:10:56     
+   Authentication Sequence: [ 0 ] 
+
+ Router ID: 4.4.4.4          Address: 192.168.66.14   
+   State: Full  Mode:Nbr is  Master  Priority: 1
+   DR: 192.168.66.11  BDR: 192.168.66.16  MTU: 0    
+   Dead timer due in 34  sec 
+   Retrans timer interval: 5 
+   Neighbor is up for 01:10:56     
+   Authentication Sequence: [ 0 ] 
+
+ Router ID: 5.5.5.5          Address: 192.168.66.15   
+   State: Full  Mode:Nbr is  Master  Priority: 1
+   DR: 192.168.66.11  BDR: 192.168.66.16  MTU: 0    
+   Dead timer due in 27  sec 
+   Retrans timer interval: 5 
+   Neighbor is up for 01:10:56     
+   Authentication Sequence: [ 0 ] 
+
+ Router ID: 6.6.6.6          Address: 192.168.66.16   
+   State: Full  Mode:Nbr is  Master  Priority: 1
+   DR: 192.168.66.11  BDR: 192.168.66.16  MTU: 0    
+   Dead timer due in 39  sec 
+   Retrans timer interval: 5 
+   Neighbor is up for 01:10:56     
+   Authentication Sequence: [ 0 ] 
+
+

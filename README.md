@@ -108,8 +108,20 @@ python ./development_script.py -v 'huawei_vrp' -c 'display version' -s
 
 将生成的条目复制到`index`文件中即可。
 
----
+## 贡献者 ✨
 
+[![](https://avatars.githubusercontent.com/u/18662258?v=4)](https://github.com/Elinpf) 
+[![](https://avatars.githubusercontent.com/u/67045217?v=4)](https://github.com/chaojifeixia-007) 
+
+
+<style>
+  img {
+    border-radius: 50% !important;
+    width: 50px !important;
+  }
+</style>
+
+---
 
 以下内容为主仓库`README`
 

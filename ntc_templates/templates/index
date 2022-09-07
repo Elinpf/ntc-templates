@@ -470,8 +470,13 @@ hp_procurve_show_trunks.textfsm, .*, hp_procurve, sh[[ow]] tr[[unks]]
 hp_procurve_show_vlans.textfsm, .*, hp_procurve, sh[[ow]] vl[[ans]]
 hp_procurve_show_arp.textfsm, .*, hp_procurve, sh[[ow]] ar[[p]]
 
+huawei_vrp_display_ip_routing-table_protocol_static.textfsm, .*, huawei_vrp, dis[[play]] ip routi[[ng-table]] p[[rotocol]] s[[tatic]]
+huawei_vrp_display_ip_routing-table_protocol_ospf.textfsm, .*, huawei_vrp, dis[[play]] ip routi[[ng-table]] p[[rotocol]] o[[spf]]
+huawei_vrp_display_ip_routing-table_protocol_bgp.textfsm, .*, huawei_vrp, dis[[play]] ip routi[[ng-table]] p[[rotocol]] b[[gp]]
 huawei_vrp_display_ip_routing-table_statistics.textfsm, .*, huawei_vrp, dis[[play]] ip rout[[ing-table]] stat[[istics]]
+huawei_vrp_display_bfd_session_all_verbose.textfsm, .*, huawei_vrp, dis[[play]] bfd ses[[sion]] a[[ll]] v[[erbose]]
 huawei_vrp_display_device_manufacture-info.textfsm, .*, huawei_vrp, di[[splay]] dev[[ice]] man[[ufacture-info]]
+huawei_vrp_display_ip_interface_brief_meth.textfsm, .*, huawei_vrp, dis[[play]] ip int[[erface]] b[[rief]] me[[th]]
 huawei_vrp_display_interface_description.textfsm, .*, huawei_vrp, dis[[play]] inter[[face]] des[[cription]]
 huawei_vrp_display_ip_interface_brief.textfsm, .*, huawei_vrp, dis[[play]] ip int[[erface]] bri[[ef]]
 huawei_vrp_display_interface_brief.textfsm, .*, huawei_vrp, dis[[play]] inter[[face]] br[[ief]]
@@ -479,12 +484,16 @@ huawei_vrp_display_ospf_peer_brief.textfsm, .*, huawei_vrp, dis[[play]] ospf pee
 huawei_vrp_display_lldp_neighbor.textfsm, .*, huawei_vrp, dis[[play]] lldp nei[[ghbor]]
 huawei_vrp_display_elabel_brief.textfsm, .*, huawei_vrp, dis[[play]] el[[abel]] br[[ief]]
 huawei_vrp_display_memory-usage.textfsm, .*, huawei_vrp, dis[[play]] mem[[ory-usage]]
+huawei_vrp_display_mac-address.textfsm, .*, huawei_vrp, dis[[play]] mac[[-address]]
 huawei_vrp_display_temperature.textfsm, .*, huawei_vrp, dis[[play]] tem[[perature]]
 huawei_vrp_display_cpu-usage.textfsm, .*, huawei_vrp, dis[[play]] cpu-u[[sage]]
+huawei_vrp_display_ospf_peer.textfsm, .*, huawei_vrp, dis[[play]] osp[[f]] p[[eer]]
 huawei_vrp_display_port_vlan.textfsm, .*, huawei_vrp, dis[[play]] port vl[[an]]
+huawei_vrp_display_bgp_peer.textfsm, .*, huawei_vrp, dis[[play]] bgp pe[[er]]
 huawei_vrp_display_version.textfsm, .*, huawei_vrp, dis[[play]] ver[[sion]]
 huawei_vrp_display_clock.textfsm, .*, huawei_vrp, dis[[play]] clo[[ck]]
 huawei_vrp_display_power.textfsm, .*, huawei_vrp, dis[[play]] pow[[er]]
+huawei_vrp_display_arp.textfsm, .*, huawei_vrp, dis[[play]] arp
 huawei_vrp_display_esn.textfsm, .*, huawei_vrp, dis[[play]] esn
 huawei_vrp_display_fan.textfsm, .*, huawei_vrp, dis[[play]] fan
 

@@ -1,0 +1,16 @@
+Route Flags: R - relay, D - download to fib
+------------------------------------------------------------------------------
+Public routing table : Static
+         Destinations : 1        Routes : 1        Configured Routes : 1
+
+Static routing table status : <Active>
+         Destinations : 1        Routes : 1
+
+Destination/Mask    Proto   Pre  Cost      Flags NextHop         Interface
+
+       99.0.0.0/24  Static  60   0           D   192.168.66.13   Vlanif1
+
+Static routing table status : <Inactive>
+         Destinations : 0        Routes : 0
+
+
