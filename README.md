@@ -110,16 +110,12 @@ python ./development_script.py -v 'huawei_vrp' -c 'display version' -s
 
 ## 贡献者 ✨
 
-[![](https://avatars.githubusercontent.com/u/18662258?v=4)](https://github.com/Elinpf) 
-[![](https://avatars.githubusercontent.com/u/67045217?v=4)](https://github.com/chaojifeixia-007) 
-
-
-<style>
-  img {
-    border-radius: 50% !important;
-    width: 50px !important;
-  }
-</style>
+<div>
+  <a href="https://github.com/Elinpf">
+    <img src="https://avatars.githubusercontent.com/u/18662258?v=4" alt="Elinpf" width="50" height="50"></a>
+  <a href="https://github.com/chaojifeixia-007">
+    <img src="https://avatars.githubusercontent.com/u/67045217?v=4" alt="chaojifeixia-007" width="50" height="50"></a>
+</div>
 
 ---
 
