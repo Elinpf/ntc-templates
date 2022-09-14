@@ -1,7 +1,7 @@
-Value CPU_5_SEC (\d+)
-Value CPU_1_MIN (\d+)
-Value Required CPU_5_MIN (\d+)
-Value CPU_MAX (\d+)
+Value CPU_5_SEC (\S+)
+Value CPU_1_MIN (\S+)
+Value Required CPU_5_MIN (\S+)
+Value CPU_MAX (\S+)
 
 Start
   ^CPU\s+Usage\s+:\s+\d+%\s+Max:\s+${CPU_MAX}%
@@ -9,4 +9,15 @@ Start
   # NE Serial Style
   ^Max\s+CPU\s+Usage\s+:\s+${CPU_MAX}%
   ^Cpu\s+utilization\s+for\s+five\s+seconds:\s+${CPU_5_SEC}%\s+;\s+one\s+minute:\s+${CPU_1_MIN}%\s+;\s+five\s+minutes:\s+${CPU_5_MIN}%
+  ^Control\s+Plane -> PlaneStyle
+  ^\s+CPU\s+busy\s+status: -> S3000
   ^-+ -> Record
+
+PlaneStyle
+  ^\s+CPU\s+Usage:\s+${CPU_5_SEC}%\s+Max:\s+${CPU_MAX}%
+  ^\s+CPU\s+utilization\s+for\s+ten\s+seconds:\s+\S+%\s+one\s+minute:\s+${CPU_1_MIN}%\s+five\s+minutes:\s+${CPU_5_MIN}%\s+. -> Record End
+
+S3000
+  ^\s+${CPU_5_SEC}%\s+in\s+last\s+5\s+seconds
+  ^\s+${CPU_1_MIN}%\s+in\s+last\s+1\s+minute
+  ^\s+${CPU_5_MIN}%\s+in\s+last\s+5\s+minutes -> Record

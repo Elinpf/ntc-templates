@@ -1,0 +1,79 @@
+Total: 7778496, Used: 2878684, Free: 4899812
+ PID TTY  Allocated      Freed    Holding    Getbufs    Retbufs Process
+   0   0     169624       5044    1958948          0          0 *Init*          
+   0   0      13108    2983676      13108          0          0 *Sched*         
+   0   0   49860964   46087564     232192     706244          0 *Dead*          
+   1   0          0          0       6808          0          0 Chunk Manager   
+   2   0        184        184       3808          0          0 Load Meter      
+   3   0    1111268    1650312       6836          0          0 SpanTree Helper 
+   4   0        184        184       6808          0          0 Next Page       
+   5   0          0          0       6808          0          0 Check heaps     
+   6   0  239760272   45860356      14620  191468392  194767876 Pool Manager    
+   7   0        184        184       6808          0          0 Timers          
+   8   0      82860      74952      49184          0      18672 Entity MIB API  
+   9   0          0          0       6808          0          0 HC Counter Timer
+  10   0        136      11224       6944          0          0 ARP Input       
+  11   0          0          0       6808          0          0 Net Input       
+  12   0          0          0       6808          0          0 Critical Bkgnd  
+  13   0      23652          0      13072        780          0 Net Background  
+  14   0       8868        184      12808          0          0 Logger          
+  15   0     155128       2324       6808          0          0 TTY Background  
+  16   0          0          0       9808          0          0 Per-Second Jobs 
+  17   0        184        184       6808          0          0 Compute load avg
+  18   0       3952        628       6808       1040          0 Per-minute Jobs 
+  19   0          0          0       6808          0          0 AggMgr Process  
+  20   0        320        184       3944          0          0 Calhoun Storm Co
+  21   0          0          0       6808          0          0 Calhoun LED Proc
+  22   0 3411852428 3411852428       3808          0          0 Calhoun Statisti
+  23   0        184        184       6808          0          0 HMATM Learn proc
+  24   0    4816436     979108      11964          0          0 CalhounPM       
+  25   0        184        184       6808          0          0 Link Status Proc
+  26   0          0          0       6808          0          0 CalhounInsIpopti
+  27   0          0          0       3808          0          0 Calhoun DHCP Sno
+  28   0 1288205100 1288201840      10068          0          0 CDP Protocol    
+  29   0          0          0       6808          0          0 DHCP Snooping   
+  30   0      78324      13968      24664          0          0 IP Input        
+  31   0    4105528     824748      11796      16380          0 DTP Protocol    
+  32   0        184        184       6808          0          0 Ethchnl         
+  33   0      21312       3076      15624       2340          0 VLAN Manager    
+  34   0        184        184       6808          0          0 PI MATM Aging Pr
+  35   0          0     643216       6808          0          0 VMATM Callback  
+  36   0     406064        292       6960      82160          0 Spanning Tree   
+  37   0        412        184       7036          0          0 UDLD            
+  38   0        152          0       6960          0          0 Port-Security   
+  39   0 4174504884 4174475728      22292          0          0 DHCPD Receive   
+  40   0          0          0       6808          0          0 HTTP Timer      
+  41   0          0          0       6808          0          0 RARP Input      
+  42   0          0      41904      12808          0          0 TCP Timer       
+  43   0    2072484          0      12808          0          0 TCP Protocols   
+  44   0          0          0       6808          0          0 Socket Timers   
+  45   0        508     474932       7316          0          0 L2MM            
+  46   0          0          0       6808          0          0 MRD             
+  47   0          0          0       6808          0          0 IGMPSN          
+  48   0          0          0       3808          0          0 IGMP Snooping Pr
+  49   0          0          0       3808          0          0 IGMP Snooping Re
+  50   0       2964          0       3808        780          0 IP Multicast Dat
+  51   0       2720        184       9344          0          0 L2TRACE SERVER  
+  52   0        184        184       6808          0          0 Cluster L2      
+  53   0          0          0       6808          0          0 Cluster RARP    
+  54   0 1112454764 1112454420       7152          0          0 Cluster Base    
+  56   0          0          0       6864          0          0 DHCPD Timer     
+  57   0          0         84       9808          0          0 Router Autoconf 
+  58   0          0          0       6808          0          0 Syslog Traps    
+  59   0        184        184       6808          0          0 VTPMIB EDIT BUFF
+  60   0    3247064    8717508      11492          0          0 PM Callback     
+  61   0       5228        672      11852          0          0 VTP Trap Process
+  62   0        152          0       6960          0          0 DHCPD Database  
+  63   0        184        184       3808          0          0 Calhoun EnvMon P
+  64   0        184        184       3808          0          0 STP STACK TOPOLO
+  65   0        184        184       3808          0          0 STP FAST TRANSIT
+  66   0        184        184       3808          0          0 STP STACK TOPOLO
+  67   0        184        184       3808          0          0 CSRT RAPID TRANS
+  68   1      24704        744      37160      11340          0 Virtual Exec    
+  70   0          0          0       6828          0          0 SNMP Timers     
+  71   0  504191516  504158140      13480      28056          0 IP SNMP         
+  72   0 1325187400          0      12808          0          0 PDU DISPATCHER  
+  73   0 3502852472  533072856      12808          0          0 SNMP ENGINE     
+  74   0          0          0      12808          0          0 SNMP ConfCopyPro
+  75   0          0          0      12808          0          0 SNMP Traps      
+                                  2876444 Total

@@ -1,4 +1,6 @@
 Value MEMORY_USING_PERCENT (\d+)
 
 Start
+  # Because there are two cases of kbytes and bytes, they are canceled
   ^\s*Memory\s+Using\s+Percentage\s+Is:\s+${MEMORY_USING_PERCENT}%
+  ^Used\s+Rate:\s+${MEMORY_USING_PERCENT}%

@@ -1,0 +1,6 @@
+---
+parsed_sample:
+  - cpu_5_sec: "81"
+    cpu_1_min: "41"
+    cpu_5_min: "29"
+    cpu_max: ""

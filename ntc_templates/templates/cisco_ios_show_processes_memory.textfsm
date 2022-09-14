@@ -3,5 +3,7 @@ Value MEMORY_USED (\d+)
 Value MEMORY_FREE (\d+)
 
 Start
-  ^Processor\s+Pool\s+Total:\s+${MEMORY_TOTAL}\s+Used:\s+${MEMORY_USED}\s+Free:\s+${MEMORY_FREE}
+  ^Processor\s+Pool\s+Total:\s+${MEMORY_TOTAL}\s+Used:\s+${MEMORY_USED}\s+Free:\s+${MEMORY_FREE} -> Record
+  ^Total:\s+${MEMORY_TOTAL},\s+Used:\s+${MEMORY_USED},\s+Free:\s+${MEMORY_FREE} -> Record
+  ^System\s+memory\s+:\s+${MEMORY_TOTAL}K\s+total,\s+${MEMORY_USED}K\s+used,\s+${MEMORY_FREE}K\s+free -> Record
   ^\s*lsmpi_io\s+Pool

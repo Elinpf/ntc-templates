@@ -1,0 +1,77 @@
+CPU   Usage Stat. Cycle: 10 (Second)
+CPU   Usage Stat. Time : 2022-09-07  15:53:12 
+Control Plane
+    CPU Usage: 20.6%   Max: 46.0% 
+    User: 12.1%   System:  8.4%   SoftIrq:  0.0%   HardIrq:  0.0%   Idle: 79.4%  
+    CPU utilization for ten seconds: 20.6%  one minute:  17.0%  five minutes:  16.0% .
+Data    Plane
+    CPU Usage:  0.4%   Max: 17.5% 
+    CPU utilization for ten seconds:  0.4%  one minute:   0.2%  five minutes:   0.1% .
+
+PID   ProcessName         CPU%     CoreIndex      Runtime     State
+2881  main_task          20.2%      CPU0           2217029571  S
+8     rcu_preempt         0.2%      CPU0           22983277    S
+2846  redis-server        0.1%      CPU0           12781043    S
+12    watchdog/1          0.0%      CPU1           15726827    S
+2880  cap32               0.0%      CPU0           10209670    S
+11    watchdog/0          0.0%      CPU0           5698722     S
+2882  cap32               0.4%      CPU1           18446744073709551614R
+2822  moni                0.0%      CPU0           5426863     S
+2883  kworker/1:1         0.0%      CPU1           1535917     S
+2865  monitor             0.0%      CPU0           964718      S
+2884  confd               0.0%      CPU0           358859      S
+2879  netopeer-server     0.0%      CPU0           183086      S
+2854  devm                0.0%      CPU0           103790      S
+2859  udhcpc              0.0%      CPU0           52013       S
+1     init                0.0%      CPU0           30466       S
+2853  inspect_registe     0.0%      CPU0           25234       S
+3     ksoftirqd/0         0.0%      CPU0           19785       S
+2725  k3gdevd             0.0%      CPU0           7953        D
+196   kworker/0:1         0.0%      CPU0           7886        S
+2849  init                0.0%      CPU0           5499        S
+2544  ubifs_bgt2_0        0.0%      CPU0           2872        S
+941   cpu0:watchdog       0.0%      CPU0           2675        S
+6     kworker/u4:0        0.0%      CPU0           1392        S
+2706  kworker/u4:2        0.0%      CPU0           1247        S
+2603  loop0               0.0%      CPU0           1025        S
+975   ubi_bgt2d           0.0%      CPU0           908         S
+204   kswapd0             0.0%      CPU0           249         S
+203   khungtaskd          0.0%      CPU0           135         S
+2818  syslogd             0.0%      CPU0           70          S
+1832  udevd               0.0%      CPU0           53          S
+2855  sysm                0.0%      CPU0           22          S
+2852  appm                0.0%      CPU0           11          S
+1845  udevd               0.0%      CPU0           5           S
+2551  ubi_bgt3d           0.0%      CPU0           3           S
+2869  loop3               0.0%      CPU0           2           S
+14    ksoftirqd/1         0.0%      CPU1           1           S
+20783 sleep               0.0%      CPU0           1           S
+2     kthreadd            0.0%      CPU0           0           S
+4     kworker/0:0         0.0%      CPU0           0           S
+5     kworker/0:0H        0.0%      CPU0           0           S
+7     migration/0         0.0%      CPU0           0           S
+9     rcu_bh              0.0%      CPU0           0           S
+10    rcu_sched           0.0%      CPU0           0           S
+13    migration/1         0.0%      CPU1           0           S
+15    kworker/1:0         0.0%      CPU1           0           S
+16    kworker/1:0H        0.0%      CPU1           0           S
+17    khelper             0.0%      CPU0           0           S
+18    kdevtmpfs           0.0%      CPU0           0           S
+156   writeback           0.0%      CPU0           0           S
+159   bioset              0.0%      CPU0           0           S
+160   crypto              0.0%      CPU0           0           S
+161   kblockd             0.0%      CPU0           0           S
+175   khubd               0.0%      CPU0           0           S
+250   fsnotify_mark       0.0%      CPU0           0           S
+946   deferwq             0.0%      CPU0           0           S
+953   ubi_bgt0d           0.0%      CPU0           0           S
+964   ubi_bgt1d           0.0%      CPU0           0           S
+982   kworker/0:1H        0.0%      CPU0           0           S
+1849  udevd               0.0%      CPU0           0           S
+2536  cpldint_wq          0.0%      CPU0           0           S
+2561  ubifs_bgt3_0        0.0%      CPU0           0           S
+2726  k3gtxd              0.0%      CPU0           0           S
+2727  k3gndistxd          0.0%      CPU0           0           S
+2815  udpsvd              0.0%      CPU0           0           S
+2998  kworker/1:1H        0.0%      CPU1           0           S
+3286  loop4               0.0%      CPU0           0           S

@@ -1,8 +1,11 @@
 Value TOTAL_MEMORY (\d+)
 Value USED_MEMORY (\d+)
-Value USED_RATE (\d+)
+Value USED_RATE (\S+)
 
 Start
   ^System\s+Total\s+Memory\(bytes\):\s+${TOTAL_MEMORY}
   ^Total\s+Used\s+Memory\(bytes\):\s+${USED_MEMORY}
-  ^Used\s+Rate:\s+${USED_RATE}%
+  ^Used\s+Rate:\s+${USED_RATE}% -> Record End
+  # MSR Serial
+  ^Mem:\s+${TOTAL_MEMORY}\s+${USED_MEMORY}\s+\d+\s+\d+\s+\d+\s+\d+\s+${USED_RATE}% -> Record
+  

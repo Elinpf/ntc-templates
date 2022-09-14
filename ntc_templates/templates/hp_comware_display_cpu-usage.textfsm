@@ -1,10 +1,11 @@
-Value SLOT (\d+)
+Value SLOT (\d+|Unit)
 Value CPU_5_SEC (\d+)
 Value CPU_1_MIN (\d+)
 Value CPU_5_MIN (\d+)
 
 Start
   ^Slot\s+${SLOT}\s+CPU.*usage: -> CPU_USAGE
+  ^${SLOT} CPU usage: -> CPU_USAGE
 
 CPU_USAGE
   ^\s+${CPU_5_SEC}%\s+in\s+last\s+5\s+seconds

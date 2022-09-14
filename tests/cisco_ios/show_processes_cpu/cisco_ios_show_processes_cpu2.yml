@@ -1,0 +1,12 @@
+---
+parsed_sample:
+  - core_id: "0"
+    cpu_5_sec: "2"
+    cpu_1_min: "2"
+    cpu_5_min: "2"
+    interrupts: ""
+  - core_id: "1"
+    cpu_5_sec: "1"
+    cpu_1_min: "2"
+    cpu_5_min: "2"
+    interrupts: ""
