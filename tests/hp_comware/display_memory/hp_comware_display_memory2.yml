@@ -2,4 +2,5 @@
 parsed_sample:
   - total_memory: "1028192"
     used_memory: "611416"
-    used_rate: "46.0"
+    used_rate: ""
+    free_rate: "46.0"
