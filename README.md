@@ -119,6 +119,10 @@ python ./development_script.py -v 'huawei_vrp' -c 'display version' -s
     <img src="https://avatars.githubusercontent.com/u/41747912?v=4" alt="singvis" width="50" height="50"></a>
   <a href="https://github.com/20049941">
     <img src="https://avatars.githubusercontent.com/u/83266374?v=4" alt="20049941" width="50" height="50"></a>
+  <a href="https://github.com/MisterProblems">
+    <img src="https://avatars.githubusercontent.com/u/75603060?v=4" alt="MisterProblems" width="50" height="50"></a>
+  <a href="https://github.com/NetDevOPS2">
+    <img src="https://avatars.githubusercontent.com/u/18698531?v=4" alt="NetDevOPS2" width="50" height="50"></a>
 </div>
 
 ---

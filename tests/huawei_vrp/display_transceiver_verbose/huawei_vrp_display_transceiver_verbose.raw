@@ -1,0 +1,141 @@
+XGigabitEthernet0/0/1 transceiver information:
+-------------------------------------------------------------
+Common information:
+  Transceiver Type               :10GBASE_SR_SFP
+  Connector Type                 :LC
+  Wavelength(nm)                 :850
+  Transfer Distance(m)           :33(OM1),82(OM2),300(OM3),400(OM4)
+  Digital Diagnostic Monitoring  :YES
+  Vendor Name                    :HUAWEI
+  Vendor Part Number             :02318169
+  Ordering Name                  :
+-------------------------------------------------------------
+Manufacture information:
+  Manu. Serial Number            :HC2XXXXXXX2743  
+  Manufacturing Date             :2021-08-03
+  Vendor Name                    :HUAWEI
+-------------------------------------------------------------
+Diagnostic information:
+  Temperature(°C)              :35.10
+  Temp High Threshold(°C)      :80.00
+  Temp Low  Threshold(°C)      :-10.00
+  Voltage(V)                    :3.31
+  Volt High Threshold(V)        :3.63
+  Volt Low  Threshold(V)        :2.97
+  Bias Current(mA)              :5.78
+  Bias High Threshold(mA)       :12.00
+  Bias Low  Threshold(mA)       :1.00
+  RX Power(dBM)                 :-5.04
+  RX Power High Warning(dBM)    :-1.00
+  RX Power Low  Warning(dBM)    :-9.90
+  RX Power High Threshold(dBM)  :1.00
+  RX Power Low  Threshold(dBM)  :-11.90
+  TX Power(dBM)                 :-2.27
+  TX Power High Warning(dBM)    :-1.00
+  TX Power Low  Warning(dBM)    :-7.30
+  TX Power High Threshold(dBM)  :1.00
+  TX Power Low  Threshold(dBM)  :-9.30
+-------------------------------------------------------------
+XGigabitEthernet0/0/1 transceiver information:
+-------------------------------------------------------------
+Common information:
+  Transceiver Type               :10GBASE_USR_SFP
+  Connector Type                 :LC
+  Wavelength(nm)                 :850
+  Transfer Distance(m)           :50(50um),20(62.5um),100(OM3)
+  Digital Diagnostic Monitoring  :YES
+  Vendor Name                    :HUAWEI
+  Vendor Part Number             :02310MNW
+  Ordering Name                  :
+-------------------------------------------------------------
+Manufacture information:
+  Manu. Serial Number            :J2XXXXXXX12     
+  Manufacturing Date             :2016-01-04
+  Vendor Name                    :HUAWEI
+-------------------------------------------------------------
+Diagnostic information:
+  Temperature(°C)              :42.57
+  Temp High Threshold(°C)      :80.00
+  Temp Low  Threshold(°C)      :-10.00
+  Voltage(V)                    :3.32
+  Volt High Threshold(V)        :3.63
+  Volt Low  Threshold(V)        :2.97
+  Bias Current(mA)              :6.06
+  Bias High Threshold(mA)       :15.00
+  Bias Low  Threshold(mA)       :0.00
+  RX Power(dBM)                 :-5.45
+  RX Power High Threshold(dBM)  :2.50
+  RX Power Low  Threshold(dBM)  :-12.70
+  TX Power(dBM)                 :-1.97
+  TX Power High Threshold(dBM)  :0.99
+  TX Power Low  Threshold(dBM)  :-9.29
+-------------------------------------------------------------
+XGigabitEthernet0/0/0 information:
+-------------------------------------------------------------
+Electronic label information:
+  Description               :1300Mb/sec-1310nm-LC-SM-10.0km(0.009mm)
+  Type                      :MXPD-243S       
+  VendorSN                  :20XXXXXXXXX32   
+  Manufacturing Date        :2021-06-02
+  Manufacturer              :HUAWEI
+  HuaweiPartNumber          :02315200
+-------------------------------------------------------------
+Alarm information:
+  RX power high
+-------------------------------------------------------------
+Realtime information:
+  Temperature(C)                          :36
+  Temperature High Threshold(C)           :80
+  Temperature Low  Threshold(C)           :-10
+  Voltage(V)                               :3.28
+  Voltage High Threshold(V)                :3.46
+  Voltage Low  Threshold(V)                :3.13
+  Bias Current(mA)                         :17.90
+  Bias High Threshold(mA)                  :50.00
+  Bias Low  Threshold(mA)                  :0.00
+  Current Rx Power(dBM)                    :-1.54
+  Default Rx Power High Threshold(dBM)     :-2.99
+  Default Rx Power Low  Threshold(dBM)     :-20.00
+  Current Tx Power(dBM)                    :-5.94
+  Default Tx Power High Threshold(dBM)     :-2.99
+  Default Tx Power Low  Threshold(dBM)     :-8.99
+  User Set Rx Power High Threshold(dBM)    :-2.99
+  User Set Rx Power Low Threshold(dBM)     :-20.00
+  User Set Tx Power High Threshold(dBM)    :-2.99
+  User Set Tx Power Low Threshold(dBM)     :-8.99
+-------------------------------------------------------------
+
+XGigabitEthernet0/0/1 information:
+-------------------------------------------------------------
+Electronic label information:
+  Description               :1300Mb/sec-1310nm-LC-SM-10.0km(0.009mm)
+  Type                      :MXPD-243S       
+  VendorSN                  :20XXXXXXXXX36   
+  Manufacturing Date        :2021-06-02
+  Manufacturer              :HUAWEI
+  HuaweiPartNumber          :02315200
+-------------------------------------------------------------
+Alarm information:
+  RX power high
+-------------------------------------------------------------
+Realtime information:
+  Temperature(C)                          :34
+  Temperature High Threshold(C)           :80
+  Temperature Low  Threshold(C)           :-10
+  Voltage(V)                               :3.28
+  Voltage High Threshold(V)                :3.46
+  Voltage Low  Threshold(V)                :3.13
+  Bias Current(mA)                         :16.30
+  Bias High Threshold(mA)                  :50.00
+  Bias Low  Threshold(mA)                  :0.00
+  Current Rx Power(dBM)                    :-2.09
+  Default Rx Power High Threshold(dBM)     :-2.99
+  Default Rx Power Low  Threshold(dBM)     :-20.00
+  Current Tx Power(dBM)                    :-5.87
+  Default Tx Power High Threshold(dBM)     :-2.99
+  Default Tx Power Low  Threshold(dBM)     :-8.99
+  User Set Rx Power High Threshold(dBM)    :-2.99
+  User Set Rx Power Low Threshold(dBM)     :-20.00
+  User Set Tx Power High Threshold(dBM)    :-2.99
+  User Set Tx Power Low Threshold(dBM)     :-8.99
+-------------------------------------------------------------
