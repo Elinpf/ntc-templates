@@ -1,9 +1,15 @@
-Value IP_ADDRESS (\d+\.\d+\.\d+\.\d+)
-Value MAC_ADDRESS (\w+-\w+-\w+)
-Value INTERFACE (Vlan\S+|\S+\/\d)
+Value IP_ADDRESS ((\d+\.){3}\d+)
+Value Required MAC_ADDRESS (\w{4}-\w{4}-\w{4})
+Value EXP_TIME (\d+)
+Value TYPE ([A-Z])
 Value VLAN (\d+)
+Value INTERFACE (\S+)
+Value VRF (\w+)
 
 Start
-  ^\d+\.\d+\.\d+\.\d+ -> Continue.Record
-  ^${IP_ADDRESS}\s+${MAC_ADDRESS}.*?${INTERFACE}
-  ^\s+${VLAN} -> Record
+  ^(\d+\.){3}\d+ -> Continue.Record
+  ^${IP_ADDRESS}\s+${MAC_ADDRESS}\s+${TYPE}\s+-\s+${INTERFACE}\s*$$
+  ^${IP_ADDRESS}\s+${MAC_ADDRESS}\s+${TYPE}\s+-\s+${INTERFACE}\s+${VRF}
+  ^${IP_ADDRESS}\s+${MAC_ADDRESS}\s+${EXP_TIME}\s+${TYPE}-.*?\s+${INTERFACE}\s*$$ 
+  ^${IP_ADDRESS}\s+${MAC_ADDRESS}\s+${EXP_TIME}\s+${TYPE}-.*?\s+${INTERFACE}\s+${VRF} 
+  ^\s+${VLAN}
