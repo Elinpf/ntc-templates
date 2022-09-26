@@ -1,0 +1,34 @@
+XGigabitEthernet0/0/0 information:
+-------------------------------------------------------------
+Electronic label information:
+  Description               :1300Mb/sec-1310nm-LC-SM-10.0km(0.009mm)
+  Type                      :MXPD-243S       
+  VendorSN                  :2000046352332   
+  Manufacturing Date        :2021-06-02
+  Manufacturer              :HUAWEI
+  HuaweiPartNumber          :02315200
+-------------------------------------------------------------
+Alarm information:
+  RX power high
+-------------------------------------------------------------
+Realtime information:
+  Temperature(C)                          :36
+  Temperature High Threshold(C)           :80
+  Temperature Low  Threshold(C)           :-10
+  Voltage(V)                               :3.28
+  Voltage High Threshold(V)                :3.46
+  Voltage Low  Threshold(V)                :3.13
+  Bias Current(mA)                         :17.90
+  Bias High Threshold(mA)                  :50.00
+  Bias Low  Threshold(mA)                  :0.00
+  Current Rx Power(dBM)                    :-1.54
+  Default Rx Power High Threshold(dBM)     :-2.99
+  Default Rx Power Low  Threshold(dBM)     :-20.00
+  Current Tx Power(dBM)                    :-5.94
+  Default Tx Power High Threshold(dBM)     :-2.99
+  Default Tx Power Low  Threshold(dBM)     :-8.99
+  User Set Rx Power High Threshold(dBM)    :-2.99
+  User Set Rx Power Low Threshold(dBM)     :-20.00
+  User Set Tx Power High Threshold(dBM)    :-2.99
+  User Set Tx Power Low Threshold(dBM)     :-8.99
+-------------------------------------------------------------

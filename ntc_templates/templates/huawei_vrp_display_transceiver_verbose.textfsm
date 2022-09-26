@@ -1,54 +1,47 @@
-Value Required INTERFACE (\S+)
-Value Required TRANSCEIVER_TYPE ([\S\s]+)
+Value Required INTERFACE (\w+(\d+\/){1,6}\d+)
+Value Required TRANSCEIVER_TYPE (\S+)
 Value CONNECTOR_TYPE (\S+)
 Value WAVELENGTH (\S+)
-Value VENDOR ([\S\s]+)
+Value VENDOR (\w+)
 Value VENDOR_PN (\w+)
 Value MANU_SN (\w+)
 Value MANU_DATE (\d+-\d+-\d+)
 Value DISTANCE ([\S\s]+)
-Value TEMPERATURE (\d+\.\d+)
+Value TEMPERATURE (\S+)
 Value VOLTAGE (\S+)
 Value BIAS_CURRENT (\S+)
 Value BIAS_HIGH (\S+)
 Value BIAS_LOW (\S+)
-Value List RX_POWER (-?\d+\.\d+)
-Value DEF_RX_POWER_HIGH (-?\d+\.\d+)
-Value DEF_RX_POWER_LOW (-?\d+\.\d+)
-Value List TX_POWER (-?\d+\.\d+)
-Value DEF_TX_POWER_HIGH (-?\d+\.\d+)
-Value DEF_TX_POWER_LOW (-?\d+\.\d+)
+Value RX_POWER (\S+)
+Value DEF_RX_POWER_HIGH (\S+)
+Value DEF_RX_POWER_LOW (\S+)
+Value TX_POWER (\S+)
+Value DEF_TX_POWER_HIGH (\S+)
+Value DEF_TX_POWER_LOW (\S+)
 
 Start
-  ^\s*.+\s+transceiver\s+information: -> Continue.Record
-  ^\s*${INTERFACE}\s+transceiver\s+information:
-  ^\s*Transceiver\s+Type\s*:${TRANSCEIVER_TYPE}
-  ^\s*Connector\s+Type\s*:${CONNECTOR_TYPE}
+  ^\s*${INTERFACE}\s+.*\s*information:
+  ^\s+Transceiver\s+Type\s+:${TRANSCEIVER_TYPE}
+  ^\s*Connector\s+Type\s+:${CONNECTOR_TYPE}
   ^\s*Wavelength\s*\(nm\)\s*:${WAVELENGTH}
   ^\s*Transfer\s+Distance.*:${DISTANCE} 
-  ^\s*Vendor\s+Name.*:${VENDOR}
+  ^\s*Vendor\s+Name\s+:${VENDOR}
   ^\s*Vendor\s+Part\s+Number\s+:${VENDOR_PN}
   ^\s*Manu\.\s+Serial\s+Number\s+:${MANU_SN}
+  ^\s+Description\s+:${CONNECTOR_TYPE}
+  ^\s+Type\s+:${TRANSCEIVER_TYPE}
+  ^\s*Manufacturer\s+:${VENDOR}
+  ^\s*HuaweiPartNumber\s+:${VENDOR_PN}
+  ^\s*VendorSN\s+:${MANU_SN}
   ^\s*Manufacturing\s+Date\s+:${MANU_DATE}
-  ^\s*Temperature.*:${TEMPERATURE}
+  ^\s*Temperature\S+\s+:${TEMPERATURE}
   ^\s*Voltage\S+\s+:${VOLTAGE}
   ^\s*Bias\s+Current\S+\s+:${BIAS_CURRENT}
   ^\s*Bias\sHigh\sThreshold\S+\s+:${BIAS_HIGH}
   ^\s*Bias\sLow\s\sThreshold\S+\s+:${BIAS_LOW}
-  ^\s*(Current)?\s+RX\s+Power[\s\(].*:-?\d+\.\d+\|${RX_POWER} -> Continue
-  ^\s*(Current)?\s+RX\s+Power[\s\(].*:${RX_POWER} -> RX
-
-
-RX
-  ^\s*${RX_POWER}|-?\d+\.\d+\s*.+ -> Continue
-  ^\s*-?\d+\.\d+\|${RX_POWER}\s*.+
-  ^\s*(Default)?\s+RX\s+Power\s+High\s+Thre.*:${DEF_RX_POWER_HIGH}
-  ^\s*(Default)?\s+RX\s+Power\s+Low\s+Thre.*:${DEF_RX_POWER_LOW}
-  ^\s*(Current)?\s+TX\s+Power.*:-?\d+\.\d+\|${TX_POWER} -> Continue
-  ^\s*(Current)?\s+TX\s+Power.*:${TX_POWER} -> TX
-
-TX
-  ^\s*${TX_POWER}|-?\d+\.\d+\s*.+ -> Continue
-  ^\s*-?\d+\.\d+\|${TX_POWER}\s*.+
-  ^\s*(Default)?\s+TX\s+Power\s+High\s+Thre.*:${DEF_TX_POWER_HIGH}
-  ^\s*(Default)?\s+TX\s+Power\s+Low\s+Thre.*:${DEF_TX_POWER_LOW} -> Start
+  ^\s*\S*\s*[Rr][Xx]\s+Power\S+\s+:${RX_POWER}
+  ^\s*\S*\s*[Rr][Xx]\s+Power\s+High\s+Threshold\S+\s+:${DEF_RX_POWER_HIGH}
+  ^\s*\S*\s*[Rr][Xx]\s+Power\s+Low\s+Threshold\S+\s+:${DEF_RX_POWER_LOW}
+  ^\s*\S*\s*[Tt][Xx]\sPower\S+\s+:${TX_POWER}
+  ^\s*\S*\s*[Tt][Xx]\s+Power\s+High\s+Threshold\S+\s+:${DEF_TX_POWER_HIGH}
+  ^\s*\S*\s*[Tt][Xx]\s+Power\s+Low\s+Threshold\(\w+\)\s+:${DEF_TX_POWER_LOW} -> Record
