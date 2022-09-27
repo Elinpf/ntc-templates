@@ -1,0 +1,511 @@
+GigabitEthernet0/0/10 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :GigabitEthernet1/0/24
+Port description    :To_SDN-MGT-S57-01-S34
+System name         :SDN-MGT-S57-03-S32
+System description  :FutureMatrix Switch S5735-L24T4X-A1
+FutureMatrix Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S5735-L24T4X-A1 V200R021C00SPC100)
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.0.253
+OID  :0.6.16.43.6.1.4.1.56813.5.25.41.1.2.1.1.1.  
+Expired time   :103s
+
+Port VLAN ID(PVID)  :1
+VLAN name of VLAN  1:VLAN 0001
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Power port class            :PD 
+PSE power supported         :No 
+PSE power enabled           :No 
+PSE pairs control ability   :No 
+Power pairs                 :Unknown 
+Port power classification   :Unknown
+
+Link aggregation supported:Yes 
+Link aggregation enabled :Yes 
+Aggregation port ID      :1
+
+Maximum frame Size       :10240
+
+GigabitEthernet0/0/13 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+Port description    :To-SDN-MGT-S57-01-S34
+System name         :SDN-Spine-CE88-01-S34
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE8861EI V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE8861-4C-EI
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.1
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :98s
+
+
+GigabitEthernet0/0/14 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+Port description    :To-SDN-MGT-S57-01-S34
+System name         :SDN-BorderLeaf-CE68-01-S34
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.3
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :96s
+
+
+GigabitEthernet0/0/15 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+Port description    :To-SDN-MGT-S57-01-S34-G0/0/3
+System name         :SDN-ServerLeaf-CE68-01-S33
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.5
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :114s
+
+
+GigabitEthernet0/0/16 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+System name         :SDN-SanLeaf-CE68-01-S33
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.0.15
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :112s
+
+
+GigabitEthernet0/0/21 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :Fa0
+Port description    :FastEthernet0
+System name         :SDN-INT-C35-01-S34.tcl.com
+System description  :Cisco IOS Software, C3560E Software (C3560E-UNIVERSALK9-M), Version 12.2(55)SE5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2012 by Cisco Systems, Inc.
+Compiled Thu 09-Feb-12 18:32 by prod_rel_team
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge 
+Management address type  :ipv4
+Management address value :192.168.0.17
+OID  :  
+Expired time   :120s
+
+
+GigabitEthernet0/0/22 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :GigabitEthernet2/2/0
+Port description    :To_SDN-MGT-S57-01-S34
+System name         :HZTH-WAN-PE-MSR56-02
+System description  :H3C Comware Platform Software, Software Version 7.1.064, Release 0809P22
+H3C MSR56-60
+Copyright (c) 2004-2020 New H3C Technologies Co., Ltd. All rights reserved.
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :all802
+Management address value :98f1-8145-bb83
+OID  :  
+Expired time   :108s
+
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Power port class            :PSE 
+PSE power supported         :No 
+PSE power enabled           :No 
+PSE pairs control ability   :No 
+Power pairs                 :Signal 
+Port power classification   :Class0
+Power type                  :Type 2 PSE 
+Power source                :Primary power source 
+Power priority              :Unknown 
+PD requested power value    :0.0(w) 
+PSE allocated power value   :0.0(w)
+
+Maximum frame Size       :1536
+
+GigabitEthernet0/0/23 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :GigabitEthernet1/0/23
+Port description    :SDN-MGT-S57-01:MAD
+System name         :SDN-MGT-S57-01-S34
+System description  :Huawei Switch S5735-S24T4X
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S5735 V200R019C10SPC500)
+Copyright (C) 2000-2020 HUAWEI TECH Co., Ltd.
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.0.15
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :113s
+
+Port VLAN ID(PVID)  :1
+VLAN name of VLAN  1:VLAN 0001
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Power port class            :PD 
+PSE power supported         :No 
+PSE power enabled           :No 
+PSE pairs control ability   :No 
+Power pairs                 :Unknown 
+Port power classification   :Unknown
+
+Link aggregation supported:Yes 
+Link aggregation enabled :No 
+Aggregation port ID      :0
+
+Maximum frame Size       :10240
+
+GigabitEthernet0/0/24 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :10GE1/0/1
+Port description    :TO_SDN-MGT-S57-01-S34-Gateway
+System name         :SDN-BorderLeaf-CE68-01-S34
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.3
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :91s
+
+Port VLAN ID(PVID)  :0
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Link aggregation supported:Yes 
+Link aggregation enabled :Yes 
+Aggregation port ID      :2
+
+Maximum frame Size       :9216
+
+GigabitEthernet1/0/10 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :GigabitEthernet2/0/24
+Port description    :To_SDN-MGT-S57-01-S34
+System name         :SDN-MGT-S57-03-S32
+System description  :FutureMatrix Switch S5735-L24T4X-A1
+FutureMatrix Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S5735-L24T4X-A1 V200R021C00SPC100)
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.0.253
+OID  :0.6.16.43.6.1.4.1.56813.5.25.41.1.2.1.1.1.  
+Expired time   :105s
+
+Port VLAN ID(PVID)  :1
+VLAN name of VLAN  1:VLAN 0001
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Power port class            :PD 
+PSE power supported         :No 
+PSE power enabled           :No 
+PSE pairs control ability   :No 
+Power pairs                 :Unknown 
+Port power classification   :Unknown
+
+Link aggregation supported:Yes 
+Link aggregation enabled :Yes 
+Aggregation port ID      :1
+
+Maximum frame Size       :10240
+
+GigabitEthernet1/0/13 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+Port description    :To-SDN-MGT-S57-02-S35
+System name         :SDN-Spine-CE88-02-S35
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE8861EI V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE8861-4C-EI
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.2
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :91s
+
+
+GigabitEthernet1/0/14 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+Port description    :To-SDN-MGT-S57-02-S35
+System name         :SDN-BorderLeaf-CE68-02-S35
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.4
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :100s
+
+
+GigabitEthernet1/0/15 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+Port description    :To-SDN-MGT-S57-02-S35-G0/0/3
+System name         :SDN-ServerLeaf-CE68-02-S36
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.6
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :105s
+
+
+GigabitEthernet1/0/16 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :MEth0/0/0
+System name         :SDN-SanLeaf-CE68-02-S36
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.0.16
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :110s
+
+
+GigabitEthernet1/0/21 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :Fa0
+Port description    :FastEthernet0
+System name         :SDN-INT-C29-02-S35.tcl.com
+System description  :Cisco IOS Software, C2960X Software (C2960X-UNIVERSALK9-M), Version 15.0(2)EX5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2014 by Cisco Systems, Inc.
+Compiled Fri 21-Feb-14 05:54 by prod_rel_team
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge 
+Management address type  :ipv4
+Management address value :192.168.0.18
+OID  :  
+Expired time   :95s
+
+
+GigabitEthernet1/0/22 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :Ten-GigabitEthernet1/1/16
+Port description    :To_SDN-MGT-S57-01
+System name         :HZTH-WAN-SW-S68-02
+System description  :H3C Comware Platform Software, Software Version 7.1.045, Release 2422P01
+H3C S6800-4C
+Copyright (c) 2004-2015 Hangzhou H3C Tech. Co., Ltd. All rights reserved.
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :all802
+Management address value :50da-00eb-a594
+OID  :  
+Expired time   :108s
+
+Port VLAN ID(PVID)  :1
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Power port class            :PSE 
+PSE power supported         :No 
+PSE power enabled           :No 
+PSE pairs control ability   :No 
+Power pairs                 :Signal 
+Port power classification   :Class0
+
+Maximum frame Size       :10000
+
+GigabitEthernet1/0/23 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :GigabitEthernet0/0/23
+Port description    :SDN-MGT-S57-02:MAD
+System name         :SDN-MGT-S57-01-S34
+System description  :Huawei Switch S5735-S24T4X
+Huawei Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S5735 V200R019C10SPC500)
+Copyright (C) 2000-2020 HUAWEI TECH Co., Ltd.
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.0.15
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :116s
+
+Port VLAN ID(PVID)  :1
+VLAN name of VLAN  1:VLAN 0001
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Power port class            :PD 
+PSE power supported         :No 
+PSE power enabled           :No 
+PSE pairs control ability   :No 
+Power pairs                 :Unknown 
+Port power classification   :Unknown
+
+Link aggregation supported:Yes 
+Link aggregation enabled :No 
+Aggregation port ID      :0
+
+Maximum frame Size       :10240
+
+GigabitEthernet1/0/24 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :0001-0001-0001 
+Port ID type   :Interface name 
+Port ID        :10GE1/0/1
+Port description    :TO_SDN-MGT-S57-01-S34-Gateway
+System name         :SDN-BorderLeaf-CE68-02-S35
+System description  :Huawei Versatile Routing Platform Software
+VRP (R) software, Version 8.191 (CE6881 V200R019C10SPC800)
+Copyright (C) 2012-2020 Huawei Technologies Co., Ltd.
+HUAWEI CE6881-48S6CQ
+
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :192.168.255.4
+OID  :0.6.15.43.6.1.4.1.2011.5.25.41.1.2.1.1.1.  
+Expired time   :116s
+
+Port VLAN ID(PVID)  :0
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Link aggregation supported:Yes 
+Link aggregation enabled :Yes 
+Aggregation port ID      :2
+
+Maximum frame Size       :9216
