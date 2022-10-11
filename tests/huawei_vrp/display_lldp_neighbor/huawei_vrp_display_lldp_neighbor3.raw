@@ -1,0 +1,72 @@
+GigabitEthernet1/0/1 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :Locally assigned 
+Chassis ID     :420000224 
+Port ID type   :Locally assigned 
+Port ID        :b4-05-5d-f4-ea-7c
+Port description    :eth1
+System name         :IEIB4055DF4EA7D
+System description  : Linux 3.14.17-ami #1 Sat Jan 22 10:16:38 CST 2022 armv6l
+Management address type  :ipv4
+Management address value :12.34.1.83
+OID  :  
+Management address type  :ipv6
+Management address value :FE80::B000:C000:D000:EA7D
+OID  :  
+Expired time   :113s
+
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Link aggregation supported:Yes 
+Link aggregation enabled :No 
+Aggregation port ID      :0
+
+GigabitEthernet1/0/23 has 1 neighbor(s):
+
+Neighbor index :1
+Chassis type   :MAC address 
+Chassis ID     :3cc7-86a2-5905 
+Port ID type   :Interface name 
+Port ID        :GigabitEthernet2/0/23
+Port description    :MAD
+System name         :AABBB-XCD-MGT-S57-03-S32
+System description  :FutureMatrix Switch S5735-L24T4X-A1
+FutureMatrix Versatile Routing Platform Software
+VRP (R) software, Version 5.170 (S5735-L24T4X-A1 V200R021C00SPC100)
+System capabilities supported   :bridge router 
+System capabilities enabled     :bridge router 
+Management address type  :ipv4
+Management address value :22.34.1.253
+OID  :0.6.16.43.6.1.4.1.56813.5.25.41.1.2.1.1.1.  
+Expired time   :117s
+
+Device 1 infomation:
+  Device serial number :4E2XXXXX7246
+  Device model name    :S5735-L24T4X-A1
+Device 2 infomation:
+  Device serial number :4E2XXXXX7282
+  Device model name    :S5735-L24T4X-A1
+
+Port VLAN ID(PVID)  :1
+VLAN name of VLAN  1:VLAN 0001
+
+Auto-negotiation supported    :Yes 
+Auto-negotiation enabled      :Yes
+OperMau   :speed(1000)/duplex(Full)
+
+Power port class            :PD 
+PSE power supported         :No 
+PSE power enabled           :No 
+PSE pairs control ability   :No 
+Power pairs                 :Unknown 
+Port power classification   :Unknown
+
+Link aggregation supported:Yes 
+Link aggregation enabled :No 
+Aggregation port ID      :0
+
+Maximum frame Size       :10240

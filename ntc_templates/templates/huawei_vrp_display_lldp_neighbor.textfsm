@@ -44,12 +44,9 @@ Start
   ^Maximum\s+frame\s+Size
   ^MED\s+Device\s+information -> MED
   ^\s*$$
-  ^. -> Error
 
 SystemDescription
-  ^${SYSTEM_DESCRIPTION} -> IgnoreDescription
-
-IgnoreDescription
+  ^Management -> Start
   ^System\s+capabilities\s+supported -> Start
   ^${SYSTEM_DESCRIPTION}
   ^\s*$$
