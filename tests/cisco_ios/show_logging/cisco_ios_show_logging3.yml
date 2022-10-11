@@ -40,7 +40,8 @@ parsed_sample:
     mnemonic: "RESTART"
     message:
       - "System restarted --"
-      - "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.2(1)T1, RELEASE SOFTWARE (fc1)"
+      - "Cisco IOS Software, C2900 Software (C2900-UNIVERSALK9-M), Version 15.2(1)T1,\
+        \ RELEASE SOFTWARE (fc1)"
       - "Technical Support: http://www.cisco.com/techsupport"
       - "Copyright (c) 1986-2011 by Cisco Systems, Inc."
       - "Compiled Mon 19-Sep-11 17:41 by prod_rel_team"
