@@ -435,7 +435,7 @@ def print_index_file_command(vendor_os: str, command: str, index: int, short: st
     res_cmd = []
     cmd_e = command.split()
     for index, short_cmd_e in enumerate(short.split()):
-        last = cmd_e[index].replace(short_cmd_e, "")
+        last = cmd_e[index].replace(short_cmd_e, "", 1)
         if last == "":
             res_cmd.append(short_cmd_e)
         else:

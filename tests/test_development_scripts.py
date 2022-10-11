@@ -1,10 +1,11 @@
 import os
 from copy import deepcopy
-
-import pytest
-from ruamel.yaml.compat import StringIO
+from io import StringIO
+from unittest.mock import patch
 
 import development_script
+import pytest
+from ruamel.yaml.compat import StringIO
 
 
 @pytest.fixture(scope="module")
@@ -127,3 +128,13 @@ Start
 
     res = development_script.upper_values(textfsm)
     assert res == expected
+
+
+def test_print_index_file_command():
+    expected = 'hp_comware_display_ip_routing-table_statistics.textfsm, .*, hp_comware, dis[[play]] ip routi[[ng-table]] s[[tatistics]]'
+
+    with patch('sys.stdout', new=StringIO()) as fake_out:
+        development_script.print_index_file_command(
+            'hp_comware', 'display ip routing-table statistics', 0, 'dis ip routi s'
+        )
+        assert fake_out.getvalue().replace('\n', '') == expected
