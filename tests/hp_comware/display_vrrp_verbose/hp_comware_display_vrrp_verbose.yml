@@ -1,0 +1,15 @@
+---
+parsed_sample:
+  - interface: "Vlan-interface2"
+    vrid: "2"
+    adver_timer: "100"
+    admin_status: "Up"
+    state: "Master"
+    config_priority: "110"
+    running_priority: "110"
+    preempt_mode: "Yes"
+    delay_time: "0"
+    auth_type: "None"
+    virtual_ip: "30.50.128.1"
+    virtual_mac: "0000-5e00-0102"
+    master_ip: "30.50.128.2"

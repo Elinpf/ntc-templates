@@ -1,0 +1,23 @@
+IPv4 Virtual Router Information:  
+
+ Running mode : Standard
+
+ Total number of virtual routers : 1
+
+   Interface Vlan-interface2
+
+     VRID             : 2                   Adver Timer  : 100       
+
+     Admin Status     : Up                  State        : Master    
+
+     Config Pri       : 110                 Running Pri  : 110       
+
+     Preempt Mode     : Yes                 Delay Time   : 0         
+
+     Auth Type        : None               
+
+     Virtual IP       : 30.50.128.1                                   
+
+     Virtual MAC      : 0000-5e00-0102
+
+     Master IP        : 30.50.128.2

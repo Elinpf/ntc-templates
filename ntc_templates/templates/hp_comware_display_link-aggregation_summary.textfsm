@@ -1,0 +1,10 @@
+Value INTERFACE (\S+)
+Value MODE (\S+)
+Value PARTNER_ID (\S+)
+Value SELECTED_PORTS (\d+)
+Value UNSELECTED_PORTS (\d+)
+Value INDIVIDUAL_PORTS (\d+)
+Value SHARE_TYPE (\S+)
+
+Start
+  ^${INTERFACE}\s+${MODE}\s+${PARTNER_ID}\s+${SELECTED_PORTS}\s+${UNSELECTED_PORTS}\s+${INDIVIDUAL_PORTS}\s+${SHARE_TYPE} -> Record

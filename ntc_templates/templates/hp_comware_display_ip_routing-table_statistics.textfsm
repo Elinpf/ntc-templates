@@ -1,0 +1,9 @@
+Value Required PROTOCOL (\S+)
+Value ROUTES (\d+)
+Value ACTIVE (\d+)
+Value ADDED (\d+)
+Value DELETED (\d+)
+
+Start
+  ^Proto\s+Routes\s+Active\s+Added\s+Deleted
+  ^${PROTOCOL}\s+${ROUTES}\s+${ACTIVE}\s+${ADDED}\s+${DELETED} -> Record

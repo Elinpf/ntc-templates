@@ -1,0 +1,21 @@
+Total prefixes: 2555	Active prefixes: 2555
+
+
+
+Proto      Routes      Active      Added       Deleted
+
+DIRECT     22          22          30          8          
+
+STATIC     0           0           0           0          
+
+RIP        0           0           0           0          
+
+OSPF       2564        2561        416692      414128     
+
+IS-IS      0           0           0           0          
+
+LISP       0           0           0           0          
+
+BGP        0           0           0           0          
+
+Total      2586        2583        416722      414136

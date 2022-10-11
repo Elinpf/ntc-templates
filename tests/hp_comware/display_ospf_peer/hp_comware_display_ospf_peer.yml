@@ -1,0 +1,18 @@
+---
+parsed_sample:
+  - process: "100"
+    area: "0.0.0.0"
+    router_id: "11.22.159.247"
+    address: "11.22.128.3"
+    priority: "1"
+    dead_time: "37"
+    state: "Full/BDR"
+    interface: "Vlan2"
+  - process: "100"
+    area: "0.0.0.0"
+    router_id: "33.123.226.250"
+    address: "33.55.149.21"
+    priority: "1"
+    dead_time: "35"
+    state: "Full/ -"
+    interface: "Vlan103"

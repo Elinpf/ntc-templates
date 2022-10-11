@@ -1,0 +1,14 @@
+Value Filldown,Required PROCESS (\d+)
+Value Filldown AREA ((\d+\.){3}\d+)
+Value Required ROUTER_ID ((\d+\.){3}\d+)
+Value ADDRESS ((\d+\.){3}\d+)
+Value PRIORITY (\d+)
+Value DEAD_TIME (\d+)
+Value STATE ((Full/ -)|\S+)
+Value INTERFACE (\S+)
+
+Start
+  ^OSPF\s+Process\s+${PROCESS}\s+with
+  ^\s+Area:\s+${AREA}
+  ^\s+Router\s+ID
+  ^\s+${ROUTER_ID}\s+${ADDRESS}\s+${PRIORITY}\s+${DEAD_TIME}\s+${STATE}\s+${INTERFACE} -> Record

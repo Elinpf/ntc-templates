@@ -1,0 +1,25 @@
+Value Required INTERFACE (\S+)
+Value VRID (\d+)
+Value ADVER_TIMER (\d+)
+Value ADMIN_STATUS (\S+)
+Value STATE (\S+)
+Value CONFIG_PRIORITY (\d+)
+Value RUNNING_PRIORITY (\d+)
+Value PREEMPT_MODE (\S+)
+Value DELAY_TIME (\d+)
+Value AUTH_TYPE (\S+)
+Value VIRTUAL_IP (\S+)
+Value VIRTUAL_MAC (\S+)
+Value MASTER_IP (\S+)
+
+Start
+  ^\s+Interface\s+\S+ -> Continue.Record
+  ^\s+Interface\s+${INTERFACE}
+  ^\s+VRID\s+:\s+${VRID}\s+Adver\s+Timer\s+:\s+${ADVER_TIMER}
+  ^\s+Admin\s+Status\s+:\s+${ADMIN_STATUS}\s+State\s+:\s+${STATE}
+  ^\s+Config\s+Pri\s+:\s+${CONFIG_PRIORITY}\s+Running\s+Pri\s+:\s+${RUNNING_PRIORITY}
+  ^\s+Preempt\s+Mode\s+:\s+${PREEMPT_MODE}\s+Delay\s+Time\s+:\s+${DELAY_TIME}
+  ^\s+Auth\s+Type\s+:\s+${AUTH_TYPE}
+  ^\s+Virtual\s+IP\s+:\s+${VIRTUAL_IP}
+  ^\s+Virtual\s+MAC\s+:\s+${VIRTUAL_MAC}
+  ^\s+Master\s+IP\s+:\s+${MASTER_IP}

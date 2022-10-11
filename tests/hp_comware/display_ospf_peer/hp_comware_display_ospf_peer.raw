@@ -1,0 +1,13 @@
+OSPF Process 100 with Router ID 11.22.159.248
+
+               Neighbor Brief Information
+
+
+
+ Area: 0.0.0.0        
+
+ Router ID       Address         Pri Dead-Time  State             Interface
+
+ 11.22.159.247   11.22.128.3     1   37         Full/BDR          Vlan2
+
+ 33.123.226.250  33.55.149.21    1   35         Full/ -           Vlan103
