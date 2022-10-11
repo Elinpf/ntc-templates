@@ -1,0 +1,10 @@
+---
+parsed_sample:
+  - id: "PWRI"
+    mode: "N/A"
+    present: "NO"
+    state: "N/A"
+  - id: "PWRII"
+    mode: "N/A"
+    present: "NO"
+    state: "N/A"

@@ -8,6 +8,7 @@ Start
   ^\s+PowerID\s+Online.* -> State_2
   # S5700 Serial
   ^\s+Slot\s+PowerID\s+Online -> State_3
+  ^\s+SlotID\s+PowerNo\s+Present -> State_4
 
 State_1
   # 16 Yes     AC   Normal                                  Abnormal(0)/Normal(2)
@@ -20,3 +21,7 @@ State_2
 State_3
   # Slot    PowerID  Online   Mode   State      Power(W)
   ^\s+\d+\s+${ID}\s+${PRESENT}\s+${MODE}\s+${STATE} -> Record 
+
+State_4
+  # SlotID  PowerNo  Present  Mode   State      Power(W)   Voltage(V)
+  ^\s+\d+\s+${ID}\s+${PRESENT}\s+${MODE}\s+${STATE} -> Record
