@@ -3,4 +3,4 @@ Value SERIAL_NUMBER (\S+)
 
 Start
   ^\s+Chassis\s+Name:\s+${CHASSIS_NAME}
-  ^\s+Serial\s+No:\s+${SERIAL_NUMBER} -> Record
+  ^\s+Serial\s+No(\.)?:\s+${SERIAL_NUMBER} -> Record
