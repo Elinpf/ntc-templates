@@ -1,0 +1,10 @@
+Aggregation Interface Type:
+BAGG -- Bridge-Aggregation, RAGG -- Route-Aggregation
+Aggregation Mode: S -- Static, D -- Dynamic
+Loadsharing Type: Shar -- Loadsharing, NonS -- Non-Loadsharing
+Actor System ID: 0x8000, c4ca-d9e1-c970
+
+AGG         AGG       Partner ID               Select Unselect   Share
+Interface   Mode                               Ports  Ports      Type
+-------------------------------------------------------------------------------
+BAGG1       S         none                     2      0          Shar

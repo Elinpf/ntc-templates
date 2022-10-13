@@ -1,0 +1,9 @@
+---
+parsed_sample:
+  - interface: "BAGG1"
+    mode: "S"
+    partner_id: "none"
+    selected_ports: "2"
+    unselected_ports: "0"
+    individual_ports: ""
+    share_type: "Shar"
