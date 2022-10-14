@@ -17,6 +17,16 @@ pip uninstall ntc_templates
 pip install ntc_templates_elinpf
 ```
 
+textfsm的开发难免遇到一些不兼容的问题，有使用上的任何问题，欢迎提issue。
+
+固定release时间为工作日的周五，大家可以经常更新以获得更好的体验。
+
+更新方法：
+
+```
+pip install ntc_templates_elinpf -U
+```
+
 ## 新增功能
 
 在原有的基础上，新增加了支持外部模板的功能：
