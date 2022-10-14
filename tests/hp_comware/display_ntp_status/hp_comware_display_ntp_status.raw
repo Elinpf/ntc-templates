@@ -1,0 +1,11 @@
+ Clock status: synchronized
+ Clock stratum: 3
+ Reference clock ID: 122.11.12.122
+ Nominal frequency: 100.0000 Hz
+ Actual frequency: 100.0000 Hz
+ Clock precision: 2^17
+ Clock offset: 9.0999 ms
+ Root delay: 67.06 ms
+ Root dispersion: 159.59 ms
+ Peer dispersion: 16.49 ms
+ Reference time: 03:14:34.829 UTC Mar 30 2022(E5EE499A.D4520D13)

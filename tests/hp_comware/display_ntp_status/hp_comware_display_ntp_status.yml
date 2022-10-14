@@ -1,0 +1,5 @@
+---
+parsed_sample:
+  - status: "synchronized"
+    stratum: "3"
+    reference: "122.11.12.122"

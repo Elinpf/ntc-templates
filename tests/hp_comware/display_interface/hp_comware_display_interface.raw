@@ -1,0 +1,124 @@
+Aux0 current state: UP
+Line protocol current state: UP
+Description: Aux0 Interface
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec)
+Internet protocol processing : disabled
+Link layer protocol is PPP
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/100/0
+Output queue : (Protocol queuing : Size/Length/Discards)  0/500/0
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+Physical layer is asynchronous, Baudrate is 9600 bps
+Phy-mru is 1700
+Last clearing of counters: Never
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 2292 packets, 13332 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers
+           0 frame errors
+    Output:16504 packets, 192131 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+    DCD=DOWN  DTR=UP  DSR=DOWN  RTS=UP  CTS=DOWN
+
+ Bridge-Aggregation1 current state: UP
+ IP Packet Frame Type: PKTFMT_ETHNT_2, Hardware Address: 5cdd-704e-ce2a
+ Description: Bridge-Aggregation1 Interface
+ 200Mbps-speed mode, full-duplex mode
+ Link speed type is autonegotiation, link duplex type is autonegotiation
+ PVID: 1
+ Port link-type: trunk
+  VLAN passing  : 1(default vlan), 10, 15, 20, 25
+  VLAN permitted: 1(default vlan), 10, 15, 20, 25
+  Trunk port encapsulation: IEEE 802.1q
+ Last clearing of counters:  Never
+
+Cellular0/0 current state: DOWN
+Line protocol current state: DOWN
+Description: Cellular0/0 Interface
+The Maximum Transmit Unit is 1500, Hold timer is 10(sec)
+Internet protocol processing : disabled
+Link layer protocol is PPP
+LCP initial
+Output queue : (Urgent queuing : Size/Length/Discards)  0/100/0
+Output queue : (Protocol queuing : Size/Length/Discards)  0/500/0
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+USB Modem State: Not present
+Transfer time: 00:00:00
+Last clearing of counters: Never
+    Last 300 seconds input rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Last 300 seconds output rate 0.00 bytes/sec, 0 bits/sec, 0.00 packets/sec
+    Input: 0 packets, 0 bytes
+           0 broadcasts, 0 multicasts
+           0 errors, 0 runts, 0 giants
+           0 CRC, 0 align errors, 0 overruns
+           0 dribbles, 0 aborts, 0 no buffers
+           0 frame errors
+    Output:0 packets, 0 bytes
+           0 errors, 0 underruns, 0 collisions
+           0 deferred
+
+Ethernet0/0 current state: UP
+Line protocol current state: UP
+Description: Ethernet0/0 Interface
+The Maximum Transmit Unit is 1500
+Internet Address is 122.111.101.2/30 Primary
+IP Packet Frame Type: PKTFMT_ETHNT_2,  Hardware Address: 5cdd-704e-ce28
+IPv6 Packet Frame Type: PKTFMT_ETHNT_2,  Hardware Address: 5cdd-704e-ce28
+Media type is twisted pair, loopback not set, promiscuous mode not set
+100Mb/s, Full-duplex, link type is autonegotiation
+Output flow-control is disabled, input flow-control is disabled
+Output queue : (Urgent queuing : Size/Length/Discards)  0/100/0
+Output queue : (Protocol queuing : Size/Length/Discards)  0/500/0
+Output queue : (Class Based Queuing : Size/Discards)  0/0
+    Queue Size: 0/0/0 (EF/AF/BE)
+    BE queues:  0/0/256 (Active/Max active/Total)
+    AF queues:  0 (Allocated)
+    Bandwidth(Kbps): 78976/80000 (Available/Max reserve)
+Last clearing of counters: Never
+    Last 300 seconds input rate 291.56 bytes/sec, 2332 bits/sec, 4.54 packets/sec
+    Last 300 seconds output rate 269.08 bytes/sec, 2152 bits/sec, 3.99 packets/sec
+    Input: 46680717 packets, 1138745763 bytes, 46680717 buffers
+           397898 broadcasts, 10591248 multicasts, 0 pauses
+           0 errors, 0 runts, 0 giants
+           0 crc, 0 align errors, 0 overruns
+           0 dribbles, 0 drops, 0 no buffers
+    Output:34829332 packets, 3630673018 bytes, 34829332 buffers
+           5 broadcasts, 1020098 multicasts, 0 pauses
+           0 errors, 0 underruns, 0 collisions
+           0 deferred, 0 lost carriers
+
+Vlan-interface1 current state: UP
+Line protocol current state: UP
+Description: Vlan-interface1 Interface
+The Maximum Transmit Unit is 1500
+Internet protocol processing : disabled
+IP Packet Frame Type: PKTFMT_ETHNT_2,  Hardware Address: 5cdd-704e-ce2b
+IPv6 Packet Frame Type: PKTFMT_ETHNT_2,  Hardware Address: 5cdd-704e-ce2b
+Output queue : (Urgent queuing : Size/Length/Discards)  0/100/0
+Output queue : (Protocol queuing : Size/Length/Discards)  0/500/0
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+ Last clearing of counters:  Never
+    Last 300 seconds input rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+    Last 300 seconds output rate: 0 bytes/sec, 0 bits/sec, 0 packets/sec
+    0 packets input, 0 bytes, 0 drops
+    0 packets output, 0 bytes, 0 drops
+
+Vlan-interface10 current state: UP
+Line protocol current state: UP
+Description: ShengChan1
+The Maximum Transmit Unit is 1500
+Internet Address is 11.22.221.2/26 Primary
+IP Packet Frame Type: PKTFMT_ETHNT_2,  Hardware Address: 5cdd-704e-ce2b
+IPv6 Packet Frame Type: PKTFMT_ETHNT_2,  Hardware Address: 5cdd-704e-ce2b
+Output queue : (Urgent queuing : Size/Length/Discards)  0/100/0
+Output queue : (Protocol queuing : Size/Length/Discards)  0/500/0
+Output queue : (FIFO queuing : Size/Length/Discards)  0/75/0
+ Last clearing of counters:  Never
+    Last 300 seconds input rate: 71 bytes/sec, 568 bits/sec, 0 packets/sec
+    Last 300 seconds output rate: 625 bytes/sec, 5000 bits/sec, 2 packets/sec
+    5720669 packets input, 1340624240 bytes, 20894 drops
+    18715085 packets output, 8571274534 bytes, 0 drops

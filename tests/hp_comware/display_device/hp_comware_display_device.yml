@@ -1,0 +1,6 @@
+---
+parsed_sample:
+  - slot: "0"
+    board_type: "MSR30-11E RPU Board"
+    status: "Normal"
+    max_ports: "28"

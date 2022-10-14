@@ -1,0 +1,8 @@
+Value STATUS (\S+)
+Value STRATUM (\d+)
+Value REFERENCE (\S+)
+
+Start
+  ^\s+Clock\s+status:\s+${STATUS}
+  ^\s+Clock\s+stratum:\s+${STRATUM}
+  ^\s+Reference\s+clock\s+ID:\s+${REFERENCE}

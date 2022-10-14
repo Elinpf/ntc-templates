@@ -1,0 +1,133 @@
+Bridge-Aggregation1
+Current state: UP
+IP packet frame type: Ethernet II, hardware address: b044-14c3-f8af
+Description: Bridge-Aggregation1 Interface
+Bandwidth: 2000000 kbps
+2Gbps-speed mode, full-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+PVID: 1
+Port link-type: Trunk
+ VLAN Passing:   10, 15, 20, 25
+ VLAN permitted: 10, 15, 20, 25
+ Trunk port encapsulation: IEEE 802.1q
+Last clearing of counters: Never
+ Last 300 second input:  309 packets/sec 14790 bytes/sec 0%
+ Last 300 second output:  459 packets/sec 3917 bytes/sec 0%
+ Input (total):  1207734940 packets, 126234308792 bytes
+        - unicasts, - broadcasts, - multicasts, 0 pauses
+ Input (normal):  1207734940 packets, 126234308792 bytes
+        1192041234 unicasts, 795393 broadcasts, 14898313 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, - throttles
+        0 CRC, 0 frame, 0 overruns, 0 aborts
+        - ignored, - parity errors
+ Output (total): 2158808029 packets, 3114787079965 bytes
+        - unicasts, - broadcasts, - multicasts, - pauses
+ Output (normal): 2158808029 packets, 3114787079965 bytes
+        2127919427 unicasts, 15112605 broadcasts, 15775997 multicasts, - pauses
+ Output: 0 output errors, - underruns, - buffer failures
+        0 aborts, 0 deferred, 0 collisions, 0 late collisions
+        - lost carrier, - no carrier
+
+GigabitEthernet0/0
+Current state: UP
+Line protocol state: UP
+Description: GigabitEthernet0/0 Interface
+Bandwidth: 100000 kbps
+Maximum transmission unit: 1500
+Internet address: 2.2.221.2/30 (Primary)
+IP packet frame type: Ethernet II, hardware address: b044-14c3-f8a8
+IPv6 packet frame type: Ethernet II, hardware address: b044-14c3-f8a8
+Media type: Twisted pair, loopback: Not set, promiscuous mode: Not set
+100Mbps-speed mode, full-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control: Disabled
+Port priority: 0
+Output queue - Urgent queuing: Size/Length/Discards 0/1024/0
+Output queue - Protocol queuing: Size/Length/Discards 0/500/0
+Output queue - Class Based Queuing: Size/Discards 0/0
+  Queue size: SP/EF/AF/BE 0/0/0/0
+  BE queues: Active/Max active/Total 0/0/256
+  AF queues: Allocated 0
+  Bandwidth(kbps): Available/Max reserve 78976/80000
+Last link flapping: 12 weeks 1 days 23 hours 8 minutes
+Last clearing of counters: Never
+Current system time:2021-03-03 11:47:24 BJ+08:00:00
+Last time when physical state changed to up:2020-12-07 20:36:36 BJ+08:00:00
+Last time when physical state changed to down:2020-12-07 20:33:23 BJ+08:00:00
+ Peak input rate: 14307 bytes/sec, at 2020-12-29 15:13:18 
+ Peak output rate: 14289 bytes/sec, at 2021-01-07 02:18:18 
+ Last 300 second input: 6 packets/sec 663 bytes/sec 0%
+ Last 300 second output: 6 packets/sec 603 bytes/sec 0%
+ Input (total):  45433501 packets, 1512350682 bytes
+         - unicasts, - broadcasts, - multicasts, - pauses
+ Input (normal):  - packets, - bytes
+         43908521 unicasts, 0 broadcasts, 1524980 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, - throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 46828598 packets, 5275041371 bytes
+         - unicasts, - broadcasts, - multicasts, - pauses
+ Output (normal): 46828598 packets, 5275041371 bytes
+         45586840 unicasts, 4 broadcasts, 1241754 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         - lost carrier, - no carrier
+
+GigabitEthernet0/1
+Current state: DOWN
+Line protocol state: DOWN
+Description: GigabitEthernet0/1 Interface
+Bandwidth: 1000000 kbps
+Maximum transmission unit: 1500
+Internet protocol processing: Disabled
+IP packet frame type: Ethernet II, hardware address: b044-14c3-f8a9
+IPv6 packet frame type: Ethernet II, hardware address: b044-14c3-f8a9
+Media type: Twisted pair, loopback: Not set, promiscuous mode: Not set
+Unknown-speed mode, unknown-duplex mode
+Link speed type is autonegotiation, link duplex type is autonegotiation
+Flow-control: Disabled
+Port priority: 0
+Output queue - Urgent queuing: Size/Length/Discards 0/1024/0
+Output queue - Protocol queuing: Size/Length/Discards 0/500/0
+Output queue - FIFO queuing: Size/Length/Discards 0/75/0
+Last link flapping: Never
+Last clearing of counters: Never
+Current system time:2021-03-03 11:47:24 BJ+08:00:00
+Last time when physical state changed to up:-
+Last time when physical state changed to down:2020-12-07 20:33:23 BJ+08:00:00
+ Peak input rate: 0 bytes/sec, at 2021-03-03 11:45:18 
+ Peak output rate: 0 bytes/sec, at 2021-03-03 11:45:18 
+ Last 300 second input: 0 packets/sec 0 bytes/sec -%
+ Last 300 second output: 0 packets/sec 0 bytes/sec -%
+ Input (total):  0 packets, 0 bytes
+         - unicasts, - broadcasts, - multicasts, - pauses
+ Input (normal):  - packets, - bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Input:  0 input errors, 0 runts, 0 giants, - throttles
+         0 CRC, 0 frame, - overruns, 0 aborts
+         - ignored, - parity errors
+ Output (total): 0 packets, 0 bytes
+         - unicasts, - broadcasts, - multicasts, - pauses
+ Output (normal): 0 packets, 0 bytes
+         0 unicasts, 0 broadcasts, 0 multicasts, 0 pauses
+ Output: 0 output errors, - underruns, - buffer failures
+         0 aborts, 0 deferred, 0 collisions, 0 late collisions
+         - lost carrier, - no carrier
+
+Vlan-interface10
+Current state: UP
+Line protocol state: UP
+Description: ShengChan1
+Bandwidth: 1000000 kbps
+Maximum transmission unit: 1500
+Internet address: 11.22.33.2/26 (Primary)
+IP packet frame type: Ethernet II, hardware address: b044-14c3-f8b0
+IPv6 packet frame type: Ethernet II, hardware address: b044-14c3-f8b0
+Output queue - Urgent queuing: Size/Length/Discards 0/1024/0
+Output queue - Protocol queuing: Size/Length/Discards 0/500/0
+Output queue - FIFO queuing: Size/Length/Discards 0/75/0
+Last clearing of counters: Never
+Last 300 seconds input rate: 124 bytes/sec, 992 bits/sec, 1 packets/sec
+Last 300 seconds output rate: 217 bytes/sec, 1736 bits/sec, 2 packets/sec
+Input: 5273737 packets, 1258304991 bytes, 0 drops
+Output: 12301693 packets, 1773191423 bytes, 0 drops
