@@ -63,9 +63,11 @@ Raw_1
 
 Counters_raw_1
   #     Last 300 seconds input rate 291.56 bytes/sec, 2332 bits/sec, 4.54 packets/sec
-  ^\s+Last\s+300\s+seconds\s+input\s+rate\s+${LAST_300_SEC_INPUT_RATE_BYTES}\s+bytes/sec,\s+${LAST_300_SEC_INPUT_RATE_BITS}\s+bits/sec,\s+${LAST_300_SEC_INPUT_RATE_PACKETS}\s+packets/sec
+  #     Last 300 seconds input rate: 71 bytes/sec, 568 bits/sec, 0 packets/sec
+  ^\s+Last\s+300\s+seconds\s+input\s+rate(:)?\s+${LAST_300_SEC_INPUT_RATE_BYTES}\s+bytes/sec,\s+${LAST_300_SEC_INPUT_RATE_BITS}\s+bits/sec,\s+${LAST_300_SEC_INPUT_RATE_PACKETS}\s+packets/sec
   #     Last 300 seconds output rate 269.08 bytes/sec, 2152 bits/sec, 3.99 packets/sec
-  ^\s+Last\s+300\s+seconds\s+output\s+rate\s+${LAST_300_SEC_OUTPUT_RATE_BYTES}\s+bytes/sec,\s+${LAST_300_SEC_OUTPUT_RATE_BITS}\s+bits/sec,\s+${LAST_300_SEC_OUTPUT_RATE_PACKETS}\s+packets/sec
+  #     Last 300 seconds output rate: 625 bytes/sec, 5000 bits/sec, 2 packets/sec
+  ^\s+Last\s+300\s+seconds\s+output\s+rate(:)?\s+${LAST_300_SEC_OUTPUT_RATE_BYTES}\s+bytes/sec,\s+${LAST_300_SEC_OUTPUT_RATE_BITS}\s+bits/sec,\s+${LAST_300_SEC_OUTPUT_RATE_PACKETS}\s+packets/sec
   #     Input: 46680717 packets, 1138745763 bytes, 46680717 buffers
   ^\s+Input:\s+${INPUT_PACKETS}\s+packets,\s+${INPUT_BTYPES}\s+bytes,\s+${INPUT_BUFFERS}\s+buffers -> Input_counters_raw_1
   #     Input: 2292 packets, 13332 bytes
