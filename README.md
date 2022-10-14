@@ -1,3 +1,7 @@
+[![PyPI](https://img.shields.io/pypi/v/ntc-templates-elinpf?color=orange)](https://pypi.org/project/ntc-templates-elinpf)
+[![Python version](https://img.shields.io/badge/python-3.7%2B-blue)](https://github.com/Elinpf/net_inspect)
+[![GitHub stars](https://img.shields.io/github/stars/Elinpf/ntc-templates)](https://github.com/Elinpf/ntc-templates/stargazers)
+
 说明
 ===
 
