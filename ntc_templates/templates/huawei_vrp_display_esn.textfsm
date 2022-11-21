@@ -2,4 +2,4 @@ Value ROLE (.*?)
 Value ESN (\S+)
 
 Start
-  ^ESN\s+of\s+${ROLE}:\s*${ESN} -> Record
+  ^\s*ESN\s+of\s+${ROLE}:\s*${ESN} -> Record
