@@ -3,7 +3,7 @@ import os.path as p
 
 
 def test_version():
-    ver = "3.3.7"
+    ver = "3.4.0"
 
     assert __version__ == ver
     setup_file = p.join(p.dirname(p.dirname(__file__)), "pyproject.toml")
