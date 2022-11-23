@@ -1,6 +1,6 @@
 ---
 parsed_sample:
   - vrp_version: "5.170"
-    product_version: "AR2200 V200R009C00SPC500"
-    model: "AR2204-51GE-P Router"
-    uptime: "104 weeks, 4 days, 21 hours, 46 minutes"
+    product_version: "S7700 V200R010C00SPC600"
+    model: "S7706 Terabit Routing Switch"
+    uptime: "85 weeks, 4 days, 0 hour, 10 minutes"
