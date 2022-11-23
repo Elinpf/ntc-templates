@@ -4,3 +4,4 @@ parsed_sample:
     product_version: "S7700 V200R010C00SPC600"
     model: "S7706 Terabit Routing Switch"
     uptime: "85 weeks, 4 days, 0 hour, 10 minutes"
+    patch_version: ""
