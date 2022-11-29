@@ -1,0 +1,57 @@
+Hardware inventory:
+Item             Version  Part number  Serial number     Description
+Chassis                                JN1111111111      MX960
+Midplane         REV 56   750-047849   ACRM4225          Enhanced MX960 Backplane
+FPM Board        REV 03   711-058968   CAPC6548          Front Panel Display
+PDM              Rev 01   740-063049   QCS2JJJJJJJ       Power Distribution Module
+PEM 0            Rev 01   740-063047   QCS2JJJJJJJ       PS 4.1kW; 200-240V AC in
+PEM 1            Rev 01   740-063047   QCS2JJJJJJJ       PS 4.1kW; 200-240V AC in
+PEM 2            Rev 01   740-063047   QCS2JJJJJJJ       PS 4.1kW; 200-240V AC in
+PEM 3            Rev 01   740-063047   QCS2JJJJJJJ       PS 4.1kW; 200-240V AC in
+Routing Engine 0 REV 05   750-072925   CAP11111          RE-S-2X00x6
+  vtbd0 17408 MB                                         Virtio Block Disk
+  vtbd1 57344 MB                                         Virtio Block Disk
+  ada0    511 MB  QEMU HARDDISK        QM00002           Emulated IDE Disk
+  usb0 (addr 0.1) XHCI root HUB 0      0x8086            uhub0
+Routing Engine 1 REV 05   750-072925   CAP11111          RE-S-2X00x6
+  vtbd0 17408 MB                                         Virtio Block Disk
+  vtbd1 57344 MB                                         Virtio Block Disk
+  ada0    511 MB  QEMU HARDDISK        QM00002           Emulated IDE Disk
+  usb0 (addr 0.1) XHCI root HUB 0      0x8086            uhub0
+CB 0             REV 32   750-070866   CAMF2254          Enhanced MX SCB 3
+CB 1             REV 32   750-070866   CAPH4319          Enhanced MX SCB 3
+CB 2             REV 32   750-070866   CAPC1638          Enhanced MX SCB 3
+FPC 2            REV 51   750-070395   CAP11111          MPC10E 3D MRATE-15xQSFPP
+  CPU            REV 20   750-072571   CAPD5356          FMPC PMB
+  PIC 0                   BUILTIN      BUILTIN           MRATE-5xQSFPP
+    Xcvr 0       REV 01   740-058734   1ECQJJJJJJJ       QSFP-100GBASE-SR4
+    Xcvr 1       REV 01   740-058734   1ECQJJJJJJJ       QSFP-100GBASE-SR4
+    Xcvr 2       REV 01   740-058734   1ECQJJJJJJJ       QSFP-100GBASE-SR4
+    Xcvr 3       REV 01   740-058734   1ECQJJJJJJJ       QSFP-100GBASE-SR4
+    Xcvr 4       REV 01   740-058734   1ECQJJJJJJJ       QSFP-100GBASE-SR4
+  PIC 1                   BUILTIN      BUILTIN           MRATE-5xQSFPP
+    Xcvr 0       REV 01   740-058734   1ECJJJJJJJJ       QSFP-100GBASE-SR4
+    Xcvr 1       REV 01   740-058734   1ECJJJJJJJJ       QSFP-100GBASE-SR4
+    Xcvr 2       REV 01   740-067442   QJ222222          QSFP+-40G-SR4
+  PIC 2                   BUILTIN      BUILTIN           MRATE-5xQSFPP
+    Xcvr 0       REV 01   740-058734   1ECQ1333333       QSFP-100GBASE-SR4
+FPC 3            REV 54   750-070395   CAP11111          MPC10E 3D MRATE-15xQSFPP
+  CPU            REV 20   750-072571   CAPV7240          FMPC PMB
+  PIC 0                   BUILTIN      BUILTIN           MRATE-5xQSFPP
+    Xcvr 0       REV 01   740-058734   1EC33333333       QSFP-100GBASE-SR4
+    Xcvr 1       REV 01   740-058734   1EC33333333       QSFP-100GBASE-SR4
+    Xcvr 2       REV 01   740-058734   1EC33333333       QSFP-100GBASE-SR4
+    Xcvr 3       REV 01   740-058734   1EC33333333       QSFP-100GBASE-SR4
+  PIC 1                   BUILTIN      BUILTIN           MRATE-5xQSFPP
+    Xcvr 0       REV 01   740-058734   1ECQ2222222       QSFP-100GBASE-SR4
+    Xcvr 1       REV 01   740-058734   1ECQ2222222       QSFP-100GBASE-SR4
+  PIC 2                   BUILTIN      BUILTIN           MRATE-5xQSFPP
+    Xcvr 0       REV 01   740-067442   QJ211223          QSFP+-40G-SR4
+    Xcvr 1       REV 01   740-067442   QJ211233          QSFP+-40G-SR4
+    Xcvr 2       REV 01   740-067442   QJ211243          QSFP+-40G-SR4
+    Xcvr 3       REV 01   740-067442   QJ211254          QSFP+-40G-SR4
+Fan Tray 0       REV 03   740-057995   DAA11264          Enhanced Fan Tray
+Fan Tray 1       REV 03   740-057995   DAA11274          Enhanced Fan Tray
+
+{master}
+
