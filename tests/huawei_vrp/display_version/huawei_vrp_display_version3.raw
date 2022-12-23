@@ -1,53 +1,31 @@
 Huawei Versatile Routing Platform Software
-VRP (R) software, Version 5.170 (S7700 V200R010C00SPC600)
-Copyright (C) 2000-2016 HUAWEI TECH CO., LTD
-Quidway S7706 Terabit Routing Switch uptime is 85 weeks, 4 days, 0 hour, 10 minutes
-BKP 0 version information:
-1. PCB      Version  : LE02BAKI VER.E
-2. Support  PoE      : No
-3. Board    Type     : ES0B00770600
-4. MPU Slot Quantity : 2
-5. LPU Slot Quantity : 6
+VRP (R) software, Version 8.180 (ATN 910C-B V300R003C10SPC500)
+Copyright (C) 2012-2018 Huawei Technologies Co., Ltd.
+HUAWEI ATN 910C-B uptime is 358 days, 16 hours, 59 minutes
 
-MPU 7(Master)  : uptime is 85 weeks, 4 days, 0 hour, 9 minutes
-SDRAM Memory Size    : 1024    M bytes
-Flash Memory Size    : 64      M bytes
-NVRAM Memory Size    : 512     K bytes
-CF Card1 Memory Size : 488     M bytes
-MPU version information : 
-1. PCB      Version  : LE02SRUA VER.D
-2. MAB      Version  : 8
-3. Board    Type     : ES0D00SRUA00
-4. CPLD0    Version  : 1411.2116
-5. BootROM  Version  : 020a.010f
-6. BootLoad Version  : 020a.012d
+ATN 910C-B version information:
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+CXP version information:
 
-MPU 8(Slave)  : uptime is 85 weeks, 4 days, 0 hour, 8 minutes
-SDRAM Memory Size    : 1024    M bytes
-Flash Memory Size    : 64      M bytes
-NVRAM Memory Size    : 512     K bytes
-CF Card1 Memory Size : 488     M bytes
-MPU version information : 
-1. PCB      Version  : LE02SRUA VER.D
-2. MAB      Version  : 8
-3. Board    Type     : ES0D00SRUA00
-4. CPLD0    Version  : 1411.2116
-5. BootROM  Version  : 020a.010f
-6. BootLoad Version  : 020a.012d
+CXP (Master) 2  : uptime is 358 days, 16 hours, 58 minutes
+  StartupTime   2019/02/24   17:20:13
+  SDRAM Memory Size   : 4096M bytes
+  FLASH Memory Size   : 64M bytes
+  CFCARD Memory Size  : 800M bytes
+  CFCARD2 Memory Size : 800M bytes
+  ANGMHSTA0211 version information
+  PCB         Version : ANG1CXPH REV A
+  EPLD        Version : V120
+  FPGA1       Version : V110
+  PE          Version : 000
+  BootROM     Version : 08.84
+  BootLoad    Version : 08.84
+  Software    Version : Version 8.180 RELEASE 0001
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+PWR version information:
 
-LPU 1  : uptime is 85 weeks, 4 days, 0 hour, 7 minutes
-SDRAM Memory Size    : 1024    M bytes
-Flash Memory Size    : 64      M bytes
-LPU version information : 
-1. PCB      Version  : SWC02X32SX2S VER.A
-2. MAB      Version  : 1
-3. Board    Type     : ES1D2S16SX2S
-4. CPLD0    Version  : 1609.0516
-5. BootROM  Version  : 020a.0065
-6. BootLoad Version  : 020a.0079
+PWR5's  version information:
+  PCB         Version : ES5MPSD17 REV D
 
-CMU 9(Master)  : uptime is 85 weeks, 4 days, 0 hour, 9 minutes
-CMU version information : 
-1. PCB      Version  : LE02CMUA VER.B
-2. MAB      Version  : 8
-3. Board    Type     : EH1D200CMU00
+PWR6's  version information:
+  PCB         Version : ES5MPSD17 REV D
