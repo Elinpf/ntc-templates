@@ -8,7 +8,15 @@ Value STATE ((Full/ -)|\S+)
 Value INTERFACE (\S+)
 
 Start
-  ^OSPF\s+Process\s+${PROCESS}\s+with
+  ^\s*OSPF\s+Process\s+${PROCESS}\s+with
   ^\s+Area:\s+${AREA}
-  ^\s+Router\s+ID
+  ^\s+Router\s+ID\s+Address\s+Pri\s+Dead-Time\s+State\s+Interface -> State_1
+  ^\s+Router\s+ID\s+Address\s+Pri\s+Dead-Time\s+Interface\s+State -> State_2
+
+State_1
   ^\s+${ROUTER_ID}\s+${ADDRESS}\s+${PRIORITY}\s+${DEAD_TIME}\s+${STATE}\s+${INTERFACE} -> Record
+  ^\s+Area:\s+${AREA} -> Start
+
+State_2
+  ^\s+${ROUTER_ID}\s+${ADDRESS}\s+${PRIORITY}\s+${DEAD_TIME}\s+${INTERFACE}\s+${STATE} -> Record
+  ^\s+Area:\s+${AREA} -> Start
