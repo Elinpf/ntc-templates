@@ -450,6 +450,12 @@ dell_powerconnect_show_interfaces_description.textfsm, .*, dell_powerconnect, sh
 dell_powerconnect_show_bridge_address_table.textfsm, .*, dell_powerconnect, sh[[ow]] br[[idge]] a[[ddress-table]]
 dell_powerconnect_show_interfaces_status.textfsm, .*, dell_powerconnect, sh[[ow]] int[[erfaces]] st[[atus]]
 
+dlink_ds_show_arpentry.textfsm, .*, dlink_ds, sh[[ow]] arpe[[ntry]]
+
+ericsson_ipos_show_isis_adjacency.textfsm, .*, ericsson_ipos, sh[[ow]] isis adja[[cency]]
+ericsson_ipos_show_version.textfsm, .*, ericsson_ipos, sh[[ow]] ver[[sion]]
+ericsson_ipos_show_arp.textfsm, .*, ericsson_ipos, sh[[ow]] ar[[p]]
+
 fortinet_get_system_interface_physical.textfsm, .*, fortinet, g[[et]] sy[[stem]] in[[terface]] p[[hysical]]
 fortinet_get_router_info_bgp_summary.textfsm, .*, fortinet, g[[et]] r[[outer]] info bg[[p]] su[[mmary]]
 fortinet_get_system_ha_status.textfsm, .*, fortinet, g[[et]] sy[[stem]] ha s[[tatus]]
@@ -458,6 +464,7 @@ fortinet_get_system_status.textfsm, .*, fortinet, g[[et]] sy[[stem]] stat[[us]]
 fortinet_get_system_arp.textfsm, .*, fortinet, g[[et]] sy[[stem]] arp
 
 hp_comware_display_lldp_neighbor-information_verbose.textfsm, .*, hp_comware, di[[splay]] ll[[dp]] n[[eighbor-information]] v[[erbose]]
+hp_comware_display_ip_vpn-instance_instance-name.textfsm, .*, hp_comware, di[[splay]] ip vpn[[-instance]] in[[instance-name]]
 hp_comware_display_ip_routing-table_statistics.textfsm, .*, hp_comware, dis[[play]] ip routi[[ng-table]] s[[tatistics]]
 hp_comware_display_counters_bound_interface.textfsm, .*, hp_comware, di[[splay]] cou[[nters]] (\S+) i[[nterface]]
 hp_comware_display_link-aggregation_summary.textfsm, .*, hp_comware, dis[[play]] link-agg[[regation]] summary
@@ -522,10 +529,12 @@ huawei_vrp_display_sn_license.textfsm, .*, huawei_vrp, dis[[play]] sn l[[icence]
 huawei_vrp_display_arp_brief.textfsm, .*, huawei_vrp, dis[[play]] arp br[[ief]]
 huawei_vrp_display_cpu-usage.textfsm, .*, huawei_vrp, dis[[play]] cpu-u[[sage]]
 huawei_vrp_display_interface.textfsm, .*, huawei_vrp, dis[[play]] inter[[face]]\s*((?!brief|counters|description).)*$
+huawei_vrp_display_isis_peer.textfsm, .*, huawei_vrp, disp[[lay]] isis p[[eer]]
 huawei_vrp_display_ospf_peer.textfsm, .*, huawei_vrp, dis[[play]] osp[[f]] p[[eer]]
 huawei_vrp_display_port_vlan.textfsm, .*, huawei_vrp, dis[[play]] port vl[[an]]
 huawei_vrp_display_bgp_peer.textfsm, .*, huawei_vrp, dis[[play]] bgp pe[[er]]
 huawei_vrp_display_acl_all.textfsm, .*, huawei_vrp, dis[[play]] acl(\si[[pv6]])? a[[ll]]
+huawei_vrp_display_arp_all.textfsm, .*, huawei_vrp, disp[[lay]] ar[[p]] all
 huawei_vrp_display_startup.textfsm, .*, huawei_vrp, dis[[play]] star[[tup]]
 huawei_vrp_display_version.textfsm, .*, huawei_vrp, dis[[play]] ver[[sion]]
 huawei_vrp_display_clock.textfsm, .*, huawei_vrp, dis[[play]] clo[[ck]]
@@ -598,7 +607,9 @@ paloalto_panos_show_mac_all.textfsm, .*, paloalto_panos, sh[[ow]] mac all
 
 
 ruckus_fastiron_show_interfaces_brief.textfsm, .*, ruckus_fastiron, sh[[ow]] int[[erfaces]] b[[rief]]
+ruckus_fastiron_show_media_validation.textfsm, .*, ruckus_fastiron, sh[[ow]] med[[ia]] v[[alidation]]
 ruckus_fastiron_show_mac-address.textfsm, .*, ruckus_fastiron, sh[[ow]] mac[[-address]]
+ruckus_fastiron_show_interfaces.textfsm, .*, ruckus_fastiron, sh[[ow]] int[[erfaces]]
 ruckus_fastiron_show_version.textfsm, .*, ruckus_fastiron, sh[[ow]] ve[[rsion]]
 ruckus_fastiron_show_vlan.textfsm, .*, ruckus_fastiron, sh[[ow]] vlan
 ruckus_fastiron_show_arp.textfsm, .*, ruckus_fastiron, sh[[ow]] ar[[p]]
