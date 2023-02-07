@@ -33,6 +33,8 @@ pip install ntc_templates_elinpf -U
 
 ## 新增功能
 
+### 读取外部模板
+
 在原有的基础上，新增加了支持外部模板的功能：
 
 ```py
@@ -45,6 +47,14 @@ def parse_output(platform=None, command=None, data=None, template_dir: str = Non
 ```text
 Template, Hostname, Platform, Command
 ```
+
+### 增加返回clitable的方法
+
+```py
+def get_clitable(platform=None, command=None, template_dir: str = None) -> clitable.CliTable:
+```
+
+这个方法的目的是可以获取到模板的`clitable`对象，方便进行一些自定义的操作。
 
 ## 关于开发textfsm
 

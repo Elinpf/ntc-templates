@@ -58,10 +58,49 @@ https://github.com/google/textfsm/pull/82
         cli_table.ParseCmd(data, attrs)
         structured_data = _clitable_to_dict(cli_table)
     except clitable.CliTableError as err:
-        raise Exception(f'Unable to parse command "{command}" on platform {platform} - {str(err)}') from err
+        raise Exception(
+            f'Unable to parse command "{command}" on platform {platform} - {str(err)}'
+        ) from err
         # Invalid or Missing template
         # module.fail_json(msg='parsing error', error=str(e))
         # rather than fail, fallback to return raw text
         # structured_data = [data]
 
     return structured_data
+
+
+def get_clitable(
+    platform=None, command=None, template_dir: str = None
+) -> clitable.CliTable:
+    """Return the structured data based on the output from a network device."""
+    if not HAS_CLITABLE:
+        msg = """
+
+The TextFSM library is not currently supported on Windows. If you are NOT using Windows
+you should be able to 'pip install textfsm' to fix this issue. If you are using Windows
+then you will need to install the patch referenced here:
+
+https://github.com/google/textfsm/pull/82
+
+"""
+
+        raise ImportError(msg)
+
+    if not template_dir:
+        template_dir = _get_template_dir()
+
+    cli_table = clitable.CliTable("index", template_dir)
+
+    attrs = {"Command": command, "Platform": platform}
+    try:
+        cli_table.ParseCmd('', attrs)
+    except clitable.CliTableError as err:
+        raise Exception(
+            f'Unable to parse command "{command}" on platform {platform} - {str(err)}'
+        ) from err
+        # Invalid or Missing template
+        # module.fail_json(msg='parsing error', error=str(e))
+        # rather than fail, fallback to return raw text
+        # structured_data = [data]
+
+    return cli_table
