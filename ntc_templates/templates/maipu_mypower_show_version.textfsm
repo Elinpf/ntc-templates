@@ -8,12 +8,12 @@ Value SOFTWARE_IMAGE_FILE (\S+\s\S+)
 Value Fillup UPTIME (.*)
 
 Start
-  ^${MODEL}\s+Version\s+Information
-  ^\s+System\s+ID\s+:\s+${SYSTEM_ID}
-  ^\s+Hardware\s+Model\s+:\s+${HARDWARE_MODEL}
-  ^\s+Hardware\s+Version\s+:\s+${HARDWARE_VERSION}
-  ^\s+Monitor\s+Version\s+:\s+${MONITOR_VERSION}
-  ^\s+Software\s+Version\s+:\s+${SOFTWARE_VERSION}
-  ^\s+Software\s+Image\s+File\s+:\s+${SOFTWARE_IMAGE_FILE} -> Record
+  ^(MyPower\s+)?${MODEL}\s+Version\s+Information
+  ^\s*System\s+ID\s+:\s+${SYSTEM_ID}
+  ^\s*Hardware\s+Model\s+:\s+${HARDWARE_MODEL}
+  ^\s*Hardware\s+Version\s+:\s+${HARDWARE_VERSION}
+  ^\s*Monitor\s+Version\s+:\s+${MONITOR_VERSION}
+  ^\s*Software\s+Version\s+:\s+${SOFTWARE_VERSION}
+  ^\s*Software\s+Image\s+File\s+:\s+${SOFTWARE_IMAGE_FILE} -> Record
   ^System\s+Uptime\s+is\s+${UPTIME}
 

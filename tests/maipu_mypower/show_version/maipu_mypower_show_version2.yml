@@ -1,0 +1,10 @@
+---
+parsed_sample:
+  - model: "S4220"
+    system_id: "ccd81f2e5f40"
+    hardware_model: "MyPower"
+    hardware_version: "003(Hotswap"
+    monitor_version: ""
+    software_version: "9.7.1.25(integrity)"
+    software_image_file: "flash0: /flash/sp35-g-9.7.1.25(R).pck"
+    uptime: "39 weeks 1 day"
