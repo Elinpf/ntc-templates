@@ -1,7 +1,7 @@
 Value Required MODEL (\S+)
 Value SYSTEM_ID (\S+)
 Value HARDWARE_MODEL (\S+)
-Value HARDWARE_VERSION (\S+)
+Value HARDWARE_VERSION (.*)
 Value MONITOR_VERSION (\S+)
 Value SOFTWARE_VERSION (\S+)
 Value SOFTWARE_IMAGE_FILE (\S+\s\S+)
@@ -10,7 +10,7 @@ Value Fillup UPTIME (.*)
 Start
   ^(MyPower\s+)?${MODEL}\s+Version\s+Information
   ^\s*System\s+ID\s+:\s+${SYSTEM_ID}
-  ^\s*Hardware\s+Model\s+:\s+${HARDWARE_MODEL}
+  ^\s*Hardware\s+Model\s+:\s+(MyPower\s)?${HARDWARE_MODEL}
   ^\s*Hardware\s+Version\s+:\s+${HARDWARE_VERSION}
   ^\s*Monitor\s+Version\s+:\s+${MONITOR_VERSION}
   ^\s*Software\s+Version\s+:\s+${SOFTWARE_VERSION}

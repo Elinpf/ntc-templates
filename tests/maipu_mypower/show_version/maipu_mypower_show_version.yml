@@ -3,7 +3,7 @@ parsed_sample:
   - model: "MP3840"
     system_id: "00017a88b704"
     hardware_model: "RM3B-MPU206-4GE"
-    hardware_version: "030(Hotswap"
+    hardware_version: "030(Hotswap Supported)"
     monitor_version: "1.13(DFS10)"
     software_version: "6.3.11.1.3(integrity)"
     software_image_file: "flash0: /flash/rp9-i-6.3.11.1.3.bin"
