@@ -4,7 +4,7 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "ntc_templates_elinpf"
-version = "3.5.0"
+version = "3.6.0"
 description = "网络设备TextFSM模板，在原有的基础上增加中国主流网络设备厂商的适配"
 authors = ["Network to Code <info@networktocode.com>", "Elinpf"]
 license = "Apache-2.0"
