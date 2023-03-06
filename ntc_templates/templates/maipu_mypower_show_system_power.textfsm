@@ -1,24 +1,27 @@
 Value POWER_ID (\d+)
 Value POWER_NAME (\S+)
-Value STATUS (\S+)
+Value STATUS (\w+)
 Value DESCRIPTION (\S+)
 Value SN (\S+)
 Value WORK_STATUS (\S+)
 Value POWER_IN (\S+)
 
 Start
-  ^System\s+Power\s+Information\s+\(Power\s+${POWER_ID}.* -> Long_Power_Info
-  ^\s+System\s+Power\s+Information\(Power\s+${POWER_ID}.* -> Short_Power_Info
+  ^System\s+Power\s+Information\s+\(Power\s+${POWER_ID}\s+-\s+${STATUS}\) -> Long_Power_Info
+  ^\s+System\s+Power\s+Information\(Power\s+${POWER_ID}\s+-\s+${STATUS}\) -> Short_Power_Info
 
 Long_Power_Info
-  ^\s+Power\s+Name:\s+${POWER_NAME}
-  ^\s+Status:\s+${STATUS}
-  ^\s+Description:\s+${DESCRIPTION}
-  ^\s+Serial\s+No:\s+${SN}
-  ^\s+Work\s+Status:\s+${WORK_STATUS}
-  ^\s+Power\s+in:\s+${POWER_IN} -> Record Start
+  ^System\s+Power -> Continue.Record
+  ^System\s+Power\s+Information\s+\(Power\s+${POWER_ID}\s+-\s+${STATUS}\)
+  ^\s*Power\s+Name:\s+${POWER_NAME}
+  # ^\s*Status:\s+${STATUS}
+  ^\s*Description:\s+${DESCRIPTION}
+  ^\s*Serial\s+No:\s+${SN}
+  ^\s*Work\s+Status:\s+${WORK_STATUS}
+  ^\s*Power\s+in:\s+${POWER_IN} -> Record Start
+
 
 Short_Power_Info
-  ^\s+Status:\s+${STATUS}
+  # ^\s+Status:\s+${STATUS}
   ^\s+Description:\s+${DESCRIPTION}
   ^\s+STATISTICS -> Record Start

@@ -2,7 +2,7 @@
 parsed_sample:
   - power_id: "1"
     power_name: ""
-    status: "ONLINE"
+    status: "OFFLINE"
     description: ""
     sn: ""
     work_status: ""
@@ -12,5 +12,5 @@ parsed_sample:
     status: "ONLINE"
     description: ""
     sn: ""
-    work_status: ""
-    power_in: ""
+    work_status: "Normal"
+    power_in: "Normal"
