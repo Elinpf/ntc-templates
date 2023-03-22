@@ -1,0 +1,3 @@
+ MSTID  Port                        Role  STP State     Protection      Cost    Edged
+     0  10GE1/0/1                   ALTE  discarding    none          20000     disable
+     0  10GE1/0/3                   ROOT  forwarding    none              2     disable

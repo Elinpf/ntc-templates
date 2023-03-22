@@ -1,0 +1,10 @@
+Value MSTID (\d+)
+Value PORT (\S+)
+Value ROLE (\S+)
+Value STATE (\S+)
+Value PROTECTION (\S+)
+Value COST (\d+)
+Value EDGED (\S+)
+
+Start
+  ^\s+${MSTID}\s+${PORT}\s+${ROLE}\s+${STATE}\s+${PROTECTION}\s+${COST}\s+${EDGED} -> Record
