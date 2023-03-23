@@ -1,0 +1,8 @@
+Value Required VRID (\d+)
+Value STATE (\S+)
+Value INTERFACE (\S+)
+Value TYPE (\S+)
+Value VIP (\S+)
+
+Start
+  ^${VRID}\s+${STATE}\s+${INTERFACE}\s+${TYPE}\s+${VIP} -> Record

@@ -1,0 +1,6 @@
+Total:3     Master:0     Backup:3     Non-active:0      
+VRID  State        Interface                Type     Virtual IP     
+----------------------------------------------------------------
+101   Backup       Vlanif101                Normal   30.48.237.129  
+102   Backup       Vlanif102                Normal   30.48.237.145  
+103   Backup       Vlanif103                Normal   30.48.236.73   

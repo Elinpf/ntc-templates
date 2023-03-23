@@ -537,6 +537,7 @@ huawei_vrp_display_mac-address.textfsm, .*, huawei_vrp, dis[[play]] mac[[-addres
 huawei_vrp_display_temperature.textfsm, .*, huawei_vrp, dis[[play]] tem[[perature]]
 huawei_vrp_display_nat_server.textfsm, .*, huawei_vrp, dis[[play]] na[[t]] ser[[ver]]
 huawei_vrp_display_sn_license.textfsm, .*, huawei_vrp, dis[[play]] sn l[[icence]]
+huawei_vrp_display_vrrp_brief.textfsm, .*, huawei_vrp, dis[[play]] vrrp b[[rief]]
 huawei_vrp_display_arp_brief.textfsm, .*, huawei_vrp, dis[[play]] arp br[[ief]]
 huawei_vrp_display_cpu-usage.textfsm, .*, huawei_vrp, dis[[play]] cpu-u[[sage]]
 huawei_vrp_display_interface.textfsm, .*, huawei_vrp, dis[[play]] inter[[face]]\s*((?!brief|counters|description).)*$

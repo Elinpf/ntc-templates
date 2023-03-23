@@ -1,0 +1,17 @@
+---
+parsed_sample:
+  - vrid: "101"
+    state: "Backup"
+    interface: "Vlanif101"
+    type: "Normal"
+    vip: "30.48.237.129"
+  - vrid: "102"
+    state: "Backup"
+    interface: "Vlanif102"
+    type: "Normal"
+    vip: "30.48.237.145"
+  - vrid: "103"
+    state: "Backup"
+    interface: "Vlanif103"
+    type: "Normal"
+    vip: "30.48.236.73"
