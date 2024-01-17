@@ -1,0 +1,12 @@
+Chassis ID : * -- -- Nearest nontpmr bridge neighbor
+             # -- -- Nearest customer bridge neighbor
+             Default -- -- Nearest bridge neighbor
+Local Interface Chassis ID      Port ID                         System Name     
+GE1/0/1         f4e9-759e-ac1c  GigabitEthernet1/0/0            QH-SWITCH-24
+GE1/0/3         18c0-0910-8bac  M-GigabitEthernet0/0/0          QH-SWITCH-12
+GE1/0/5         f4e9-759e-a9fc  GigabitEthernet1/0/0            QH-SWITCH-32
+GE1/0/16        18c0-09a4-9689  M-GigabitEthernet0/0/0          QH-SWITCH-166
+GE1/0/18        18c0-09a4-dd01  M-GigabitEthernet0/0/0          QH-SWITCH-168
+XGE1/0/49       18c0-0902-c280  Ten-GigabitEthernet1/0/4        QH-SWITCH-47
+XGE1/0/50       18c0-0902-c280  Ten-GigabitEthernet2/0/4        QH-SWITCH-47
+MGE0/0/0        7449-d2fa-744e  GigabitEthernet1/0/47           QH-SWITCH-52

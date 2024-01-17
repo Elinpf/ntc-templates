@@ -473,6 +473,7 @@ fortinet_get_system_status.textfsm, .*, fortinet, g[[et]] sy[[stem]] stat[[us]]
 fortinet_get_system_arp.textfsm, .*, fortinet, g[[et]] sy[[stem]] arp
 
 hp_comware_display_lldp_neighbor-information_verbose.textfsm, .*, hp_comware, di[[splay]] ll[[dp]] n[[eighbor-information]] v[[erbose]]
+hp_comware_display_lldp_neighbor-information_list.textfsm, .*, hp_comware, dis[[play]] ll[[dp]] n[[eighbor-information]] l[[ist]]
 hp_comware_display_ip_vpn-instance_instance-name.textfsm, .*, hp_comware, di[[splay]] ip vpn[[-instance]] in[[instance-name]]
 hp_comware_display_ip_routing-table_statistics.textfsm, .*, hp_comware, dis[[play]] ip routi[[ng-table]] s[[tatistics]]
 hp_comware_display_counters_bound_interface.textfsm, .*, hp_comware, di[[splay]] cou[[nters]] (\S+) i[[nterface]]
