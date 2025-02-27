@@ -1,0 +1,22 @@
+Vlan-interface1
+Current state: DOWN
+Line protocol state: DOWN
+Description: Vlan-interface1 Interface
+Bandwidth: 100000000 kbps
+Maximum transmission unit: 1500
+Internet protocol processing: Disabled
+IP packet frame type: Ethernet II, hardware address: 78a1-3e99-d091
+IPv6 packet frame type: Ethernet II, hardware address: 78a1-3e99-d091
+Last clearing of counters: Never
+Input (total):  8395877 packets, 873171208 bytes
+Output (total):  0 packets, 0 bytes
+IPv4 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ Output: 0 packets, 0 bytes
+IPv6 traffic statistics:
+ Last 300 seconds input rate: 0 packets/sec, 0 bytes/sec
+ Last 300 seconds output rate: 0 packets/sec, 0 bytes/sec
+ Input: 0 packets, 0 bytes
+ 

@@ -170,7 +170,7 @@ Input_counters_raw_2
   ^.*ignored -> Counters_raw_2
   ^\s.*unicasts
   ^\s*Input
-  ^.* -> Error
+  ^\s*$$ -> Start
 
 Output_counters_raw_2
   #           - unicasts, - broadcasts, - multicasts, - pauses
