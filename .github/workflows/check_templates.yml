@@ -3,6 +3,7 @@ name: Check Templates and Publish
 on:
   push:
     branches: [master, dev, test-me-*]
+    tags: [v*]
   pull_request:
 
 jobs:
@@ -27,7 +28,7 @@ jobs:
         poetry run python -m pytest
 
   publish:
-    if: github.event_name == 'push'
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
     needs: check
     runs-on: ubuntu-latest
 
